@@ -216,6 +216,54 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &525379915 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3527551355259954550, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+  m_PrefabInstance: {fileID: 932817425}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &525379919
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525379915}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 57d3ab5d9e969274f9546c16c302711a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &647189408 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3527551355259954550, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+  m_PrefabInstance: {fileID: 811298957}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &647189412
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647189408}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 545a3df2866c01a47889429e7ce9321d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &811298957
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -226,6 +274,22 @@ PrefabInstance:
     - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
       propertyPath: m_text
       value: Quit
+      objectReference: {fileID: 0}
+    - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+    - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_fontColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+    - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4281479730
       objectReference: {fileID: 0}
     - target: {fileID: 3527551355448089832, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
       propertyPath: m_Name
@@ -437,6 +501,22 @@ PrefabInstance:
       propertyPath: m_text
       value: Options
       objectReference: {fileID: 0}
+    - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+    - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_fontColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+    - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4281479730
+      objectReference: {fileID: 0}
     - target: {fileID: 3527551355448089832, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
       propertyPath: m_Name
       value: Options Button
@@ -527,6 +607,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+--- !u!1 &1036515210 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3527551355259954550, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+  m_PrefabInstance: {fileID: 3527551355039962955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1036515214
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036515210}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2a5200ddb419d5647867e23c510a59c1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1300709724
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,6 +783,7 @@ GameObject:
   - component: {fileID: 2050738966}
   - component: {fileID: 2050738968}
   - component: {fileID: 2050738967}
+  - component: {fileID: 2050738969}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -727,8 +832,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Aurelia
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -802,6 +907,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050738965}
   m_CullTransparentMesh: 1
+--- !u!95 &2050738969
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050738965}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0a2ff012fe5577441b7e50a15b45fb9b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &3527551355039962955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -812,6 +936,22 @@ PrefabInstance:
     - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
       propertyPath: m_text
       value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+    - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_fontColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+    - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 120730162
       objectReference: {fileID: 0}
     - target: {fileID: 3527551355448089832, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
       propertyPath: m_Name

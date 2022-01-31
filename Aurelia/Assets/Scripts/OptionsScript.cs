@@ -6,6 +6,7 @@ using TMPro;
 
 public class OptionsScript : MonoBehaviour
 {
+    public GameObject keyBoardConfig;
     public Toggle fullscreenToggle, vsyncToggle;
     public List<ResItem> resolutions = new List<ResItem>();
     private int selectedResolution;
@@ -91,6 +92,16 @@ public class OptionsScript : MonoBehaviour
             QualitySettings.vSyncCount = 0;
 
         Screen.SetResolution(resolutions[selectedResolution].horizontal, resolutions[selectedResolution].vertical, fullscreenToggle.isOn);
+    }
+
+    public void openKeyBoardConfig()
+    {
+        keyBoardConfig.SetActive(true);
+    }
+
+    public void closeKeyBoardConfig()
+    {
+        keyBoardConfig.SetActive(false);
     }
 }
 

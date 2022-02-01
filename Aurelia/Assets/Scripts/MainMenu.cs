@@ -18,31 +18,25 @@ public class MainMenu : MonoBehaviour
     public void openOptions()
     {
         optionsScreen.SetActive(true);
+        snowParticleGenerator.SetActive(false);
     }
 
     public void closeOptions()
     {
         optionsScreen.SetActive(false);
+        snowParticleGenerator.SetActive(true);
     }
 
     public void openCredits()
     {
         creditsScreen.SetActive(true);
+        snowParticleGenerator.SetActive(false);
     }
 
     public void closeCredits()
     {
         creditsScreen.SetActive(false);
-    }
-
-    public void openSnowParticles()
-    {
         snowParticleGenerator.SetActive(true);
-    }
-
-    public void closeSnowParticles()
-    {
-        snowParticleGenerator.SetActive(false);
     }
 
     public void quitGame()

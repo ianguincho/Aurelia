@@ -1,11 +1,12 @@
 using UnityEngine;
 
+
 public class Player : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private LayerMask platformsLayerMask;
     private Rigidbody2D playerRB;
-    private Animator playerAnimator;
+    public Animator playerAnimator;
     private BoxCollider2D playerCollider;
 
     [Header("Movement Variables")]
@@ -14,15 +15,10 @@ public class Player : MonoBehaviour
     [SerializeField] private float groundLinearDrag = 7f;
     private float horizontalDirection;
     private float verticalDirection;
-    private bool changingDirection => (playerRB.velocity.x > 0f && horizontalDirection < 0f) || (playerRB.velocity.x < 0f && horizontalDirection > 0f);
+    private int direction = 1;
 
     [Header("Jump Variables")]
     [SerializeField] private float jumpForce = 20f;
-    [SerializeField] private float hangTime = .1f;
-    private float hangTimeCounter;
-    private float jumpBufferCounter;
-    bool isJumping = false;
-    private bool canJump => jumpBufferCounter > 0f && hangTimeCounter > 0f;
 
     // Start is called before the first frame update
     private void Start()
@@ -40,17 +36,30 @@ public class Player : MonoBehaviour
         //jump
         if (isGrounded() && Input.GetKeyDown(KeyCode.Space))
         {
-            playerRB.velocity = Vector2.up * jumpForce;            
-        }
-        
+            playerRB.velocity = Vector2.up * jumpForce;      
+            playerAnimator.SetBool("IsJumping", true);
+        }       
     }
        private void FixedUpdate()
     {
+        if(horizontalDirection < 0)
+        {
+            direction = -1;
+            transform.localScale = new Vector3(direction, 1, 1);
+        }
+        if (horizontalDirection > 0)
+        {
+            direction = 1;
+            transform.localScale = new Vector3(direction, 1, 1);
+        }
         playerRB.AddForce(new Vector2(horizontalDirection, 0f) * movementAcceleration);
+        playerAnimator.SetFloat("Speed", Mathf.Abs(horizontalDirection));
         if (Mathf.Abs(playerRB.velocity.x) > maxMoveSpeed)
+        {
             playerRB.velocity = new Vector2(Mathf.Sign(playerRB.velocity.x) * maxMoveSpeed, playerRB.velocity.y);
+        }
 
-        if (Mathf.Abs(horizontalDirection) < 0.4f || changingDirection)
+        if (Mathf.Abs(horizontalDirection) < 0.4f)
             playerRB.drag = groundLinearDrag;
         else
             playerRB.drag = 0f;      
@@ -61,6 +70,10 @@ public class Player : MonoBehaviour
         return new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        playerAnimator.SetBool("IsJumping", false);
+    }
     private bool isGrounded()
     {
         RaycastHit2D raycastHit2d = Physics2D.BoxCast(playerCollider.bounds.center, playerCollider.bounds.size, 0f, Vector2.down, .1f, platformsLayerMask);

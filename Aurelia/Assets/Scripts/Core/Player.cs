@@ -53,7 +53,9 @@ public class Player : MonoBehaviour
         if (Mathf.Abs(horizontalDirection) < 0.4f)
             playerRB.drag = groundLinearDrag;
         else
-            playerRB.drag = 0f;      
+            playerRB.drag = 0f;
+
+        Fall();
     }
  
     private Vector2 getInput()
@@ -82,6 +84,14 @@ public class Player : MonoBehaviour
         {
             direction = 1;
             transform.localScale = new Vector3(direction, 1, 1);
+        }
+    }
+
+    public void Fall()
+    {
+        if (playerRB.position.y < -1f)
+        {
+            FindObjectOfType<GameManager>().EndGame();
         }
     }
 }

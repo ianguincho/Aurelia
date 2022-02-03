@@ -2,17 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KeyBoardConfig : MonoBehaviour
+[CreateAssetMenu(fileName = "KeyBoardConfig", menuName = "KeyBoardConfig")]
+public class KeyBoardConfig : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public KeyCode jump, pause;
 
-    // Update is called once per frame
-    void Update()
+    public KeyCode checkKey(string key)
     {
-        
+        switch (key)
+        {
+            case "Jump":
+                return jump;
+            case "PauseMenu":
+                return pause;
+            default:
+                return KeyCode.None;
+        }
     }
 }

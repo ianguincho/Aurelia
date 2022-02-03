@@ -40,18 +40,9 @@ public class Player : MonoBehaviour
             playerAnimator.SetBool("IsJumping", true);
         }       
     }
-       private void FixedUpdate()
+    private void FixedUpdate()
     {
-        if(horizontalDirection < 0)
-        {
-            direction = -1;
-            transform.localScale = new Vector3(direction, 1, 1);
-        }
-        if (horizontalDirection > 0)
-        {
-            direction = 1;
-            transform.localScale = new Vector3(direction, 1, 1);
-        }
+        flip();
         playerRB.AddForce(new Vector2(horizontalDirection, 0f) * movementAcceleration);
         playerAnimator.SetFloat("Speed", Mathf.Abs(horizontalDirection));
         if (Mathf.Abs(playerRB.velocity.x) > maxMoveSpeed)
@@ -78,5 +69,19 @@ public class Player : MonoBehaviour
     {
         RaycastHit2D raycastHit2d = Physics2D.BoxCast(playerCollider.bounds.center, playerCollider.bounds.size, 0f, Vector2.down, .1f, platformsLayerMask);
         return raycastHit2d.collider != null;
+    }
+
+    private void flip()
+    {
+        if (horizontalDirection < 0)
+        {
+            direction = -1;
+            transform.localScale = new Vector3(direction, 1, 1);
+        }
+        if (horizontalDirection > 0)
+        {
+            direction = 1;
+            transform.localScale = new Vector3(direction, 1, 1);
+        }
     }
 }

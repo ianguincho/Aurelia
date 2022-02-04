@@ -487,6 +487,8 @@ MonoBehaviour:
   maxMoveSpeed: 12
   groundLinearDrag: 0
   jumpForce: 20
+  dashSpeed: 15
+  startDashTime: 0.1
 --- !u!1 &435835225
 GameObject:
   m_ObjectHideFlags: 0

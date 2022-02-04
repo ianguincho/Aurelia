@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 
 public class Player : MonoBehaviour
@@ -20,6 +21,14 @@ public class Player : MonoBehaviour
     [Header("Jump Variables")]
     [SerializeField] private float jumpForce = 20f;
 
+
+    //[Header("Dash Variables")]
+    //public float dashSpeed;
+    //private float dashTime;
+    //public float startDashTime;
+    //private int dashDirection;
+
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -38,7 +47,9 @@ public class Player : MonoBehaviour
         {
             playerRB.velocity = Vector2.up * jumpForce;      
             playerAnimator.SetBool("IsJumping", true);
-        }       
+        }
+
+        //dash                        
     }
     private void FixedUpdate()
     {
@@ -93,5 +104,5 @@ public class Player : MonoBehaviour
         {
             FindObjectOfType<GameManager>().EndGame();
         }
-    }
+    }         
 }

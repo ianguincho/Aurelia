@@ -11,13 +11,15 @@ public class Player : MonoBehaviour
     private BoxCollider2D playerCollider;
 
     [Header("Movement Variables")]
-    [SerializeField] private float movementAcceleration = 70f;
-    [SerializeField] private float maxMoveSpeed = 12f;
+    [SerializeField] private float movementAcceleration = 80f;
+    [SerializeField] private float maxMoveSpeed = 15f;
     [SerializeField] private float groundLinearDrag = 7f;
     private float horizontalDirection;
     private float verticalDirection;
     private int direction = 1;
 
+    
+    //We need to redo all the movement code so that we can allow for keybinding
     [Header("Jump Variables")]
     [SerializeField] private float jumpForce = 20f;
 
@@ -28,6 +30,16 @@ public class Player : MonoBehaviour
     //public float startDashTime;
     //private int dashDirection;
 
+    [Header("Singleton Instantiation")]
+    private static Player instance;
+    public static Player Instance
+    {
+        get
+        {
+            if (instance == null) instance = GameObject.FindObjectOfType<Player>();
+            return instance;
+        }
+    }
 
     // Start is called before the first frame update
     private void Start()

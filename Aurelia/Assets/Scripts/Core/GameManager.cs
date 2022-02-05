@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    private static GameManager instance;
     bool gameEnded = false;
     //public GameObject completeLevelUI;
     public float restartDelay = 2f;
@@ -10,6 +11,17 @@ public class GameManager : MonoBehaviour
     //{
     //    completeLevelUI.SetActive(true);
     //}
+
+    //Singleton instantiation
+    public static GameManager Instance
+    {
+        get
+        {
+            if (instance == null) instance = GameObject.FindObjectOfType<GameManager>();
+            return instance;
+        }
+    }
+
     public void EndGame()
     {
         if (gameEnded == false)

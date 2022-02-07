@@ -47,6 +47,7 @@ public class Player : MonoBehaviour
         playerRB = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         playerCollider = GetComponent<BoxCollider2D>();
+        //Cursor.visible = false;
     }
 
     // Update is called once per frame

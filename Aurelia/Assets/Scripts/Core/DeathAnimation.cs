@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class DeathAnimation : MonoBehaviour
 {
@@ -13,7 +14,6 @@ public class DeathAnimation : MonoBehaviour
             DeathFromFall();
         }
     }
-
     public void DeathFromFall()
     {
         animator.SetTrigger("FadeOut");

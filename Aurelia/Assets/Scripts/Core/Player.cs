@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     private float verticalDirection;
     private int direction = 1;
 
-    
+
     //We need to redo all the movement code so that we can allow for keybinding
     [Header("Jump Variables")]
     [SerializeField] private float jumpForce = 20f;
@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
         //jump
         if (isGrounded() && Input.GetKeyDown(KeyCode.Space))
         {
-            playerRB.velocity = Vector2.up * jumpForce;      
+            playerRB.velocity = Vector2.up * jumpForce;
             playerAnimator.SetBool("IsJumping", true);
         }
 
@@ -81,7 +81,7 @@ public class Player : MonoBehaviour
 
         Fall();
     }
- 
+
     private Vector2 getInput()
     {
         return new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
@@ -117,5 +117,12 @@ public class Player : MonoBehaviour
         {
             FindObjectOfType<GameManager>().EndGame();
         }
-    }         
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Traps"))
+        {
+            FindObjectOfType<GameManager>().Restart();
+        }
+    }
 }

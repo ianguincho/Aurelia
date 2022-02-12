@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.InputSystem;
 
 
 public class Player : MonoBehaviour
@@ -9,6 +10,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D playerRB;
     public Animator playerAnimator;
     private BoxCollider2D playerCollider;
+    private PlayerInput playerInput; //this is the new input system. For now both the new and old input systems are enabled in this project
 
     [Header("Movement Variables")]
     [SerializeField] private float movementAcceleration = 80f;
@@ -47,6 +49,7 @@ public class Player : MonoBehaviour
         playerRB = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         playerCollider = GetComponent<BoxCollider2D>();
+        playerInput = GetComponent<PlayerInput>(); //for the new input system
         //Cursor.visible = false;
     }
 

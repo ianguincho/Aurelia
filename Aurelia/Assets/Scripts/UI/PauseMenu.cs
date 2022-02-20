@@ -15,13 +15,13 @@ public class PauseMenu : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            if (paused)
-                closePauseScreen();
-            else
-                openPauseScreen();
-        }
+        //if (Input.GetKeyDown(KeyCode.Escape))
+        //{
+        //    if (paused)
+        //        closePauseScreen();
+        //    else
+        //        openPauseScreen();
+        //}
     }
 
     void openPauseScreen()

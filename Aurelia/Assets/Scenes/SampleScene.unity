@@ -9644,22 +9644,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc11d99b1a6682f4cbc4aba1fcd9ac5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Action: {fileID: 6981741682813186724, guid: 4fc99264d6aa2ed42b598c49cbaf191e, type: 3}
-  m_BindingId: 356ec5f5-5a39-41f4-8e46-b26a1b566693
-  m_DisplayStringOptions: 0
-  m_ActionLabel: {fileID: 0}
-  m_BindingText: {fileID: 0}
-  m_RebindOverlay: {fileID: 0}
-  m_RebindText: {fileID: 0}
-  m_UpdateBindingUIEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_RebindStartEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_RebindStopEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!224 &1325477948 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3527551355448089839, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}

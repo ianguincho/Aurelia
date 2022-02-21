@@ -10,14 +10,17 @@ public class Player : MonoBehaviour
     private Rigidbody2D playerRB;
     public Animator playerAnimator;
     private BoxCollider2D playerCollider;
-    private PlayerInput playerInput; //this is the new input system. For now both the new and old input systems are enabled in this project
+    
+    
 
     [Header("Movement Variables")]
     [SerializeField] private float movementAcceleration = 80f;
     [SerializeField] private float maxMoveSpeed = 15f;
     [SerializeField] private float groundLinearDrag = 7f;
-    private float horizontalDirection;
-    private float verticalDirection;
+    //private float horizontalDirection;
+    //private float verticalDirection;
+    private float movementX;
+    private float movementY;
     private int direction = 1;
 
 
@@ -43,46 +46,48 @@ public class Player : MonoBehaviour
         }
     }
 
+    
+
     // Start is called before the first frame update
     private void Start()
     {
         playerRB = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         playerCollider = GetComponent<BoxCollider2D>();
-        playerInput = GetComponent<PlayerInput>(); //for the new input system
+        
+        
         //Cursor.visible = false;
     }
 
-    // Update is called once per frame
+    
     private void Update()
     {
-        horizontalDirection = getInput().x;
-        verticalDirection = getInput().y;
+        
         //jump
-        if (isGrounded() && Input.GetKeyDown(KeyCode.Space))
-        {
-            playerRB.velocity = Vector2.up * jumpForce;
-            playerAnimator.SetBool("IsJumping", true);
-        }
+        //if (isGrounded() && Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    playerRB.velocity = Vector2.up * jumpForce;
+        //    playerAnimator.SetBool("IsJumping", true);
+        //}
 
         //dash                        
     }
     private void FixedUpdate()
     {
-        flip();
-        playerRB.AddForce(new Vector2(horizontalDirection, 0f) * movementAcceleration);
-        playerAnimator.SetFloat("Speed", Mathf.Abs(horizontalDirection));
-        if (Mathf.Abs(playerRB.velocity.x) > maxMoveSpeed)
-        {
-            playerRB.velocity = new Vector2(Mathf.Sign(playerRB.velocity.x) * maxMoveSpeed, playerRB.velocity.y);
-        }
+        //flip();
+        //playerRB.AddForce(new Vector2(horizontalDirection, 0f) * movementAcceleration);
+        //playerAnimator.SetFloat("Speed", Mathf.Abs(horizontalDirection));
+        //if (Mathf.Abs(playerRB.velocity.x) > maxMoveSpeed)
+        //{
+        //    playerRB.velocity = new Vector2(Mathf.Sign(playerRB.velocity.x) * maxMoveSpeed, playerRB.velocity.y);
+        //}
 
-        if (Mathf.Abs(horizontalDirection) < 0.4f)
-            playerRB.drag = groundLinearDrag;
-        else
-            playerRB.drag = 0f;
+        //if (Mathf.Abs(horizontalDirection) < 0.4f)
+        //    playerRB.drag = groundLinearDrag;
+        //else
+        //    playerRB.drag = 0f;
 
-        Fall();
+        //Fall();
     }
 
     private Vector2 getInput()
@@ -102,12 +107,12 @@ public class Player : MonoBehaviour
 
     private void flip()
     {
-        if (horizontalDirection < 0)
+        if (movementX < 0)
         {
             direction = -1;
             transform.localScale = new Vector3(direction, 1, 1);
         }
-        if (horizontalDirection > 0)
+        if (movementX > 0)
         {
             direction = 1;
             transform.localScale = new Vector3(direction, 1, 1);
@@ -116,10 +121,10 @@ public class Player : MonoBehaviour
 
     public void Fall()
     {
-        if (playerRB.position.y < -1f)
-        {
-            FindObjectOfType<GameManager>().EndGame();
-        }
+        //if (playerRB.position.y < -1f)
+        //{
+        //    FindObjectOfType<GameManager>().EndGame();
+        //}
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -128,4 +133,12 @@ public class Player : MonoBehaviour
             FindObjectOfType<GameManager>().Restart();
         }
     }
+
+    
+
+
+
+
+
+
 }

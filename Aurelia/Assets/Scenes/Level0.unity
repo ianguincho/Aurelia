@@ -5662,6 +5662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1629598646}
   - component: {fileID: 1629598647}
+  - component: {fileID: 1629598648}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -5696,6 +5697,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartDelay: 1
+--- !u!114 &1629598648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629598645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b887142b977e5e14083b4fea7ea95b4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveInputEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  jumpInputEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  pauseInputEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1658299886
 GameObject:
   m_ObjectHideFlags: 0
@@ -5900,7 +5922,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
       propertyPath: m_text
-      value: Quit
+      value: Save & Quit
       objectReference: {fileID: 0}
     - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
       propertyPath: m_fontAsset
@@ -5925,6 +5947,14 @@ PrefabInstance:
     - target: {fileID: 3527551355259954548, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3527551355259954549, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3527551355259954549, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3527551355259954550, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
       propertyPath: m_Name
@@ -5992,7 +6022,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3527551355448089839, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 250
+      value: 336
       objectReference: {fileID: 0}
     - target: {fileID: 3527551355448089839, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
       propertyPath: m_SizeDelta.y
@@ -6028,11 +6058,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3527551355448089839, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -0.000049591
       objectReference: {fileID: 0}
     - target: {fileID: 3527551355448089839, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.0000076293945
+      value: -56
       objectReference: {fileID: 0}
     - target: {fileID: 3527551355448089839, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

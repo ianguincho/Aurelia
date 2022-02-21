@@ -1,5 +1,5 @@
 {
-    "name": "PlayerController",
+    "name": "PlayerControls",
     "maps": [
         {
             "name": "PlayerController",
@@ -58,7 +58,7 @@
                 },
                 {
                     "name": "1D Axis",
-                    "id": "83e69f15-7c1e-4a36-8d4e-a3cdf283de47",
+                    "id": "9a116276-b6e2-45bf-89ac-c0898ce46791",
                     "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
@@ -69,7 +69,7 @@
                 },
                 {
                     "name": "negative",
-                    "id": "56892ca3-fb9a-4286-83ea-d255722d6765",
+                    "id": "3dc0e8ba-9ce9-4733-a642-2063c698d535",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -80,7 +80,7 @@
                 },
                 {
                     "name": "positive",
-                    "id": "a29aa053-53d0-454c-b56b-f84b886fb90a",
+                    "id": "a70298d9-5f57-4041-8c67-5343ebd00f70",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",

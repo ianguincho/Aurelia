@@ -59,7 +59,7 @@ public class Player : MonoBehaviour
     private void Update()
     {
         flip();
-        playerRB.velocity = new Vector2(xInput * maxMoveSpeed, playerRB.velocity.y);
+        playerRB.velocity = new Vector2(xInput * maxMoveSpeed, playerRB.velocity.y);       
     }
     private void FixedUpdate()
     {
@@ -73,7 +73,7 @@ public class Player : MonoBehaviour
         //else
         //    playerRB.drag = 0f;
 
-        //Fall();
+        Fall();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -118,6 +118,7 @@ public class Player : MonoBehaviour
     public void movement(InputAction.CallbackContext context)
     {
         xInput = context.ReadValue<Vector2>().x;
+        playerAnimator.SetFloat("Speed", Mathf.Abs(xInput));
     }
 
     public void jump(InputAction.CallbackContext context)

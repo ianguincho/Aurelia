@@ -11,7 +11,6 @@ public class Player : MonoBehaviour
     public Animator playerAnimator;
     private BoxCollider2D playerCollider;
     
-    
 
     [Header("Movement Variables")]
     [SerializeField] private float movementAcceleration = 80f;
@@ -19,14 +18,11 @@ public class Player : MonoBehaviour
     [SerializeField] private float groundLinearDrag = 7f;
     //private float horizontalDirection;
     //private float verticalDirection;
-    private float movementX;
-    private float movementY;
+    private float xInput;
     private int direction = 1;
 
-
-    //We need to redo all the movement code so that we can allow for keybinding
     [Header("Jump Variables")]
-    [SerializeField] private float jumpForce = 20f;
+    [SerializeField] private float jumpForce = 30f;
 
 
     //[Header("Dash Variables")]
@@ -62,25 +58,15 @@ public class Player : MonoBehaviour
     
     private void Update()
     {
-        
-        //jump
-        //if (isGrounded() && Input.GetKeyDown(KeyCode.Space))
-        //{
-        //    playerRB.velocity = Vector2.up * jumpForce;
-        //    playerAnimator.SetBool("IsJumping", true);
-        //}
-
-        //dash                        
+        flip();
+        playerRB.velocity = new Vector2(xInput * maxMoveSpeed, playerRB.velocity.y);
     }
     private void FixedUpdate()
     {
-        //flip();
+        
         //playerRB.AddForce(new Vector2(horizontalDirection, 0f) * movementAcceleration);
         //playerAnimator.SetFloat("Speed", Mathf.Abs(horizontalDirection));
-        //if (Mathf.Abs(playerRB.velocity.x) > maxMoveSpeed)
-        //{
-        //    playerRB.velocity = new Vector2(Mathf.Sign(playerRB.velocity.x) * maxMoveSpeed, playerRB.velocity.y);
-        //}
+        
 
         //if (Mathf.Abs(horizontalDirection) < 0.4f)
         //    playerRB.drag = groundLinearDrag;
@@ -88,11 +74,6 @@ public class Player : MonoBehaviour
         //    playerRB.drag = 0f;
 
         //Fall();
-    }
-
-    private Vector2 getInput()
-    {
-        return new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -107,12 +88,12 @@ public class Player : MonoBehaviour
 
     private void flip()
     {
-        if (movementX < 0)
+        if (xInput < 0)
         {
             direction = -1;
             transform.localScale = new Vector3(direction, 1, 1);
         }
-        if (movementX > 0)
+        if (xInput > 0)
         {
             direction = 1;
             transform.localScale = new Vector3(direction, 1, 1);
@@ -121,10 +102,10 @@ public class Player : MonoBehaviour
 
     public void Fall()
     {
-        //if (playerRB.position.y < -1f)
-        //{
-        //    FindObjectOfType<GameManager>().EndGame();
-        //}
+        if (playerRB.position.y < -1f)
+        {
+            FindObjectOfType<GameManager>().EndGame();
+        }
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -134,11 +115,17 @@ public class Player : MonoBehaviour
         }
     }
 
-    
+    public void movement(InputAction.CallbackContext context)
+    {
+        xInput = context.ReadValue<Vector2>().x;
+    }
 
-
-
-
-
-
+    public void jump(InputAction.CallbackContext context)
+    {
+        if (context.performed && isGrounded())
+        {
+            playerRB.velocity = new Vector2(playerRB.velocity.x, jumpForce);
+            playerAnimator.SetBool("IsJumping", true);
+        }
+    }
 }

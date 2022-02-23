@@ -13,9 +13,9 @@ public class Player : MonoBehaviour
     
 
     [Header("Movement Variables")]
-    [SerializeField] private float movementAcceleration = 80f;
-    [SerializeField] private float maxMoveSpeed = 15f;
-    [SerializeField] private float groundLinearDrag = 7f;
+    //[SerializeField] private float movementAcceleration = 80f;
+    [SerializeField] private float maxMoveSpeed = 25f;
+    //[SerializeField] private float groundLinearDrag = 7f;
     //private float horizontalDirection;
     //private float verticalDirection;
     private float xInput;

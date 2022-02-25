@@ -16,13 +16,13 @@ public class Player : MonoBehaviour
     //[SerializeField] private float movementAcceleration = 80f;
     [SerializeField] private float maxMoveSpeed = 25f;
     //[SerializeField] private float groundLinearDrag = 7f;
-    //private float horizontalDirection;
-    //private float verticalDirection;
     private float xInput;
     private int direction = 1;
 
     [Header("Jump Variables")]
     [SerializeField] private float jumpForce = 30f;
+    [SerializeField] private float hangTime = 0.1f;
+    private float hangTimeCounter;
 
 
     //[Header("Dash Variables")]
@@ -58,6 +58,7 @@ public class Player : MonoBehaviour
     
     private void Update()
     {
+        
         flip();
         playerRB.velocity = new Vector2(xInput * maxMoveSpeed, playerRB.velocity.y);       
     }
@@ -127,6 +128,13 @@ public class Player : MonoBehaviour
         {
             playerRB.velocity = new Vector2(playerRB.velocity.x, jumpForce);
             playerAnimator.SetBool("IsJumping", true);
+            
         }
+        if (context.canceled && playerRB.velocity.y > 0f)
+        {
+            playerRB.velocity = new Vector2(playerRB.velocity.x, playerRB.velocity.y * 0.5f);
+            playerAnimator.SetBool("IsJumping", true);
+        }
+        
     }
 }

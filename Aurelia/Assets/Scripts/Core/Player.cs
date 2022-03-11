@@ -66,6 +66,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+         
         flip();
         playerRB.velocity = new Vector2(xInput * maxMoveSpeed, playerRB.velocity.y);
         RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.right, distance, whatIsLadder);
@@ -95,14 +96,7 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
 
-        //playerRB.AddForce(new Vector2(horizontalDirection, 0f) * movementAcceleration);
-        //playerAnimator.SetFloat("Speed", Mathf.Abs(horizontalDirection));
-
-
-        //if (Mathf.Abs(horizontalDirection) < 0.4f)
-        //    playerRB.drag = groundLinearDrag;
-        //else
-        //    playerRB.drag = 0f;
+        
         Fall();
     }
 
@@ -112,6 +106,7 @@ public class Player : MonoBehaviour
     }
     private bool isGrounded()
     {
+        //return Physics2D.OverlapCircle()
         RaycastHit2D raycastHit2d = Physics2D.BoxCast(playerCollider.bounds.center, playerCollider.bounds.size, 0f, Vector2.down, .1f, platformsLayerMask);
         return raycastHit2d.collider != null;
     }

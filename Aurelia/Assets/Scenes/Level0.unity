@@ -3799,7 +3799,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 376452579}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 99f2193f26ad42d4bb136fe4d68cbeb0, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3907,7 +3907,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390569153}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.87, y: 21.21, z: 0}
+  m_LocalPosition: {x: 31.31, y: 22.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3992,8 +3992,14 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   playerAnimator: {fileID: 390569154}
+  side: 0
   maxMoveSpeed: 15
+  distance: 0
+  whatIsLadder:
+    serializedVersion: 2
+    m_Bits: 0
   jumpForce: 21
+  hangTime: 0.1
 --- !u!114 &390569161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4051,6 +4057,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 6a2d7047-5a96-4952-8a37-e38dfa75cc0a
     m_ActionName: PlayerController/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 00c9bf07-2c55-44ce-8035-941737419b88
+    m_ActionName: PlayerController/Climb[/Keyboard/c]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: PlayerController
@@ -4830,6 +4840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 1912727845}
+  options: {fileID: 0}
   paused: 0
 --- !u!1001 &1001811971
 PrefabInstance:

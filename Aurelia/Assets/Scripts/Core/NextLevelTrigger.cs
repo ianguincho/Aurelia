@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EndTrigger : MonoBehaviour
+public class NextLevelTrigger : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {

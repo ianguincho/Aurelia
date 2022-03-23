@@ -195,3 +195,44 @@ Received Import Request.
 Start importing Assets/Background Images/GameBackground.png using Guid(1b44054a6541c644799355fe15b253f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077033100a7b7ad8ca65fe4ce9bf02c0') in 0.026222 seconds 
   Import took 0.031626 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1052.705979 seconds.
+  path: Assets/Scenes/Level0.unity
+  artifactKey: Guid(ffb358d845c57614ab6432ef07bc94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level0.unity using Guid(ffb358d845c57614ab6432ef07bc94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4338918537942dbc2a0369a639e7f7cf') in 0.002830 seconds 
+  Import took 0.008978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 553.898478 seconds.
+  path: Assets/Background Images/ResizedGameBackground.png
+  artifactKey: Guid(6fe4f1b08103b0d44b5fa0565bd88ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Images/ResizedGameBackground.png using Guid(6fe4f1b08103b0d44b5fa0565bd88ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8e331c963c47e26daabf7005e396b5') in 0.018973 seconds 
+  Import took 0.023789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1046.591010 seconds.
+  path: Assets/Scripts/Core/PlayerControls.cs
+  artifactKey: Guid(db6fc55d929aabd41b78cb5b936039db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/PlayerControls.cs using Guid(db6fc55d929aabd41b78cb5b936039db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d8a9fd20217d94ae9918418c35d0a3') in 0.005934 seconds 
+  Import took 0.010661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.671140 seconds.
+  path: Assets/Scripts/UI/PauseMenu.cs
+  artifactKey: Guid(67b35cf9f6415e44095ce4cabeb00e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/PauseMenu.cs using Guid(67b35cf9f6415e44095ce4cabeb00e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9ff05c838fcd98338a72ad189bec6f') in 0.005730 seconds 
+  Import took 0.009653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.409025 seconds.
+  path: Assets/Scenes/Level0.unity
+  artifactKey: Guid(ffb358d845c57614ab6432ef07bc94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level0.unity using Guid(ffb358d845c57614ab6432ef07bc94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2d304aa31cdbcf1a40be03deb4d6b7') in 0.002875 seconds 
+  Import took 0.007105 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D playerRB;
     public Animator playerAnimator;
     private BoxCollider2D playerCollider;
+    private Collision coll;
 
     public int side;
     [Header("Movement Variables")]
@@ -18,6 +19,14 @@ public class Player : MonoBehaviour
     //[SerializeField] private float groundLinearDrag = 7f;
     private float xInput;
     private int direction = 1;
+    
+    //wallslide and walljump variables
+    bool wallSlide;
+    public float wallSlideSpeed;
+    bool wallJump;
+    public float xWallForce;
+    public float yWallForce;
+    public float wallJumpTime;
 
     [Header("Climb")]
     public float distance;
@@ -55,6 +64,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        coll = GetComponent<Collision>();
         playerRB = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         playerCollider = GetComponent<BoxCollider2D>();
@@ -66,7 +76,31 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-         
+        //WallJump and WallSlide
+        float input = Input.GetAxisRaw("Horizontal");
+        if(coll.onWall == true && !coll.onGround && input != 0)
+        {
+            wallSlide = true;
+        }
+        else
+        {
+            wallSlide = false;
+        }
+        if(wallSlide == true)
+        {
+            playerRB.velocity = new Vector2(playerRB.velocity.x, Mathf.Clamp(playerRB.velocity.y, -wallSlideSpeed, float.MaxValue));
+        }
+        if (Input.GetKeyDown(KeyCode.Space) && wallSlide == true)
+        {
+            wallJump = true;
+            Invoke("SetWallJumpToFalse", wallJumpTime);
+        }
+        if(wallJump == true)
+        {
+            playerRB.velocity = new Vector2(xWallForce * -input, yWallForce); 
+        }
+        //end of new code
+
         flip();
         playerRB.velocity = new Vector2(xInput * maxMoveSpeed, playerRB.velocity.y);
         RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.right, distance, whatIsLadder);
@@ -100,6 +134,10 @@ public class Player : MonoBehaviour
         Fall();
     }
 
+    private void SetWallJumpToFalse()
+    {
+        wallJump = false;
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         playerAnimator.SetBool("IsJumping", false);

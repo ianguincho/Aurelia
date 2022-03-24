@@ -68,8 +68,6 @@ public class Player : MonoBehaviour
         playerRB = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         playerCollider = GetComponent<BoxCollider2D>();
-
-
         //Cursor.visible = false;
     }
 
@@ -120,7 +118,6 @@ public class Player : MonoBehaviour
             inputVertical = Input.GetAxisRaw("Vertical");
             playerRB.velocity = new Vector2(playerRB.velocity.x, inputVertical * climbSpeed);
             playerRB.gravityScale = 0;
-
         }
         else
         {
@@ -128,9 +125,7 @@ public class Player : MonoBehaviour
         }
     }
     private void FixedUpdate()
-    {
-
-        
+    {    
         Fall();
     }
 
@@ -162,7 +157,6 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector3(direction, 1, 1);
         }
     }
-
     public void Fall()
     {
         if (playerRB.position.y < -1f)

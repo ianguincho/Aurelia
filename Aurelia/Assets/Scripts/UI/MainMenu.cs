@@ -15,6 +15,14 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     
+    public void Load()
+    {
+        if (PlayerPrefs.HasKey("LevelSaved"))
+        {
+            string levelToLoad = PlayerPrefs.GetString("LevelSaved");
+            SceneManager.LoadScene(levelToLoad);
+        }
+    }
     public void openOptions()
     {
         optionsScreen.SetActive(true);

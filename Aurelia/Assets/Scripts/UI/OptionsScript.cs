@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Audio;
 
 public class OptionsScript : MonoBehaviour
 {
@@ -13,7 +14,11 @@ public class OptionsScript : MonoBehaviour
     private int selectedResolution;
     public TMP_Text resolutionLabel;
 
-    // Start is called before the first frame update
+    [Header("Audio")]
+    public AudioMixer theMixer;
+    public TMP_Text masterLabel, musicLabel, sfxLabel;
+    public Slider masterSlider, musicSlider, sfxSlider;
+
     void Start()
     {
         fullscreenToggle.isOn = Screen.fullScreen;
@@ -47,12 +52,17 @@ public class OptionsScript : MonoBehaviour
             updateResLabel();
         }
 
-    }
+        float volume = 0;
+        theMixer.GetFloat("MasterVolume", out volume);
+        masterSlider.value = volume;
+        theMixer.GetFloat("MusicVolume", out volume);
+        musicSlider.value = volume;
+        theMixer.GetFloat("SFXVolume", out volume);
+        sfxSlider.value = volume;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        masterLabel.text = Mathf.RoundToInt(masterSlider.value + 80).ToString();
+        musicLabel.text = Mathf.RoundToInt(musicSlider.value + 80).ToString();
+        sfxLabel.text = Mathf.RoundToInt(sfxSlider.value + 80).ToString();
     }
 
     public void resLeft()
@@ -93,6 +103,30 @@ public class OptionsScript : MonoBehaviour
             QualitySettings.vSyncCount = 0;
 
         Screen.SetResolution(resolutions[selectedResolution].horizontal, resolutions[selectedResolution].vertical, fullscreenToggle.isOn);
+    }
+
+    public void setMasterVolume()
+    {
+        masterLabel.text = Mathf.RoundToInt(masterSlider.value + 80).ToString();
+        theMixer.SetFloat("MasterVolume", masterSlider.value);
+
+        PlayerPrefs.SetFloat("MasterVolume", masterSlider.value); //basic float value saving using playerprefs which is a type unity provides
+    }
+
+    public void setMusicVolume()
+    {
+        musicLabel.text = Mathf.RoundToInt(musicSlider.value + 80).ToString();
+        theMixer.SetFloat("MusicVolume", musicSlider.value);
+
+        PlayerPrefs.SetFloat("MusicVolume", musicSlider.value); //basic float value saving using playerprefs which is a type unity provides
+    }
+
+    public void setSFXVolume()
+    {
+        sfxLabel.text = Mathf.RoundToInt(sfxSlider.value + 80).ToString();
+        theMixer.SetFloat("SFXVolume", sfxSlider.value);
+
+        PlayerPrefs.SetFloat("SFXVolume", sfxSlider.value); //basic float value saving using playerprefs which is a type unity provides
     }
 
     public void openKeyBoardConfig()

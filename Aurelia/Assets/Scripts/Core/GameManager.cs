@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
     bool gameEnded = false;
+    
     //public GameObject completeLevelUI;
     public float restartDelay = 2f;
     //public void CompleteLevel()

@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
+    public PlayerControls controls;
+    InputAction climbAction;
     [Header("Components")]
     [SerializeField] private LayerMask platformsLayerMask;
     private Rigidbody2D playerRB;
@@ -41,6 +43,10 @@ public class Player : MonoBehaviour
     [SerializeField] private float hangTime = 0.1f;
     private float hangTimeCounter;
 
+    [Header("Dash")]
+    [SerializeField] public float dashDistnace = 30f;
+    bool isDashing;
+
 
     //[Header("Dash Variables")]
     //public float dashSpeed;
@@ -68,6 +74,9 @@ public class Player : MonoBehaviour
         playerRB = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         playerCollider = GetComponent<BoxCollider2D>();
+        controls = new PlayerControls();
+        controls.Enable();
+        climbAction = controls.PlayerController.Climb;
         //Cursor.visible = false;
     }
 
@@ -88,7 +97,7 @@ public class Player : MonoBehaviour
         {
             playerRB.velocity = new Vector2(playerRB.velocity.x, Mathf.Clamp(playerRB.velocity.y, -wallSlideSpeed, float.MaxValue));
         }
-        if (Input.GetKeyDown(KeyCode.Space) && wallSlide == true)
+        if (climbAction.triggered && wallSlide == true)
         {
             wallJump = true;
             Invoke("SetWallJumpToFalse", wallJumpTime);
@@ -100,7 +109,8 @@ public class Player : MonoBehaviour
         //end of new code
 
         flip();
-        playerRB.velocity = new Vector2(xInput * maxMoveSpeed, playerRB.velocity.y);
+        if(!isDashing)
+            playerRB.velocity = new Vector2(xInput * maxMoveSpeed, playerRB.velocity.y);
         RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.right, distance, whatIsLadder);
         if (hitInfo.collider != null)
         {
@@ -174,8 +184,11 @@ public class Player : MonoBehaviour
 
     public void movement(InputAction.CallbackContext context)
     {
-        xInput = context.ReadValue<Vector2>().x;
-        playerAnimator.SetFloat("Speed", Mathf.Abs(xInput));
+        if (!isDashing)
+        {
+            xInput = context.ReadValue<Vector2>().x;
+            playerAnimator.SetFloat("Speed", Mathf.Abs(xInput));
+        }
     }
 
     public void jump(InputAction.CallbackContext context)
@@ -192,6 +205,40 @@ public class Player : MonoBehaviour
             playerAnimator.SetBool("IsJumping", true);
         }
 
+
+    }
+    public void Dash(InputAction.CallbackContext context)
+    {
+        Debug.Log(xInput);
+        //Dashing left
+        if (xInput == -1)
+        {
+            StartCoroutine(dash(-1f));
+        }
+        else if (xInput == 0)
+        {
+            StartCoroutine(dash(1f));
+        }
+        else if (xInput == 1)
+        {
+            StartCoroutine(dash(1f));
+        }
+
+    }
+    public void Climb(InputAction.CallbackContext context)
+    {
+        Debug.Log("Action Pressed");
+        
+    }
+    IEnumerator dash(float direction)
+    {
+        isDashing = true;
+        playerRB.velocity = new Vector2(playerRB.velocity.x, 0f);
+        playerRB.AddForce(new Vector2(dashDistnace * direction, 0f), ForceMode2D.Impulse);
+        float gravity = playerRB.gravityScale;
+        yield return new WaitForSeconds(1f);
+        isDashing = false;
+        playerRB.gravityScale = gravity;
 
     }
 }

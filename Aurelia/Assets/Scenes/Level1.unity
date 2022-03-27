@@ -5152,6 +5152,7 @@ MonoBehaviour:
     m_Bits: 0
   jumpForce: 21
   hangTime: 0.1
+  dashDistnace: 30
 --- !u!114 &390569161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5210,9 +5211,37 @@ MonoBehaviour:
     m_ActionId: 6a2d7047-5a96-4952-8a37-e38dfa75cc0a
     m_ActionName: PlayerController/Jump[/Keyboard/space]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 390569160}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: Climb
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 00c9bf07-2c55-44ce-8035-941737419b88
     m_ActionName: PlayerController/Climb[/Keyboard/c]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 390569160}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: Dash
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 8484199a-7221-4b67-b6fd-b38bd5517935
+    m_ActionName: PlayerController/Dash[/XInputControllerWindows/rightShoulder]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: PlayerController
@@ -5444,7 +5473,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 578722691}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.38543, y: 18.7474, z: -10}
+  m_LocalPosition: {x: 26.438389, y: 18.745464, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

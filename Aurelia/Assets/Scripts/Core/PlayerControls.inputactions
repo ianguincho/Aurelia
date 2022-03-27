@@ -178,7 +178,7 @@
                 {
                     "name": "",
                     "id": "1dd8c70f-ba66-46ad-89f0-5ae9aec89e31",
-                    "path": "<Keyboard>/c",
+                    "path": "<Keyboard>/ctrl",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -199,8 +199,30 @@
                 },
                 {
                     "name": "",
+                    "id": "eb8065dc-a3dd-479c-9fc7-bd18a893a2b0",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Climb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "0da99635-3f01-48ab-8996-1e417f9075b4",
                     "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ab712f3-83e2-4086-99e2-01ca9ffa6d0a",
+                    "path": "<Keyboard>/leftShift",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

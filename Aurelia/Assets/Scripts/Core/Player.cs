@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     [SerializeField] private LayerMask platformsLayerMask;
     private Rigidbody2D playerRB;
     public Animator playerAnimator;
+    public GhostAnimationForDash ghost;
     private BoxCollider2D playerCollider;
     private Collision coll;
 
@@ -87,24 +88,31 @@ public class Player : MonoBehaviour
         float input = Input.GetAxisRaw("Horizontal");
         if(coll.onWall == true && !coll.onGround && input != 0)
         {
+            playerAnimator.SetBool("IsJumping", false);
+            playerAnimator.SetBool("IsClimbing", true);
             wallSlide = true;
         }
         else
         {
+            playerAnimator.SetBool("IsClimbing", false);
             wallSlide = false;
         }
         if(wallSlide == true)
         {
+            playerAnimator.SetBool("IsJumping", false);
+            playerAnimator.SetBool("IsClimbing", true);
             playerRB.velocity = new Vector2(playerRB.velocity.x, Mathf.Clamp(playerRB.velocity.y, -wallSlideSpeed, float.MaxValue));
         }
         if (climbAction.triggered && wallSlide == true)
         {
+            playerAnimator.SetBool("IsJumping", false);
+            playerAnimator.SetBool("IsClimbing", true);
             wallJump = true;
             Invoke("SetWallJumpToFalse", wallJumpTime);
         }
         if(wallJump == true)
         {
-            playerRB.velocity = new Vector2(xWallForce * -input, yWallForce); 
+            playerRB.velocity = new Vector2(xWallForce * -input, yWallForce);
         }
         //end of new code
 
@@ -125,6 +133,7 @@ public class Player : MonoBehaviour
         }
         if (isClimbing == true)
         {
+            playerAnimator.SetBool("IsClimbing", true);
             inputVertical = Input.GetAxisRaw("Vertical");
             playerRB.velocity = new Vector2(playerRB.velocity.x, inputVertical * climbSpeed);
             playerRB.gravityScale = 0;
@@ -146,6 +155,7 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         playerAnimator.SetBool("IsJumping", false);
+        playerAnimator.SetBool("IsClimbing", false);
     }
     private bool isGrounded()
     {
@@ -195,14 +205,16 @@ public class Player : MonoBehaviour
     {
         if (context.performed && isGrounded())
         {
-            playerRB.velocity = new Vector2(playerRB.velocity.x, jumpForce);
+            playerAnimator.SetBool("IsClimbing", false);
             playerAnimator.SetBool("IsJumping", true);
+            playerRB.velocity = new Vector2(playerRB.velocity.x, jumpForce);
 
         }
         if (context.canceled && playerRB.velocity.y > 0f)
         {
-            playerRB.velocity = new Vector2(playerRB.velocity.x, playerRB.velocity.y * .05f);
+            playerAnimator.SetBool("IsClimbing", false);
             playerAnimator.SetBool("IsJumping", true);
+            playerRB.velocity = new Vector2(playerRB.velocity.x, playerRB.velocity.y * .05f);
         }
 
 
@@ -233,12 +245,15 @@ public class Player : MonoBehaviour
     IEnumerator dash(float direction)
     {
         isDashing = true;
+        ghost.makeGhost = true;
         playerRB.velocity = new Vector2(playerRB.velocity.x, 0f);
         playerRB.AddForce(new Vector2(dashDistnace * direction, 0f), ForceMode2D.Impulse);
         float gravity = playerRB.gravityScale;
         yield return new WaitForSeconds(1f);
         isDashing = false;
+        ghost.makeGhost = false;
         playerRB.gravityScale = gravity;
+
 
     }
 }

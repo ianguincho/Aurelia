@@ -1,126 +1,126 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 16310 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16289 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-Y:\Unity\2020.3.26f1\Editor\Unity.exe
+D:\2020.3.26f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Ardon/OneDrive/Documents/GitHub/CEN4090L-project-main (6)/CEN4090L-project-main/Aurelia
+C:/Users/Imp3r/Desktop/Github stuff/CEN4090L-project/Aurelia
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59042
-Successfully changed project path to: C:/Users/Ardon/OneDrive/Documents/GitHub/CEN4090L-project-main (6)/CEN4090L-project-main/Aurelia
-C:/Users/Ardon/OneDrive/Documents/GitHub/CEN4090L-project-main (6)/CEN4090L-project-main/Aurelia
+51393
+Successfully changed project path to: C:/Users/Imp3r/Desktop/Github stuff/CEN4090L-project/Aurelia
+C:/Users/Imp3r/Desktop/Github stuff/CEN4090L-project/Aurelia
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 69.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 54.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
-[Subsystems] Discovering subsystems at path Y:/Unity/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Ardon/OneDrive/Documents/GitHub/CEN4090L-project-main (6)/CEN4090L-project-main/Aurelia/Assets
+[Subsystems] Discovering subsystems at path D:/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Imp3r/Desktop/Github stuff/CEN4090L-project/Aurelia/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 6600 XT (ID=0x73ff)
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
     Vendor:   
-    VRAM:     8147 MB
-    Driver:   30.0.14023.7007
+    VRAM:     8010 MB
+    Driver:   30.0.15.1123
 Initialize mono
-Mono path[0] = 'Y:/Unity/2020.3.26f1/Editor/Data/Managed'
-Mono path[1] = 'Y:/Unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'Y:/Unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Mono path[0] = 'D:/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: Y:/Unity/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: Y:/Unity/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001920 seconds.
+Register platform support module: D:/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001095 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 65.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 62.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.713 seconds
+- Completed reload, in  0.566 seconds
 Domain Reload Profiling:
-	ReloadAssembly (714ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (566ms)
+		BeginReloadAssembly (47ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (543ms)
-			LoadAssemblies (84ms)
+		EndReloadAssembly (456ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
+			SetupTypeCache (143ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (217ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (193ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (65ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (102ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007466 seconds.
+Registered in 0.004880 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 67.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 54.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.656 seconds
+- Completed reload, in  1.164 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1657ms)
-		BeginReloadAssembly (206ms)
+	ReloadAssembly (1165ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1364ms)
-			LoadAssemblies (153ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (978ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (458ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (545ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (409ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (67ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (349ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2747 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.5 MB.
-System memory in use after: 118.7 MB.
+Unloading 2748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.0 MB.
+System memory in use after: 118.2 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3182.
-Total: 4.137800 ms (FindLiveObjects: 0.249400 ms CreateObjectMapping: 0.073700 ms MarkObjects: 3.728300 ms  DeleteObjects: 0.085200 ms)
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3185.
+Total: 3.312800 ms (FindLiveObjects: 0.186100 ms CreateObjectMapping: 0.108600 ms MarkObjects: 2.954900 ms  DeleteObjects: 0.062300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,113 +134,66 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Core/PlayerControls.cs
-  artifactKey: Guid(db6fc55d929aabd41b78cb5b936039db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/PlayerControls.cs using Guid(db6fc55d929aabd41b78cb5b936039db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb23f1bac4a9e1e215dd5724ed7d6578') in 0.038425 seconds 
-  Import took 0.043006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.623940 seconds.
-  path: Assets/Scripts/Core/Player.cs
-  artifactKey: Guid(b7bc65d0ed6136a4ea53c932cd63d59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/Player.cs using Guid(b7bc65d0ed6136a4ea53c932cd63d59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332aa355acf009c9270fffdf300b3879') in 0.007732 seconds 
-  Import took 0.012398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 558.572772 seconds.
-  path: Assets/Scenes/Level0.unity
-  artifactKey: Guid(ffb358d845c57614ab6432ef07bc94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level0.unity using Guid(ffb358d845c57614ab6432ef07bc94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4841e95f051faa46763bd2b02281e3') in 0.018184 seconds 
-  Import took 0.023734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 132.545324 seconds.
-  path: Assets/Scenes/Level2.unity
-  artifactKey: Guid(af67b766b51af934fbf4be274d0dcc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level2.unity using Guid(af67b766b51af934fbf4be274d0dcc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a876689f9746e1a69d82581862fc3abf') in 0.009622 seconds 
-  Import took 0.013986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.571365 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9c322f743d1526aaed7fbaa65121bd') in 0.009078 seconds 
-  Import took 0.013420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.695462 seconds.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(4eba1abc657e98f4fbcebd2259a2edf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(4eba1abc657e98f4fbcebd2259a2edf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140283cfbf2c33a843768e5dd2e7ab5a') in 0.008633 seconds 
-  Import took 0.013262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.949385 seconds.
-  path: Assets/Scripts/UI
-  artifactKey: Guid(08f46b4dcd6de314dbdf3c12b29dd469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI using Guid(08f46b4dcd6de314dbdf3c12b29dd469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a17ab24a847556ee76a1d06ca674ece') in 0.009229 seconds 
-  Import took 0.013723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.713374 seconds.
-  path: Assets/Scripts/Core/PlayerControls.inputactions
-  artifactKey: Guid(4fc99264d6aa2ed42b598c49cbaf191e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/PlayerControls.inputactions using Guid(4fc99264d6aa2ed42b598c49cbaf191e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e541241f0acdab11f19b4d2d238b89fb') in 0.014199 seconds 
-  Import took 0.019292 seconds .
+  path: Assets/NewRayTracingShader.raytrace
+  artifactKey: Guid(156e40bf97ec2e64cbf83be4f4e11c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewRayTracingShader.raytrace using Guid(156e40bf97ec2e64cbf83be4f4e11c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4aa270a4bc625ecfc53df89378eed1') in 0.031158 seconds 
+  Import took 0.034813 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008008 seconds.
+Registered in 0.005367 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.352 seconds
+- Completed reload, in  2.719 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1352ms)
-		BeginReloadAssembly (158ms)
+	ReloadAssembly (2720ms)
+		BeginReloadAssembly (711ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1100ms)
-			LoadAssemblies (147ms)
+			CreateAndSetChildDomain (235ms)
+		EndReloadAssembly (1896ms)
+			LoadAssemblies (286ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (386ms)
+			SetupTypeCache (354ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (400ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (1150ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (301ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (393ms)
+				ProcessInitializeOnLoadAttributes (651ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2721 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.6 MB.
-System memory in use after: 116.8 MB.
+Unloading 3819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.3 MB.
+System memory in use after: 153.0 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3184.
-Total: 3.859800 ms (FindLiveObjects: 0.275200 ms CreateObjectMapping: 0.096300 ms MarkObjects: 3.461500 ms  DeleteObjects: 0.025400 ms)
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 4227.
+Total: 5.220100 ms (FindLiveObjects: 0.245600 ms CreateObjectMapping: 0.161700 ms MarkObjects: 3.031800 ms  DeleteObjects: 1.780100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -254,10 +207,1168 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 244.734025 seconds.
-  path: Assets/Scenes/Level0.unity
-  artifactKey: Guid(ffb358d845c57614ab6432ef07bc94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level0.unity using Guid(ffb358d845c57614ab6432ef07bc94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933cad5a901c85c2a5a61c8b187799a2') in 0.023119 seconds 
-  Import took 0.028488 seconds .
+  Time since last request: 251.924043 seconds.
+  path: Assets/New 2D Renderer Data.asset
+  artifactKey: Guid(29298d3b5a44e674fa208da935c27e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New 2D Renderer Data.asset using Guid(29298d3b5a44e674fa208da935c27e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab38e382d7f1e9ae5c7487a7fdd2136') in 0.058313 seconds 
+  Import took 0.064851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.092247 seconds.
+  path: Assets/Rendering
+  artifactKey: Guid(d2dfae571b9c27d49a271261cece7cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering using Guid(d2dfae571b9c27d49a271261cece7cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51a9486aabadbdd3cbe177dc6870741') in 0.005070 seconds 
+  Import took 0.010293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.059483 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(b11479f68927a764380d9aea67bc132f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(b11479f68927a764380d9aea67bc132f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bd40e785a23a77beca9d7801cebdb1') in 0.005424 seconds 
+  Import took 0.010572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.091571 seconds.
+  path: Assets/Rendering/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(581df1d08b62d81429394025a4593ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering/UniversalRenderPipelineAsset.asset using Guid(581df1d08b62d81429394025a4593ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a99710bcf0f0928b1174c967fbc327') in 0.039381 seconds 
+  Import took 0.045529 seconds .
+
+========================================================================
+Received Prepare
+Switching render pipeline 00000000000000000000000000000000 -> 581df1d08b62d81429394025a4593ad7
+Refreshing native plugins compatible for Editor in 4.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 121 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 4295.
+Total: 5.633100 ms (FindLiveObjects: 0.265700 ms CreateObjectMapping: 0.172700 ms MarkObjects: 3.712700 ms  DeleteObjects: 1.481200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.477515 seconds.
+  path: Assets/Rendering/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(581df1d08b62d81429394025a4593ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering/UniversalRenderPipelineAsset.asset using Guid(581df1d08b62d81429394025a4593ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042e386b1f42c90f091a44dcb996e5d6') in 0.003669 seconds 
+  Import took 0.008952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.137850 seconds.
+  path: Assets/Rendering/New 2D Renderer Data.asset
+  artifactKey: Guid(29298d3b5a44e674fa208da935c27e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering/New 2D Renderer Data.asset using Guid(29298d3b5a44e674fa208da935c27e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d743be94e59b62362c7fd10e2c4766a') in 0.006888 seconds 
+  Import took 0.012392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.380421 seconds.
+  path: Assets/Rendering/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(39744c5905831634caf51171bc3e6f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering/UniversalRenderPipelineAsset_Renderer.asset using Guid(39744c5905831634caf51171bc3e6f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5abe6ccbf46c1e97d05e66362308762') in 0.006638 seconds 
+  Import took 0.011931 seconds .
+
+========================================================================
+Received Prepare
+Switching render pipeline 00000000000000000000000000000000 -> 581df1d08b62d81429394025a4593ad7
+Refreshing native plugins compatible for Editor in 5.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 54 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 81.8 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 4298.
+Total: 5.428100 ms (FindLiveObjects: 0.255600 ms CreateObjectMapping: 0.186300 ms MarkObjects: 3.605200 ms  DeleteObjects: 1.380300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:srp/default-shader: 0000e00a000e0de00000e000e02d0000 -> 0000e00a000e0de00000e000e0000000
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 74.553737 seconds.
+  path: Assets/New MC/jumping/jumping-18.png
+  artifactKey: Guid(dc296fd99926be641b0fce6920592bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-18.png using Guid(dc296fd99926be641b0fce6920592bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43793cc535a57fd3266c21ad3176f510') in 0.095024 seconds 
+  Import took 0.100962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/New MC/jumping/jumping-25.png
+  artifactKey: Guid(9d29eec54bc29204a9d3b8edea1bcaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-25.png using Guid(9d29eec54bc29204a9d3b8edea1bcaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed78a6a64f0303942fa260ac1c0d360') in 0.013138 seconds 
+  Import took 0.018131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/New MC/running/run-0029.png
+  artifactKey: Guid(6195483c6512216428906dba0d46a5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0029.png using Guid(6195483c6512216428906dba0d46a5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba562db9e941ae5005d352dea4cb0133') in 0.014294 seconds 
+  Import took 0.019453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/New MC/jumping/jumping-31.png
+  artifactKey: Guid(3ab3eaed792c0c44ea3ffb282c7314fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-31.png using Guid(3ab3eaed792c0c44ea3ffb282c7314fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aabd4f9458426e99cb3c5dc12aafe04') in 0.013239 seconds 
+  Import took 0.018440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/New MC/running/run-0005.png
+  artifactKey: Guid(c754c27559b651744aa5ba85e4a0e52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0005.png using Guid(c754c27559b651744aa5ba85e4a0e52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a28262650f408abbb5521a4ff191b7') in 0.013932 seconds 
+  Import took 0.019145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/New MC/running/run-0042.png
+  artifactKey: Guid(81b1a3717bc4a3343b3ae5820cdf83de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0042.png using Guid(81b1a3717bc4a3343b3ae5820cdf83de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fe9c396cec09659dfc8b93793c76a6') in 0.013641 seconds 
+  Import took 0.019005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/New MC/running/run-0031.png
+  artifactKey: Guid(d183cf1ba47e19f4da8b4522d85b3ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0031.png using Guid(d183cf1ba47e19f4da8b4522d85b3ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a002dde04191c201f374af3ce2547b') in 0.013576 seconds 
+  Import took 0.018974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/New MC/running/run-0008.png
+  artifactKey: Guid(d3b81c5850970ae4f889cc00669748e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0008.png using Guid(d3b81c5850970ae4f889cc00669748e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb72d921cbccff4e58a1e80246e890d') in 0.013278 seconds 
+  Import took 0.018517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/New MC/running/run-0026.png
+  artifactKey: Guid(a1b1aeca8aa837c4d8d766871e6fa079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0026.png using Guid(a1b1aeca8aa837c4d8d766871e6fa079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22869fefd20e00744fb5fef38f4e1249') in 0.012734 seconds 
+  Import took 0.017944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/New MC/running/run-0041.png
+  artifactKey: Guid(bba70f1b610544e46a1b857f5c5bbf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0041.png using Guid(bba70f1b610544e46a1b857f5c5bbf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46bc00eeb94750d54eeb9a9ca61d365c') in 0.012081 seconds 
+  Import took 0.017173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/New MC/running/run-0012.png
+  artifactKey: Guid(e7ee7ba855d5024458f3d31837368762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0012.png using Guid(e7ee7ba855d5024458f3d31837368762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32bf00ff3b35a56f978e81f6da82e9c') in 0.013483 seconds 
+  Import took 0.018635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/New MC/running/run-0007.png
+  artifactKey: Guid(9d3b9edb64120fd4ca233e9d4b4d37fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0007.png using Guid(9d3b9edb64120fd4ca233e9d4b4d37fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9598d9bba66fc4aef86c11f31cb5c7d2') in 0.011967 seconds 
+  Import took 0.017163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Martial Hero/Sprites/Take Hit.png
+  artifactKey: Guid(dafba786f4f5b8242bc098edbf954165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Take Hit.png using Guid(dafba786f4f5b8242bc098edbf954165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bbabe6ab8573d217df6b791760c22d') in 0.037099 seconds 
+  Import took 0.042153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/New MC/running/run-0022.png
+  artifactKey: Guid(578539e61cc081b40ab394abe190d450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0022.png using Guid(578539e61cc081b40ab394abe190d450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8b6877ca7ad8e7e1ddf2a859ced4f9') in 0.012103 seconds 
+  Import took 0.017140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/New MC/jumping/jumping-26.png
+  artifactKey: Guid(dfe2d3715359d824c9c02646287e519b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-26.png using Guid(dfe2d3715359d824c9c02646287e519b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fa92370842265bca7fdbc4cf00cdf3') in 0.012357 seconds 
+  Import took 0.017570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/New MC/running/run-0015.png
+  artifactKey: Guid(39777d708fa5bea4ab73989560018a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0015.png using Guid(39777d708fa5bea4ab73989560018a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2c575e2e87804a8f86fcb3e212381d') in 0.012728 seconds 
+  Import took 0.017947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Background Images/mBOLoZc.gif
+  artifactKey: Guid(e28107d097d27e94d843bee696663293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Images/mBOLoZc.gif using Guid(e28107d097d27e94d843bee696663293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8ba99786bb31500166e8e4cf3101f0') in 0.022943 seconds 
+  Import took 0.028168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/New MC/jumping/jumping-20.png
+  artifactKey: Guid(e902820568924b246804463971bf024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-20.png using Guid(e902820568924b246804463971bf024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2014cdf1a6bcdc6e0c35fa7ed2010840') in 0.011828 seconds 
+  Import took 0.016939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/New MC/running/run-0046.png
+  artifactKey: Guid(06ac9c77be92bba4dbc91718c7ffdf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0046.png using Guid(06ac9c77be92bba4dbc91718c7ffdf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56947c5e7fea0068678f25c6927ddf60') in 0.012157 seconds 
+  Import took 0.017716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/New MC/jumping/jumping-34.png
+  artifactKey: Guid(28706ca80191c0c469d440ab2d259240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-34.png using Guid(28706ca80191c0c469d440ab2d259240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b845c4b2e994b2836b8112bed50fe48') in 0.012418 seconds 
+  Import took 0.017583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/New MC/running/run-0024.png
+  artifactKey: Guid(cabe358f24cda5b4f8301aa574f73d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0024.png using Guid(cabe358f24cda5b4f8301aa574f73d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbddf9964c1b535f1dca942930ed74b4') in 0.013834 seconds 
+  Import took 0.018974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/New MC/running/run-0032.png
+  artifactKey: Guid(9b7173fc2edd73341916c7f10838c7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0032.png using Guid(9b7173fc2edd73341916c7f10838c7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ab6586d589616ff59b81d1d9ad6e55') in 0.012962 seconds 
+  Import took 0.018466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/New MC/jumping/jumping-30.png
+  artifactKey: Guid(fed2094959ecd114e871a0b69c9d30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-30.png using Guid(fed2094959ecd114e871a0b69c9d30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cf334a4e8b316a6ee5528480c21fd8') in 0.013019 seconds 
+  Import took 0.018442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/New MC/running/run-0033.png
+  artifactKey: Guid(f3238ec547ed16c4d884266fca3d0d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0033.png using Guid(f3238ec547ed16c4d884266fca3d0d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b86efafa3d029631f1c888377fc7cfb') in 0.013243 seconds 
+  Import took 0.019048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/New MC/running/run-0030.png
+  artifactKey: Guid(342df9b0164abd245b56826982cadb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0030.png using Guid(342df9b0164abd245b56826982cadb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aacc5262aa9b314a84843095a78f43a') in 0.013399 seconds 
+  Import took 0.018754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/New MC/jumping/jumping-24.png
+  artifactKey: Guid(9d38f6cf3fcd954488cd3b0d48e33c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-24.png using Guid(9d38f6cf3fcd954488cd3b0d48e33c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ecec749ee5d64eadc119897d9d8127') in 0.012117 seconds 
+  Import took 0.017392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/New MC/running/run-0047.png
+  artifactKey: Guid(ef922a83b1dad5c43912e4f3ea2a108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0047.png using Guid(ef922a83b1dad5c43912e4f3ea2a108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f135c0644fa54e39b1023331a5bc796') in 0.013708 seconds 
+  Import took 0.018908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/New MC/jumping/jumping-36.png
+  artifactKey: Guid(42a0b8bb7332077468f246739e2e1d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-36.png using Guid(42a0b8bb7332077468f246739e2e1d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26e1f01223ca7c51c1e4cf9705a3d98') in 0.013247 seconds 
+  Import took 0.018473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/New MC/running/run-0045.png
+  artifactKey: Guid(96212b556b60c9944813eb5d4391b74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0045.png using Guid(96212b556b60c9944813eb5d4391b74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b33d4363ad9b665518105e4d4ba90cf') in 0.012162 seconds 
+  Import took 0.017380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/New MC/running/run-0023.png
+  artifactKey: Guid(fb13c8535c1a8774f9757e5c74eaeaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0023.png using Guid(fb13c8535c1a8774f9757e5c74eaeaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5b7f85f18e4d633ebb8979181a873f') in 0.012183 seconds 
+  Import took 0.017348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Martial Hero/Sprites/Take Hit - white silhouette.png
+  artifactKey: Guid(5f3849e414a15ef4bafea810f38d8e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Take Hit - white silhouette.png using Guid(5f3849e414a15ef4bafea810f38d8e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f019b38d0dc3c7506ad78ccb0257690') in 0.033049 seconds 
+  Import took 0.038147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/New MC/running/run-0010.png
+  artifactKey: Guid(cf2496832607f10499f628b0a759ef62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0010.png using Guid(cf2496832607f10499f628b0a759ef62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0643be767da0e902d3b47c8893bccfbc') in 0.012113 seconds 
+  Import took 0.017052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/New MC/running/run-0019.png
+  artifactKey: Guid(3ca34bb4e7304a04786d0b21dd06bf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0019.png using Guid(3ca34bb4e7304a04786d0b21dd06bf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff191b4dd99e0e62144c71d3dccef847') in 0.012830 seconds 
+  Import took 0.018111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/New MC/jumping/jumping-32.png
+  artifactKey: Guid(a3b20049e776f2e47af00289baf6ae13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-32.png using Guid(a3b20049e776f2e47af00289baf6ae13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b824d03fff197025c76ce35a77b878') in 0.013446 seconds 
+  Import took 0.018604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/New MC/running/run-0017.png
+  artifactKey: Guid(747629db591a1b2468fceba18eb3ba71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0017.png using Guid(747629db591a1b2468fceba18eb3ba71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8aa5720c1412a25cd38b77745190cb3') in 0.012281 seconds 
+  Import took 0.017478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/New MC/running/run-0020.png
+  artifactKey: Guid(d2f2351d9e73ed7488e8b2b0c710b2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0020.png using Guid(d2f2351d9e73ed7488e8b2b0c710b2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd219e29e7a0bda777b7439e152e5063b') in 0.012330 seconds 
+  Import took 0.017510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/New MC/running/run-0001.png
+  artifactKey: Guid(ff375d607ece24b479153c680b14d943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0001.png using Guid(ff375d607ece24b479153c680b14d943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2a26785e1b51a123c362abcfb1454c') in 0.012706 seconds 
+  Import took 0.017858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/New MC/jumping/jumping-23.png
+  artifactKey: Guid(79cc62bfd9ab86e46af7c145cab1a980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-23.png using Guid(79cc62bfd9ab86e46af7c145cab1a980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c8a4387919d56176cac99d1370aef9') in 0.012698 seconds 
+  Import took 0.018117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/New MC/running/run-0038.png
+  artifactKey: Guid(8424851dadf83684b95e910de04b511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0038.png using Guid(8424851dadf83684b95e910de04b511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b08b7c22ac22d323f3fc1aa382a7f3') in 0.012548 seconds 
+  Import took 0.017767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Tiles test/Spikes.png
+  artifactKey: Guid(efdf08c471bceaa4fae8e570ba2c7ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles test/Spikes.png using Guid(efdf08c471bceaa4fae8e570ba2c7ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dbb8a0db8962f89c9a884846b941a2') in 0.011488 seconds 
+  Import took 0.016968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/New MC/running/run-0018.png
+  artifactKey: Guid(521ef37205efa5d47b2cb78f206ca83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0018.png using Guid(521ef37205efa5d47b2cb78f206ca83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca185a3bf6ad4012fbc35980481d4203') in 0.012840 seconds 
+  Import took 0.018094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/New MC/jumping/jumping-35.png
+  artifactKey: Guid(1404d8a1e6c329a4bbc7cc5e0f0f9952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-35.png using Guid(1404d8a1e6c329a4bbc7cc5e0f0f9952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28307c8dbcce1b7f6742be744e30df12') in 0.011831 seconds 
+  Import took 0.017084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/New MC/running/run-0011.png
+  artifactKey: Guid(8e4a3505a6b29fd4581b51b03a3654c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0011.png using Guid(8e4a3505a6b29fd4581b51b03a3654c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f35a27038cf51867f313a94a2709f4') in 0.012067 seconds 
+  Import took 0.017201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/New MC/running/run-0003.png
+  artifactKey: Guid(cb8291e370c40c94798534dbb99bd4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0003.png using Guid(cb8291e370c40c94798534dbb99bd4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61265cc5774bea81ed5048686be5a0a5') in 0.012728 seconds 
+  Import took 0.017843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/New MC/running/run-0025.png
+  artifactKey: Guid(d61147335f4dc004ab1dc21be9e5b684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0025.png using Guid(d61147335f4dc004ab1dc21be9e5b684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb61dea52e79a28bf3ffc55654642cd') in 0.012438 seconds 
+  Import took 0.017608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/New MC/running/run-0006.png
+  artifactKey: Guid(fe3d3d6927762604abdab420d1945f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0006.png using Guid(fe3d3d6927762604abdab420d1945f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cf3827c77fd3565cd2325503152b18') in 0.014645 seconds 
+  Import took 0.019839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/New MC/jumping/jumping-28.png
+  artifactKey: Guid(8d368a84933f4464094d02cb11ea738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-28.png using Guid(8d368a84933f4464094d02cb11ea738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a07721ea6fb7b3c4244cc4378a0d350') in 0.012985 seconds 
+  Import took 0.018348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/New MC/running/run-0021.png
+  artifactKey: Guid(66bccb5c61b0253468e5620844d4ae50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0021.png using Guid(66bccb5c61b0253468e5620844d4ae50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3c575e78d5dc7514089d00f303564c') in 0.012245 seconds 
+  Import took 0.017752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/New MC/running/run-0013.png
+  artifactKey: Guid(6342a433002d3d543822f9ac3be02a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0013.png using Guid(6342a433002d3d543822f9ac3be02a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e0ce9c92422bb492fa9e1a8fc2911b') in 0.012482 seconds 
+  Import took 0.017592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/New MC/running/run-0027.png
+  artifactKey: Guid(99e8f88f81308bc4eb0879a5f9c50462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0027.png using Guid(99e8f88f81308bc4eb0879a5f9c50462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503859c1d5856639975d06644a4fce05') in 0.012079 seconds 
+  Import took 0.017254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Martial Hero/Sprites/Run.png
+  artifactKey: Guid(02be9b757efc1074bb374de531df0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Run.png using Guid(02be9b757efc1074bb374de531df0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d70f9c3865cea8e3bed8d1ba83385c') in 0.035721 seconds 
+  Import took 0.040837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Tiles test/Tileset.png
+  artifactKey: Guid(820f3746b10d3724ea821cdf9cb57218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles test/Tileset.png using Guid(820f3746b10d3724ea821cdf9cb57218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a6d3f432b90cba49256cfd4a755be2') in 0.028573 seconds 
+  Import took 0.033575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/New MC/running/run-0014.png
+  artifactKey: Guid(1d0b1e6973d792745a92aadb0428651f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0014.png using Guid(1d0b1e6973d792745a92aadb0428651f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfb77880080d42efa9c99d30f6a8a7b') in 0.014839 seconds 
+  Import took 0.020236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/New MC/jumping/jumping-29.png
+  artifactKey: Guid(d82b18f4af5c35e47a8c5befa4db07b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-29.png using Guid(d82b18f4af5c35e47a8c5befa4db07b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4169b4e847068262b06ffa72c57da5') in 0.011576 seconds 
+  Import took 0.016868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/New MC/running/run-0016.png
+  artifactKey: Guid(983e68289279d99418c98231cec0a458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0016.png using Guid(983e68289279d99418c98231cec0a458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421075cb353fc673846c331a0003b131') in 0.014174 seconds 
+  Import took 0.020267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/New MC/jumping/jumping-19.png
+  artifactKey: Guid(23433bf0aecb4cd44b8be3e9c348d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-19.png using Guid(23433bf0aecb4cd44b8be3e9c348d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899d6beaf6dab683309b538a6e736ad0') in 0.014275 seconds 
+  Import took 0.020197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/New MC/jumping/jumping-22.png
+  artifactKey: Guid(5e2ac8c92fdfe1a4b84e3753cdb5797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-22.png using Guid(5e2ac8c92fdfe1a4b84e3753cdb5797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b05cc9846815e40b1cf1ba8ed69fb2') in 0.014057 seconds 
+  Import took 0.019413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/New MC/jumping/jumping-27.png
+  artifactKey: Guid(740f06c22a8fabd42bd6524abc41ef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-27.png using Guid(740f06c22a8fabd42bd6524abc41ef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb63f5ce12c6ebc66e19d90532940510') in 0.014451 seconds 
+  Import took 0.020186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/New MC/running/run-0009.png
+  artifactKey: Guid(7c7130aa2a8334547bd834672e30b70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0009.png using Guid(7c7130aa2a8334547bd834672e30b70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7753e437f2220b598da1c8c260af9e25') in 0.013153 seconds 
+  Import took 0.018887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/New MC/running/run-0028.png
+  artifactKey: Guid(680e8600a112c28459b2c34c547fac92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0028.png using Guid(680e8600a112c28459b2c34c547fac92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9cde9c69469da51218da86bb09835e') in 0.012402 seconds 
+  Import took 0.017926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/New MC/running/run-0037.png
+  artifactKey: Guid(a3de0327efce0d540bc101cee1d2d592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0037.png using Guid(a3de0327efce0d540bc101cee1d2d592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d80db31c5eafce3a62cf70ee831fe38') in 0.013075 seconds 
+  Import took 0.018531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/New MC/running/run-0004.png
+  artifactKey: Guid(35fb7e1956d8999479b206c9954d5f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0004.png using Guid(35fb7e1956d8999479b206c9954d5f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bac8f42d0f23321c4a620946709d65f') in 0.012117 seconds 
+  Import took 0.017485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/New MC/running/run-0040.png
+  artifactKey: Guid(62ba41c22b348eb46a7bde4998f892a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0040.png using Guid(62ba41c22b348eb46a7bde4998f892a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a074c864d3a379b940a3d1db71e0a5dc') in 0.014094 seconds 
+  Import took 0.019673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/New MC/running/run-0035.png
+  artifactKey: Guid(50061cb8dc69da64caedda5e4ece09e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0035.png using Guid(50061cb8dc69da64caedda5e4ece09e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6ab268d0a512af84ea7e9ffb0cfb82') in 0.013416 seconds 
+  Import took 0.018994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/New MC/running/run-0002.png
+  artifactKey: Guid(375484a2d3573734c96f95df865c81f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0002.png using Guid(375484a2d3573734c96f95df865c81f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6527e749c49de909ac03be114e14d2') in 0.013600 seconds 
+  Import took 0.019058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/New MC/jumping/jumping-21.png
+  artifactKey: Guid(8dfa94e1bb31e124bbaa43e498d4a2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-21.png using Guid(8dfa94e1bb31e124bbaa43e498d4a2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70d3d2bfcf30dc888443f61e38c7947') in 0.013006 seconds 
+  Import took 0.018371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/New MC/running/run-0036.png
+  artifactKey: Guid(6b46f2df66a718b478195e3245822b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0036.png using Guid(6b46f2df66a718b478195e3245822b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38816fd50ebcb32bb8cec08014732438') in 0.014996 seconds 
+  Import took 0.020326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/New MC/running/run-0043.png
+  artifactKey: Guid(ca7c71c85f8b1134c981e9f2811e6302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0043.png using Guid(ca7c71c85f8b1134c981e9f2811e6302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7972cbf441a0cf2db730227d3ea9aba8') in 0.016187 seconds 
+  Import took 0.021561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/New MC/running/run-0044.png
+  artifactKey: Guid(cd5d764ade9688f42a6030e8f5445440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0044.png using Guid(cd5d764ade9688f42a6030e8f5445440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0b730893a9c9c1b7ecb6517b137f9f') in 0.013124 seconds 
+  Import took 0.018398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/New MC/running/run-0039.png
+  artifactKey: Guid(3150ad5dc60dab345a8f475417d28c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0039.png using Guid(3150ad5dc60dab345a8f475417d28c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac9344fe8f8b1ec3760ba1f7234a4c6') in 0.012183 seconds 
+  Import took 0.017369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/New MC/running/run-0034.png
+  artifactKey: Guid(ca9f1d2dfe7978041b06330c097a731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/running/run-0034.png using Guid(ca9f1d2dfe7978041b06330c097a731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc5c33dfbdcfda10832879902d75f63') in 0.012688 seconds 
+  Import took 0.017842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/New MC/jumping/jumping-33.png
+  artifactKey: Guid(862968fc398009544965b81e7a2ae840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-33.png using Guid(862968fc398009544965b81e7a2ae840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d2222bd50a4499211301bdbd2ea26f') in 0.012636 seconds 
+  Import took 0.017947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Background Images/ResizedGameBackground.png
+  artifactKey: Guid(6fe4f1b08103b0d44b5fa0565bd88ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Images/ResizedGameBackground.png using Guid(6fe4f1b08103b0d44b5fa0565bd88ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2aa3d44c398d987969e2adcf2600c6e') in 0.014433 seconds 
+  Import took 0.019536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.073245 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
+  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a433e3926d419afac475d78eafe9f0bb') in 0.173142 seconds 
+  Import took 0.178681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+  artifactKey: Guid(22262639920f43d6be32430e4e58350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat using Guid(22262639920f43d6be32430e4e58350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be98f67d4781d201c843a3050cb0be38') in 0.024306 seconds 
+  Import took 0.029468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e06b60e9bec7b374d814bf98b607be') in 0.036729 seconds 
+  Import took 0.041725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0722391d3db631c7ccebcaa93d4cfd39') in 0.027244 seconds 
+  Import took 0.032422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64524dafc1718e62d7a84ff09954e6f8') in 0.027543 seconds 
+  Import took 0.032758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e5190d937d30e8eb5d23637d38f165') in 0.013631 seconds 
+  Import took 0.018703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a9abb4222e31097e806b3c2cdf2fac') in 0.029167 seconds 
+  Import took 0.034343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14b842fb29a1d38e0441c3cae18e76a') in 0.014438 seconds 
+  Import took 0.019519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216705e08ddcec1b58470cadcb486ea6') in 0.027017 seconds 
+  Import took 0.032175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad9eaf9c92fd2d9f48dac864341a156') in 0.026259 seconds 
+  Import took 0.031398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
+  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54afdc39a9a131894957d88a4cbd21cf') in 0.010457 seconds 
+  Import took 0.015796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78617d5f867780f4a2f38c605cabbf79') in 0.016896 seconds 
+  Import took 0.022591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35adad8725ad2203b4887d7b549a3f6f') in 0.040743 seconds 
+  Import took 0.047005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold SDF.asset
+  artifactKey: Guid(43ee95241721d504ea20c3698c8c1f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold SDF.asset using Guid(43ee95241721d504ea20c3698c8c1f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128fcd57d34578b53c54808765831900') in 0.023591 seconds 
+  Import took 0.029786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b65b70d7c26cd7ffc85d1dcaeeb00f') in 0.015184 seconds 
+  Import took 0.021341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62aa43a7a4a360093fe1660b7ba19ed') in 0.014660 seconds 
+  Import took 0.020669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc530ab3a140dd2dcd2a564d08d0890') in 0.015557 seconds 
+  Import took 0.021060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2881d79bfdecc6830a4a1cc72a8617ae') in 0.029084 seconds 
+  Import took 0.034466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3953d697b4f85e7e99a357701e01c0') in 0.015134 seconds 
+  Import took 0.020322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
+  artifactKey: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf84b285965048311e93c062764a25dd') in 0.013244 seconds 
+  Import took 0.018813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
+  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d2ec5178c5d057f59f04546e407a44') in 0.034370 seconds 
+  Import took 0.039677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Materials/SnowMaterial.mat
+  artifactKey: Guid(ee62bff24bb43b04b8d71e565ce2b132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SnowMaterial.mat using Guid(ee62bff24bb43b04b8d71e565ce2b132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7236f80a0c96fee2658ef915f01729d6') in 0.009894 seconds 
+  Import took 0.014916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d16870fd9673313cf42ec3c1dcb9969') in 0.015615 seconds 
+  Import took 0.020861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267d758707cafd540e2dc3dde2709871') in 0.011162 seconds 
+  Import took 0.016337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9033bd76a5a4f52fe85a9e7d57b9a284') in 0.014669 seconds 
+  Import took 0.019862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8eee4698eb7625234027fee0e2bc678') in 0.014835 seconds 
+  Import took 0.019877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987100d80af1c8816b82ed7c990d95d8') in 0.018528 seconds 
+  Import took 0.023716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e26d6126d87760b525b83b2c62fae5') in 0.014106 seconds 
+  Import took 0.019131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
+  artifactKey: Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat using Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04345f2014b8740f308850771a56c60') in 0.020690 seconds 
+  Import took 0.025835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746ae89be4d6bbf44cc6163e87e5f155') in 0.010878 seconds 
+  Import took 0.015815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a516ef7766c2fdf7d50296722f6bc734') in 0.014556 seconds 
+  Import took 0.019763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30439c8c77a58a9c1fc43b8a4db1910d') in 0.050869 seconds 
+  Import took 0.055970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd022442911a08a02b8b83bd7d62d26') in 0.031779 seconds 
+  Import took 0.036793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 604.613957 seconds.
+  path: Assets/Scenes/Level0/Global Volume Profile.asset
+  artifactKey: Guid(7f0cbae339730e341a3e2015f29ded8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level0/Global Volume Profile.asset using Guid(7f0cbae339730e341a3e2015f29ded8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f100c245064f5749eac2b14e35db522a') in 0.008900 seconds 
+  Import took 0.015373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.544893 seconds.
+  path: Assets/Scenes/Level0/Global Volume Profile 1.asset
+  artifactKey: Guid(dff922fe91a43824b8b77b6a0a657bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level0/Global Volume Profile 1.asset using Guid(dff922fe91a43824b8b77b6a0a657bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188ae6d4f5d6369c2cd1130322d1128a') in 0.005368 seconds 
+  Import took 0.010742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 189.156098 seconds.
+  path: Assets/Rendering/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(581df1d08b62d81429394025a4593ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering/UniversalRenderPipelineAsset.asset using Guid(581df1d08b62d81429394025a4593ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edc2f2dc0affbe64eea59ec0b10e23e') in 0.007497 seconds 
+  Import took 0.014125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.148170 seconds.
+  path: Assets/Rendering/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(39744c5905831634caf51171bc3e6f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering/UniversalRenderPipelineAsset_Renderer.asset using Guid(39744c5905831634caf51171bc3e6f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1eef121d03cf0f3a74aa13315bc91a') in 0.004044 seconds 
+  Import took 0.009421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 221.729212 seconds.
+  path: Assets/Rendering/UniversalRenderPipelineAsset 1_Renderer.asset
+  artifactKey: Guid(23b337aa44a608643b1aca235ac3840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering/UniversalRenderPipelineAsset 1_Renderer.asset using Guid(23b337aa44a608643b1aca235ac3840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5dc54d4e280d147a91b205353f085f') in 0.007552 seconds 
+  Import took 0.013062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.127560 seconds.
+  path: Assets/Rendering/UniversalRenderPipelineAsset 1.asset
+  artifactKey: Guid(d37eceb75785d9d43a6050e0e19cd5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering/UniversalRenderPipelineAsset 1.asset using Guid(d37eceb75785d9d43a6050e0e19cd5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f600fb15dd3e34e35a8cafe87c9240') in 0.006863 seconds 
+  Import took 0.012287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.902679 seconds.
+  path: Assets/Scenes/Level0/Global Volume Profile.asset
+  artifactKey: Guid(7f0cbae339730e341a3e2015f29ded8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level0/Global Volume Profile.asset using Guid(7f0cbae339730e341a3e2015f29ded8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7494eef0a549baab7712aef41049d10') in 0.005320 seconds 
+  Import took 0.011766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.940175 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Data/PostProcessData.asset
+  artifactKey: Guid(41439944d30ece34e96484bdb6645b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data/PostProcessData.asset using Guid(41439944d30ece34e96484bdb6645b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed25429b87b57663c55ed2a0340c9a03') in 0.006915 seconds 
+  Import took 0.012341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 847.171321 seconds.
+  path: Assets/Prefabs/Ghost.prefab
+  artifactKey: Guid(3c786755527e2fb438ffb6a385c7b656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost.prefab using Guid(3c786755527e2fb438ffb6a385c7b656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2b20ca684caeec5b6c76cc3af15979') in 0.026779 seconds 
+  Import took 0.033334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.103292 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 261
+
+Compiling Fragment program with _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 138
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS _NORMALMAP
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS_VERTEX _DETAIL_MULX2 _DETAIL_SCALED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _PARALLAXMAP _RECEIVE_SHADOWS_OFF
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 261
+
+Compiling Fragment program with _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 138
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS _NORMALMAP
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS_VERTEX _DETAIL_MULX2 _DETAIL_SCALED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _PARALLAXMAP _RECEIVE_SHADOWS_OFF
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 261
+
+Compiling Fragment program with _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON
+ -> (artifact id: '457d677c2452a671e2c051a7f8c8ac1e') in 0.034788 seconds 
+  Import took 0.040346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Materials/SnowMaterial.mat
+  artifactKey: Guid(ee62bff24bb43b04b8d71e565ce2b132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SnowMaterial.mat using Guid(ee62bff24bb43b04b8d71e565ce2b132) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 138
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS _NORMALMAP
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS_VERTEX _DETAIL_MULX2 _DETAIL_SCALED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _PARALLAXMAP _RECEIVE_SHADOWS_OFF
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 261
+
+Compiling Fragment program with _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 138
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS _NORMALMAP
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS_VERTEX _DETAIL_MULX2 _DETAIL_SCALED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _PARALLAXMAP _RECEIVE_SHADOWS_OFF
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 261
+
+Compiling Fragment program with _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON
+ -> (artifact id: '4bfeb47288306b87a2233e7320b22ebd') in 0.011707 seconds 
+  Import took 0.016885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1b89a6dfdb73afd0699e00bad91c9c') in 0.007898 seconds 
+  Import took 0.013194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Materials/lit default.mat
+  artifactKey: Guid(4c5b6b7ed5e8ff34f9108ef0baf5d67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lit default.mat using Guid(4c5b6b7ed5e8ff34f9108ef0baf5d67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474289837ac5ccdafbce00974e336b32') in 0.014429 seconds 
+  Import took 0.019839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 138
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS _NORMALMAP
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS_VERTEX _DETAIL_MULX2 _DETAIL_SCALED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _PARALLAXMAP _RECEIVE_SHADOWS_OFF
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 261
+
+Compiling Fragment program with _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON
+ -> (artifact id: '7e7165862ed4d2cf1733ff50013f516b') in 0.009873 seconds 
+  Import took 0.015125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+  artifactKey: Guid(22262639920f43d6be32430e4e58350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat using Guid(22262639920f43d6be32430e4e58350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 138
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS _NORMALMAP
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DOTS_INSTANCING_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS_VERTEX _DETAIL_MULX2 _DETAIL_SCALED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _PARALLAXMAP _RECEIVE_SHADOWS_OFF
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 261
+
+Compiling Fragment program with _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_VIRTUAL_TEXTURING _ALPHATEST_ON
+ -> (artifact id: 'c34cef8c42647c7bfbd3018d0650ddd4') in 0.012283 seconds 
+  Import took 0.017563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.406015 seconds.
+  path: Assets/Prefabs/Ghost.prefab
+  artifactKey: Guid(3c786755527e2fb438ffb6a385c7b656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost.prefab using Guid(3c786755527e2fb438ffb6a385c7b656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb076e010eb82f378bd855b7e2c49b2a') in 0.012511 seconds 
+  Import took 0.018061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.035908 seconds.
+  path: Assets/Prefabs/Ghost.prefab
+  artifactKey: Guid(3c786755527e2fb438ffb6a385c7b656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost.prefab using Guid(3c786755527e2fb438ffb6a385c7b656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a59bb950978ddd2f375634224113d8a') in 0.017803 seconds 
+  Import took 0.023347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.990409 seconds.
+  path: Assets/Prefabs/Ghost.prefab
+  artifactKey: Guid(3c786755527e2fb438ffb6a385c7b656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost.prefab using Guid(3c786755527e2fb438ffb6a385c7b656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fff8a7aae35605a7b5b8b77bf8056c4') in 0.011050 seconds 
+  Import took 0.016548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.342558 seconds.
+  path: Assets/New MC/idle/Idle-0001.png
+  artifactKey: Guid(7f7f24faa5670904999e90223a882f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/idle/Idle-0001.png using Guid(7f7f24faa5670904999e90223a882f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f113fea7e1cb46d9bcbdbd85366d258') in 0.013318 seconds 
+  Import took 0.018888 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

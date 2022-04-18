@@ -48,6 +48,10 @@ public class Player : MonoBehaviour
     [SerializeField] public float dashDistnace = 30f;
     bool isDashing;
 
+    public ParticleSystem dust;
+    public Transform dustScale;
+    public ParticleSystem dustLand;
+
 
     //[Header("Dash Variables")]
     //public float dashSpeed;
@@ -88,7 +92,6 @@ public class Player : MonoBehaviour
         float input = Input.GetAxisRaw("Horizontal");
         if(coll.onWall == true && !coll.onGround && input != 0)
         {
-            playerAnimator.SetBool("IsJumping", false);
             playerAnimator.SetBool("IsClimbing", true);
             wallSlide = true;
         }
@@ -99,13 +102,11 @@ public class Player : MonoBehaviour
         }
         if(wallSlide == true)
         {
-            playerAnimator.SetBool("IsJumping", false);
             playerAnimator.SetBool("IsClimbing", true);
             playerRB.velocity = new Vector2(playerRB.velocity.x, Mathf.Clamp(playerRB.velocity.y, -wallSlideSpeed, float.MaxValue));
         }
         if (climbAction.triggered && wallSlide == true)
         {
-            playerAnimator.SetBool("IsJumping", false);
             playerAnimator.SetBool("IsClimbing", true);
             wallJump = true;
             Invoke("SetWallJumpToFalse", wallJumpTime);
@@ -116,7 +117,7 @@ public class Player : MonoBehaviour
         }
         //end of new code
 
-        flip();
+        
         if(!isDashing)
             playerRB.velocity = new Vector2(xInput * maxMoveSpeed, playerRB.velocity.y);
         RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.right, distance, whatIsLadder);
@@ -154,6 +155,7 @@ public class Player : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
+        CreateDustLand();
         playerAnimator.SetBool("IsJumping", false);
         playerAnimator.SetBool("IsClimbing", false);
     }
@@ -166,13 +168,16 @@ public class Player : MonoBehaviour
 
     private void flip()
     {
+        CreateDust();
         if (xInput < 0)
         {
+            dustScale.localScale = new Vector3(-1, 1, 1);
             direction = -1;
             transform.localScale = new Vector3(direction, 1, 1);
         }
         if (xInput > 0)
         {
+            dustScale.localScale = new Vector3(1, 1, 1);
             direction = 1;
             transform.localScale = new Vector3(direction, 1, 1);
         }
@@ -194,8 +199,10 @@ public class Player : MonoBehaviour
 
     public void movement(InputAction.CallbackContext context)
     {
+        flip();
         if (!isDashing)
         {
+            
             xInput = context.ReadValue<Vector2>().x;
             playerAnimator.SetFloat("Speed", Mathf.Abs(xInput));
         }
@@ -205,14 +212,12 @@ public class Player : MonoBehaviour
     {
         if (context.performed && isGrounded())
         {
-            playerAnimator.SetBool("IsClimbing", false);
             playerAnimator.SetBool("IsJumping", true);
             playerRB.velocity = new Vector2(playerRB.velocity.x, jumpForce);
 
         }
         if (context.canceled && playerRB.velocity.y > 0f)
         {
-            playerAnimator.SetBool("IsClimbing", false);
             playerAnimator.SetBool("IsJumping", true);
             playerRB.velocity = new Vector2(playerRB.velocity.x, playerRB.velocity.y * .05f);
         }
@@ -253,8 +258,15 @@ public class Player : MonoBehaviour
         isDashing = false;
         ghost.makeGhost = false;
         playerRB.gravityScale = gravity;
+    }
 
-
+    void CreateDust()
+    {
+        dust.Play();
+    }
+    void CreateDustLand()
+    {
+        dustLand.Play();
     }
 }
 

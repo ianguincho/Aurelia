@@ -51,6 +51,8 @@ public class Player : MonoBehaviour
     public ParticleSystem dust;
     public Transform dustScale;
     public ParticleSystem dustLand;
+    public ParticleSystem dustDash;
+    public Transform dustDashScale;
 
 
     //[Header("Dash Variables")]
@@ -230,14 +232,17 @@ public class Player : MonoBehaviour
         //Dashing left
         if (xInput == -1)
         {
+            dustDashScale.localScale = new Vector3(-1, 1, 1);
             StartCoroutine(dash(-1f));
         }
         else if (xInput == 0)
         {
+            dustDashScale.localScale = new Vector3(1, 1, 1);
             StartCoroutine(dash(1f));
         }
         else if (xInput == 1)
         {
+            dustDashScale.localScale = new Vector3(1, 1, 1);
             StartCoroutine(dash(1f));
         }
 
@@ -250,12 +255,14 @@ public class Player : MonoBehaviour
     IEnumerator dash(float direction)
     {
         isDashing = true;
+        dustDash.Play();
         ghost.makeGhost = true;
         playerRB.velocity = new Vector2(playerRB.velocity.x, 0f);
         playerRB.AddForce(new Vector2(dashDistnace * direction, 0f), ForceMode2D.Impulse);
         float gravity = playerRB.gravityScale;
         yield return new WaitForSeconds(1f);
         isDashing = false;
+        StopDustDash();
         ghost.makeGhost = false;
         playerRB.gravityScale = gravity;
     }
@@ -267,6 +274,16 @@ public class Player : MonoBehaviour
     void CreateDustLand()
     {
         dustLand.Play();
+    }
+
+    void CreateDustDash()
+    {
+        dustDash.Play();
+    }
+
+    void StopDustDash()
+    {
+        dustDash.Stop();
     }
 }
 

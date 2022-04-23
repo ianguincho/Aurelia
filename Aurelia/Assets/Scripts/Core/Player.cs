@@ -238,6 +238,7 @@ public class Player : MonoBehaviour
 
     public void jump(InputAction.CallbackContext context)
     {
+
         if (context.performed && isGrounded())
         {
             playerAnimator.SetBool("IsJumping", true);
@@ -272,10 +273,12 @@ public class Player : MonoBehaviour
         }
         else if (yInput == 1)
         {
+            dustDashScale.localScale = new Vector3(1, 1, 1);
             StartCoroutine(yDash(1f));
         }
         else if (yInput == -1)
         {
+            dustDashScale.localScale = new Vector3(1, -1, 1); 
             StartCoroutine(yDash(-1f));
         }
         else if (xInput == 1 && yInput == 1)
@@ -310,10 +313,10 @@ public class Player : MonoBehaviour
         isDashing = true;
         dustDash.Play();
         ghost.makeGhost = true;
-        playerRB.velocity = new Vector2(0f, playerRB.velocity.y);
+        playerRB.velocity = new Vector2(0f, playerRB.velocity.x * 5f);
         playerRB.AddForce(new Vector2(0f, dashDistnace * direction), ForceMode2D.Impulse);
         float gravity = playerRB.gravityScale;
-        yield return new WaitForSeconds(1f); 
+        yield return new WaitForSeconds(0f); 
         isDashing=false;
         StopDustDash();
         ghost.makeGhost = false; 
@@ -327,7 +330,7 @@ public class Player : MonoBehaviour
         playerRB.velocity = new Vector2(playerRB.velocity.x,playerRB.velocity.y);
         playerRB.AddForce(new Vector2(dashDistnace * xInput, dashDistnace * yInput), ForceMode2D.Impulse);
         float gravity = playerRB.gravityScale;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0f);
         isDashing = false;
         StopDustDash();
         ghost.makeGhost = false;

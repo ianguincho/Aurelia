@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.InputSystem;
+using System;
 
 
 public class Player : MonoBehaviour
@@ -21,6 +22,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float maxMoveSpeed = 25f;
     //[SerializeField] private float groundLinearDrag = 7f;
     private float xInput;
+    private float yInput;
     private int direction = 1;
     
     //wallslide and walljump variables
@@ -30,6 +32,12 @@ public class Player : MonoBehaviour
     public float xWallForce;
     public float yWallForce;
     public float wallJumpTime;
+    public float Acceleration = 7f;
+    public float Decceleration = 7f;
+    public float velPower = .9f;
+    public float gravityScale = 9.81f;
+    public float fallGravityMultiplier = 1.9f;
+
 
     [Header("Climb")]
     public float distance;
@@ -84,6 +92,7 @@ public class Player : MonoBehaviour
         controls = new PlayerControls();
         controls.Enable();
         climbAction = controls.PlayerController.Climb;
+        playerRB.gravityScale = 0f; 
         //Cursor.visible = false;
     }
 
@@ -119,9 +128,17 @@ public class Player : MonoBehaviour
         }
         //end of new code
 
-        
-        if(!isDashing)
-            playerRB.velocity = new Vector2(xInput * maxMoveSpeed, playerRB.velocity.y);
+
+        if (!isDashing) 
+        {
+            float targetSpeed = xInput * maxMoveSpeed;
+            float speedDif = targetSpeed - playerRB.velocity.x;
+            float accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? Acceleration : Decceleration;
+            float movement = Mathf.Pow(Mathf.Abs(speedDif) * accelRate, velPower) * Mathf.Sign(speedDif);
+            playerRB.AddForce(movement * Vector2.right);
+            //playerRB.velocity = new Vector2(xInput * maxMoveSpeed, playerRB.velocity.y);
+        }
+            //playerRB.velocity = new Vector2(xInput * maxMoveSpeed, playerRB.velocity.y);
         RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.right, distance, whatIsLadder);
         if (hitInfo.collider != null)
         {
@@ -186,10 +203,18 @@ public class Player : MonoBehaviour
     }
     public void Fall()
     {
-        if (playerRB.position.y < -1f)
+        if (playerRB.velocity.y < 0)
         {
-            FindObjectOfType<GameManager>().EndGame();
+            playerRB.gravityScale = gravityScale * fallGravityMultiplier;
         }
+        else
+        {
+            playerRB.gravityScale = gravityScale;
+        }
+       // if (playerRB.position.y < -1f)
+       // {
+         //   FindObjectOfType<GameManager>().EndGame();
+        //}
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -201,8 +226,9 @@ public class Player : MonoBehaviour
 
     public void movement(InputAction.CallbackContext context)
     {
-        flip();  
+        flip();
         xInput = context.ReadValue<Vector2>().x;
+        yInput = context.ReadValue<Vector2>().y;
         playerAnimator.SetFloat("Speed", Mathf.Abs(xInput));
    
     }
@@ -225,6 +251,8 @@ public class Player : MonoBehaviour
     }
     public void Dash(InputAction.CallbackContext context)
     {
+    
+        Debug.Log(yInput);
         Debug.Log(xInput);
         //Dashing left
         if (xInput == -1)
@@ -232,16 +260,25 @@ public class Player : MonoBehaviour
             dustDashScale.localScale = new Vector3(-1, 1, 1);
             StartCoroutine(dash(-1f));
         }
-        else if (xInput == 0)
-        {
-            dustDashScale.localScale = new Vector3(1, 1, 1);
-            StartCoroutine(dash(1f));
-        }
         else if (xInput == 1)
         {
             dustDashScale.localScale = new Vector3(1, 1, 1);
             StartCoroutine(dash(1f));
         }
+        else if (yInput == 1)
+        {
+            StartCoroutine(yDash(1f));
+        }
+        else if (yInput == -1)
+        {
+            StartCoroutine(yDash(-1f));
+        }
+        else if (xInput == 1 && yInput == 1)
+        {
+            float angle = Mathf.Atan2(xInput, yInput) * Mathf.Rad2Deg;
+            StartCoroutine(angleDash(1f));
+        }
+        
 
     }
     public void Climb(InputAction.CallbackContext context)
@@ -263,7 +300,34 @@ public class Player : MonoBehaviour
         ghost.makeGhost = false;
         playerRB.gravityScale = gravity;
     }
-
+    IEnumerator yDash(float direction)
+    {
+        isDashing = true;
+        dustDash.Play();
+        ghost.makeGhost = true;
+        playerRB.velocity = new Vector2(0f, playerRB.velocity.y);
+        playerRB.AddForce(new Vector2(0f, dashDistnace * direction), ForceMode2D.Impulse);
+        float gravity = playerRB.gravityScale;
+        yield return new WaitForSeconds(1f); 
+        isDashing=false;
+        StopDustDash();
+        ghost.makeGhost = false; 
+        playerRB.gravityScale = gravity;   
+    }
+    IEnumerator angleDash(float direction)
+    {
+        isDashing = true;
+        dustDash.Play();
+        ghost.makeGhost = true;
+        playerRB.velocity = new Vector2(playerRB.velocity.x,playerRB.velocity.y);
+        playerRB.AddForce(new Vector2(dashDistnace * xInput, dashDistnace * yInput), ForceMode2D.Impulse);
+        float gravity = playerRB.gravityScale;
+        yield return new WaitForSeconds(1f);
+        isDashing = false;
+        StopDustDash();
+        ghost.makeGhost = false;
+        playerRB.gravityScale = gravity;
+    }
     void CreateDust()
     {
         dust.Play();
@@ -283,5 +347,3 @@ public class Player : MonoBehaviour
         dustDash.Stop();
     }
 }
-
-    

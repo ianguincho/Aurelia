@@ -1,126 +1,126 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16289 MB
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 16310 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\2020.3.26f1\Editor\Unity.exe
+Y:\Unity\2020.3.26f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Imp3r/Desktop/Github stuff/CEN4090L-project/Aurelia
+C:/Users/Ardon/OneDrive/Desktop/Desktop/Aurelia
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60434
-Successfully changed project path to: C:/Users/Imp3r/Desktop/Github stuff/CEN4090L-project/Aurelia
-C:/Users/Imp3r/Desktop/Github stuff/CEN4090L-project/Aurelia
+57771
+Successfully changed project path to: C:/Users/Ardon/OneDrive/Desktop/Desktop/Aurelia
+C:/Users/Ardon/OneDrive/Desktop/Desktop/Aurelia
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 85.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 90.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
-[Subsystems] Discovering subsystems at path D:/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Imp3r/Desktop/Github stuff/CEN4090L-project/Aurelia/Assets
+[Subsystems] Discovering subsystems at path Y:/Unity/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ardon/OneDrive/Desktop/Desktop/Aurelia/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Renderer: AMD Radeon RX 6600 XT (ID=0x73ff)
     Vendor:   
-    VRAM:     8010 MB
-    Driver:   30.0.15.1123
+    VRAM:     8147 MB
+    Driver:   30.0.15019.1005
 Initialize mono
-Mono path[0] = 'D:/2020.3.26f1/Editor/Data/Managed'
-Mono path[1] = 'D:/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Mono path[0] = 'Y:/Unity/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'Y:/Unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'Y:/Unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001138 seconds.
+Register platform support module: Y:/Unity/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: Y:/Unity/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001762 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 80.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 90.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.631 seconds
+- Completed reload, in  0.721 seconds
 Domain Reload Profiling:
-	ReloadAssembly (632ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (721ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (513ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (553ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (162ms)
+			SetupTypeCache (168ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (224ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (240ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (94ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005672 seconds.
+Registered in 0.008105 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 81.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 93.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.380 seconds
+- Completed reload, in  1.537 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1381ms)
-		BeginReloadAssembly (145ms)
+	ReloadAssembly (1538ms)
+		BeginReloadAssembly (181ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1177ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1287ms)
+			LoadAssemblies (140ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (393ms)
+			SetupTypeCache (417ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (491ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (542ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (81ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (274ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3893 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.2 MB.
-System memory in use after: 178.4 MB.
+System memory in use before: 164.4 MB.
+System memory in use after: 164.6 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4347.
-Total: 3.557100 ms (FindLiveObjects: 0.270300 ms CreateObjectMapping: 0.197900 ms MarkObjects: 3.059800 ms  DeleteObjects: 0.028100 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4325.
+Total: 4.234800 ms (FindLiveObjects: 0.295500 ms CreateObjectMapping: 0.103300 ms MarkObjects: 3.756500 ms  DeleteObjects: 0.078300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,617 +134,642 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/New MC/jumping/jumping-33.png
-  artifactKey: Guid(862968fc398009544965b81e7a2ae840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-33.png using Guid(862968fc398009544965b81e7a2ae840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0993598de70dcec310fdda074970bce8') in 0.190489 seconds 
-  Import took 0.198175 seconds .
+  path: Assets/Scenes/Level 0.unity
+  artifactKey: Guid(ffb358d845c57614ab6432ef07bc94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 0.unity using Guid(ffb358d845c57614ab6432ef07bc94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a5734c6ad2bb8700901fb28c04744d') in 0.021289 seconds 
+  Import took 0.026582 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
+  Time since last request: 209.933939 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(b24d194cf9e798c4dbd8dd2583997fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(b24d194cf9e798c4dbd8dd2583997fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3b284c0d7792adc21669ed7dc1f97f') in 0.008970 seconds 
+  Import took 0.014301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.729457 seconds.
+  path: Assets/Scenes/Level 2.unity
+  artifactKey: Guid(3f7d952cbfeed8945b118cbf842e9092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2.unity using Guid(3f7d952cbfeed8945b118cbf842e9092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d205bed051a83baf97e4a5b4e88f44') in 0.009465 seconds 
+  Import took 0.014784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.771887 seconds.
+  path: Assets/Scripts/Core
+  artifactKey: Guid(9710fd6d9c9a867428838a570aea147c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core using Guid(9710fd6d9c9a867428838a570aea147c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3780ad2dbb23b7a32694a992784940') in 0.008481 seconds 
+  Import took 0.013876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.581316 seconds.
+  path: Assets/Scripts/Core/Player.cs
+  artifactKey: Guid(b7bc65d0ed6136a4ea53c932cd63d59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Player.cs using Guid(b7bc65d0ed6136a4ea53c932cd63d59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39dd80c01907d7bf0e91cb802a4eba8') in 0.031133 seconds 
+  Import took 0.036519 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007298 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1330ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1107ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (393ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (292ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.6 MB.
+System memory in use after: 155.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4327.
+Total: 4.030900 ms (FindLiveObjects: 0.290900 ms CreateObjectMapping: 0.101900 ms MarkObjects: 3.618500 ms  DeleteObjects: 0.018500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 92.142376 seconds.
+  path: Assets/Scripts/Core/Player.cs
+  artifactKey: Guid(b7bc65d0ed6136a4ea53c932cd63d59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Player.cs using Guid(b7bc65d0ed6136a4ea53c932cd63d59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6673d4ea7e43a37a1314ac99574e8f73') in 0.007053 seconds 
+  Import took 0.012548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 688.646741 seconds.
+  path: Assets/New MC/jumping/jumping-01.png
+  artifactKey: Guid(c9697b55a2b560345b5b493c08db1c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-01.png using Guid(c9697b55a2b560345b5b493c08db1c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebb7620f3e46092ac330007cd5720f0') in 0.094325 seconds 
+  Import took 0.100269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/New MC/jumping/jumping-35.png
+  artifactKey: Guid(1404d8a1e6c329a4bbc7cc5e0f0f9952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-35.png using Guid(1404d8a1e6c329a4bbc7cc5e0f0f9952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd182e3f299ebafb6d7ee22c933a440ec') in 0.016275 seconds 
+  Import took 0.021769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
   path: Assets/New MC/jumping/jumping-02.png
   artifactKey: Guid(6dc209c6f20c004449128fcf383845ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-02.png using Guid(6dc209c6f20c004449128fcf383845ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45790462214d8b2a232e684bdcdee70') in 0.025100 seconds 
-  Import took 0.031875 seconds .
+Start importing Assets/New MC/jumping/jumping-02.png using Guid(6dc209c6f20c004449128fcf383845ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf433a32730a1d486e42ffba6edaf75e') in 0.015538 seconds 
+  Import took 0.020921 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000176 seconds.
+  Time since last request: 0.000190 seconds.
   path: Assets/New MC/jumping/jumping-31.png
   artifactKey: Guid(3ab3eaed792c0c44ea3ffb282c7314fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-31.png using Guid(3ab3eaed792c0c44ea3ffb282c7314fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944a89b01cbd0f7cfd8db6f4fa273a4e') in 0.015909 seconds 
-  Import took 0.023191 seconds .
+Start importing Assets/New MC/jumping/jumping-31.png using Guid(3ab3eaed792c0c44ea3ffb282c7314fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175e7a39c9c9a9649e6d00fb93427340') in 0.015673 seconds 
+  Import took 0.021827 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Background Images/1080p-anime-city-wallpapers-wallpaper-cave.jpg
-  artifactKey: Guid(80c75eafd24945648a35e74eb58f475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background Images/1080p-anime-city-wallpapers-wallpaper-cave.jpg using Guid(80c75eafd24945648a35e74eb58f475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6e1c6bdd2954573b67ee8902d70355') in 0.027570 seconds 
-  Import took 0.035007 seconds .
+  Time since last request: 0.000208 seconds.
+  path: Assets/New MC/jumping/jumping-28.png
+  artifactKey: Guid(8d368a84933f4464094d02cb11ea738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-28.png using Guid(8d368a84933f4464094d02cb11ea738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c169d3e60b9f263f8cf9f7b4f5274fe4') in 0.015759 seconds 
+  Import took 0.021292 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/New MC/falling/falling-34.png
-  artifactKey: Guid(3bbf42a4c81f0414a84873ded742193e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-34.png using Guid(3bbf42a4c81f0414a84873ded742193e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534834e076db3684b8b1b613517eb294') in 0.016964 seconds 
-  Import took 0.023125 seconds .
+  Time since last request: 0.000195 seconds.
+  path: Assets/New MC/jumping/jumping-08.png
+  artifactKey: Guid(d3bc1ca9c1ec4e840b2c17a7b4376e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-08.png using Guid(d3bc1ca9c1ec4e840b2c17a7b4376e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83fde5f45a4e5d1b9756f792fef55a06') in 0.014567 seconds 
+  Import took 0.019943 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
-  artifactKey: Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg using Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3d8fb08944347a21c54f4d0b37eb58') in 0.020371 seconds 
-  Import took 0.027314 seconds .
+  Time since last request: 0.000230 seconds.
+  path: Assets/New MC/jumping/jumping-13.png
+  artifactKey: Guid(495781678172d7a48a39680a0838663d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-13.png using Guid(495781678172d7a48a39680a0838663d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31662186af3390c2b3fa717b83f3c8df') in 0.016630 seconds 
+  Import took 0.022807 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/New MC/jumping/jumping-21.png
-  artifactKey: Guid(8dfa94e1bb31e124bbaa43e498d4a2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-21.png using Guid(8dfa94e1bb31e124bbaa43e498d4a2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662d4aa6ab62d1b90a17ec1b76f05dab') in 0.011385 seconds 
-  Import took 0.018442 seconds .
+  Time since last request: 0.000235 seconds.
+  path: Assets/New MC/jumping/jumping-16.png
+  artifactKey: Guid(3a9c9950ebb9fdb478f7e7ca0539dcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-16.png using Guid(3a9c9950ebb9fdb478f7e7ca0539dcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d8ae4d9f66e84b5e0eb196d72b1d1a') in 0.015607 seconds 
+  Import took 0.021313 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/New MC/idle/Idle-0002.png
-  artifactKey: Guid(79ed9e6b58ce8e04ebabdbb0b089a5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/idle/Idle-0002.png using Guid(79ed9e6b58ce8e04ebabdbb0b089a5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad74967f55f6ea904469b40a41e17194') in 0.023432 seconds 
-  Import took 0.031375 seconds .
+  Time since last request: 0.000197 seconds.
+  path: Assets/New MC/jumping/jumping-06.png
+  artifactKey: Guid(7167e1158e37de9428bede5fd58c3d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-06.png using Guid(7167e1158e37de9428bede5fd58c3d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02276f833d52c9fbf8b61552d7c1d3f3') in 0.014755 seconds 
+  Import took 0.020147 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/New MC/falling/falling-30.png
-  artifactKey: Guid(4b4e7ef254cf8f0438edc2c3572e019b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-30.png using Guid(4b4e7ef254cf8f0438edc2c3572e019b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7914747fe15bb11bdf9e37e308f914') in 0.041615 seconds 
-  Import took 0.049634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Background Images/InkedWallpaperDog-962261_LI.jpg
-  artifactKey: Guid(4db34b6d8a5cdaf4b8c1274d0416a106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background Images/InkedWallpaperDog-962261_LI.jpg using Guid(4db34b6d8a5cdaf4b8c1274d0416a106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa577838b2c93d6c6081086857419e6') in 0.058450 seconds 
-  Import took 0.072775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
+  Time since last request: 0.000229 seconds.
   path: Assets/New MC/jumping/jumping-26.png
   artifactKey: Guid(dfe2d3715359d824c9c02646287e519b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-26.png using Guid(dfe2d3715359d824c9c02646287e519b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13da06719d2c318dcbfce069795e19f3') in 0.013521 seconds 
-  Import took 0.020358 seconds .
+Start importing Assets/New MC/jumping/jumping-26.png using Guid(dfe2d3715359d824c9c02646287e519b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e1c2520fb60c406ad173a1c2bf8de9') in 0.014385 seconds 
+  Import took 0.020040 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000150 seconds.
+  Time since last request: 0.000306 seconds.
   path: Assets/New MC/jumping/jumping-10.png
   artifactKey: Guid(dabe2d2457583a14987ce71fb620009b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-10.png using Guid(dabe2d2457583a14987ce71fb620009b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cf0867a8e1523886f5eebff4906703') in 0.016134 seconds 
-  Import took 0.023255 seconds .
+Start importing Assets/New MC/jumping/jumping-10.png using Guid(dabe2d2457583a14987ce71fb620009b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f86afef09cddba2306b29c7a3fe84b8') in 0.014326 seconds 
+  Import took 0.019775 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Martial Hero/Sprites/Fall.png
-  artifactKey: Guid(ab9c6780bd1ac3c4fb318722a17a5862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Fall.png using Guid(ab9c6780bd1ac3c4fb318722a17a5862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4af8bec94676a406fd3da9c248b5762') in 0.029922 seconds 
-  Import took 0.037527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/New MC/falling/falling-23.png
-  artifactKey: Guid(eafe8a1270ee58343836b0a3ce0cb130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-23.png using Guid(eafe8a1270ee58343836b0a3ce0cb130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f36259d60c7743d991e3ec33088673e') in 0.016907 seconds 
-  Import took 0.025676 seconds .
+  Time since last request: 0.000211 seconds.
+  path: Assets/New MC/jumping/jumping-14.png
+  artifactKey: Guid(3fb417d8193f5c34799e694b38b85a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-14.png using Guid(3fb417d8193f5c34799e694b38b85a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f437494d1c3eca29b965413f0bdcf259') in 0.015435 seconds 
+  Import took 0.021453 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000210 seconds.
   path: Assets/New MC/jumping/jumping-15.png
   artifactKey: Guid(1e7fd84a553a16541812a663de4625c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-15.png using Guid(1e7fd84a553a16541812a663de4625c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0753780f4f8692356889d69979f96b') in 0.013057 seconds 
-  Import took 0.022396 seconds .
+Start importing Assets/New MC/jumping/jumping-15.png using Guid(1e7fd84a553a16541812a663de4625c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cbf7789fdef341919e73eda942558a') in 0.014720 seconds 
+  Import took 0.020150 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/New MC/jumping/jumping-17.png
-  artifactKey: Guid(cf2e36189da08884d99e0b452b544bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-17.png using Guid(cf2e36189da08884d99e0b452b544bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507aefa12188da53af8db68e8acfa91b') in 0.014686 seconds 
-  Import took 0.025048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/New MC/falling/falling-26.png
-  artifactKey: Guid(663e038c6af48274e9e4c6e061859d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-26.png using Guid(663e038c6af48274e9e4c6e061859d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89ad58f40b20f8a2c9563d57c7e87f5') in 0.023503 seconds 
-  Import took 0.031956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/New MC/falling/falling-29.png
-  artifactKey: Guid(948b6adf4e5ce5f40a011eba35e12362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-29.png using Guid(948b6adf4e5ce5f40a011eba35e12362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511a8617006e9ac6a455e9067c587b65') in 0.020069 seconds 
-  Import took 0.029482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/New MC/jumping/jumping-34.png
-  artifactKey: Guid(28706ca80191c0c469d440ab2d259240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-34.png using Guid(28706ca80191c0c469d440ab2d259240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10eff01d5adc4a9096e5433cca2d4eeb') in 0.035815 seconds 
-  Import took 0.044933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/New MC/falling/falling-31.png
-  artifactKey: Guid(f6222b5a5c850014fafd51883f544551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-31.png using Guid(f6222b5a5c850014fafd51883f544551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7969f767ce23a13344ff0b59e92480') in 0.020777 seconds 
-  Import took 0.086667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/New MC/jumping/jumping-07.png
-  artifactKey: Guid(7717197af018b244b82376a231a87296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-07.png using Guid(7717197af018b244b82376a231a87296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8e0bdfae1279741cfe55c27d9ae423') in 0.021851 seconds 
-  Import took 0.031050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/New MC/jumping/jumping-30.png
-  artifactKey: Guid(fed2094959ecd114e871a0b69c9d30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-30.png using Guid(fed2094959ecd114e871a0b69c9d30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766a619311144267a365147ce3429a95') in 0.032694 seconds 
-  Import took 0.043158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/New MC/falling/falling-33.png
-  artifactKey: Guid(b4675912e76ff15499c19be9887796e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-33.png using Guid(b4675912e76ff15499c19be9887796e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34f2dd035b34f6250806c5c8e93ecd9') in 0.022147 seconds 
-  Import took 0.036482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/New MC/falling/falling-37.png
-  artifactKey: Guid(1bfa531679c57bc4ba6568a2f22884aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-37.png using Guid(1bfa531679c57bc4ba6568a2f22884aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e23762603f8837192debc4627b51bb') in 0.031310 seconds 
-  Import took 0.038587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/New MC/jumping/jumping-20.png
-  artifactKey: Guid(e902820568924b246804463971bf024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-20.png using Guid(e902820568924b246804463971bf024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39169c7ba992cc6a6ad49ad7107708ca') in 0.015768 seconds 
-  Import took 0.023759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/New MC/falling/falling-00.png
-  artifactKey: Guid(bdfe98384f3dfaa428c7255a553cbf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-00.png using Guid(bdfe98384f3dfaa428c7255a553cbf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacc398498eeb4ced392b9f0af9b7643') in 0.020290 seconds 
-  Import took 0.034370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/New MC/jumping/jumping-24.png
-  artifactKey: Guid(9d38f6cf3fcd954488cd3b0d48e33c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-24.png using Guid(9d38f6cf3fcd954488cd3b0d48e33c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43560cb8332a5547e1e501c0787d2b7e') in 0.024073 seconds 
-  Import took 0.032389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
-  artifactKey: Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg using Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e756d73471e4c91fc03759ffb48ea37') in 0.036959 seconds 
-  Import took 0.044810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/New MC/jumping/jumping-36.png
-  artifactKey: Guid(42a0b8bb7332077468f246739e2e1d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-36.png using Guid(42a0b8bb7332077468f246739e2e1d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624c4c41f8aab0c57025c5a3b6ab5b16') in 0.019880 seconds 
-  Import took 0.032020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Background Images/6196593.jpg
-  artifactKey: Guid(79c5b53d240de8341882619b6096b394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background Images/6196593.jpg using Guid(79c5b53d240de8341882619b6096b394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1163fc2e145400dccaa87fb3ce0f6b7e') in 0.020692 seconds 
-  Import took 0.028342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/New MC/jumping/jumping-18.png
-  artifactKey: Guid(dc296fd99926be641b0fce6920592bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-18.png using Guid(dc296fd99926be641b0fce6920592bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2557e707a97fe1044f165844d03629') in 0.014901 seconds 
-  Import took 0.023631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/New MC/falling/falling-36.png
-  artifactKey: Guid(28cb9e7d0ee2d8b40ae1d95b8994a790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-36.png using Guid(28cb9e7d0ee2d8b40ae1d95b8994a790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9162096a91cef897d045f33b88f9ff2e') in 0.022584 seconds 
-  Import took 0.030401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/New MC/jumping/jumping-32.png
-  artifactKey: Guid(a3b20049e776f2e47af00289baf6ae13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-32.png using Guid(a3b20049e776f2e47af00289baf6ae13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ed5c27e31b9fec464a5f9eb5782550') in 0.027002 seconds 
-  Import took 0.038189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000479 seconds.
-  path: Assets/New MC/jumping/jumping-23.png
-  artifactKey: Guid(79cc62bfd9ab86e46af7c145cab1a980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-23.png using Guid(79cc62bfd9ab86e46af7c145cab1a980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9663153043632c023425e73c8499519c') in 0.017894 seconds 
-  Import took 0.032359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/New MC/falling/falling-21.png
-  artifactKey: Guid(66830931b9c48c84bbc26e1462154d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-21.png using Guid(66830931b9c48c84bbc26e1462154d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62270d026e4508f0b2c0ab755ac4488') in 0.024088 seconds 
-  Import took 0.035880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/New MC/jumping/jumping-35.png
-  artifactKey: Guid(1404d8a1e6c329a4bbc7cc5e0f0f9952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-35.png using Guid(1404d8a1e6c329a4bbc7cc5e0f0f9952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658c1c4a426a9ead03134edcc8941dec') in 0.021461 seconds 
-  Import took 0.030938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Martial Hero/Sprites/Attack1.png
-  artifactKey: Guid(c50b517797d93614aac4ca58aaf97355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Attack1.png using Guid(c50b517797d93614aac4ca58aaf97355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb198194186446ef5fd6aac6707afa9') in 0.056606 seconds 
-  Import took 0.066687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
-  artifactKey: Guid(bb8dfcd263ad4eb383a33d74a720be6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd using Guid(bb8dfcd263ad4eb383a33d74a720be6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb5451d7ebfdfc4bb5ffbddb8de6dcf') in 0.211261 seconds 
-  Import took 0.227765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
-  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad55f4f795a4f7d4d0a1a781720049e5') in 0.109314 seconds 
-  Import took 0.115645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Background Images/2122580.png
-  artifactKey: Guid(301e28b919ef5704f80fbb8f69275b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background Images/2122580.png using Guid(301e28b919ef5704f80fbb8f69275b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e58bff1ea681a732737576f2d6f23f') in 0.048253 seconds 
-  Import took 0.057984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
-  artifactKey: Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg using Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbbe13bbac53cb068f374a733df5e02') in 0.016800 seconds 
-  Import took 0.025088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/New MC/falling/falling-25.png
-  artifactKey: Guid(394e1a68612b3a44a8fe4a674abf538c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-25.png using Guid(394e1a68612b3a44a8fe4a674abf538c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1978a328e22a497b6d7934a897dc00c4') in 0.026342 seconds 
-  Import took 0.034344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/New MC/jumping/jumping-08.png
-  artifactKey: Guid(d3bc1ca9c1ec4e840b2c17a7b4376e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-08.png using Guid(d3bc1ca9c1ec4e840b2c17a7b4376e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f800a2c397d8305a34b682f2969ab4d') in 0.024837 seconds 
-  Import took 0.031353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
-  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a3f15e7aba18f0f9a257da23d69d28') in 0.026624 seconds 
-  Import took 0.036622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/New MC/jumping/jumping-13.png
-  artifactKey: Guid(495781678172d7a48a39680a0838663d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-13.png using Guid(495781678172d7a48a39680a0838663d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26aee5707430c83685a7031b2acee51e') in 0.016015 seconds 
-  Import took 0.025606 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/New MC/jumping/jumping-16.png
-  artifactKey: Guid(3a9c9950ebb9fdb478f7e7ca0539dcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-16.png using Guid(3a9c9950ebb9fdb478f7e7ca0539dcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c90db7825b69d51d9547afd783e8be') in 0.012837 seconds 
-  Import took 0.022972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
-  artifactKey: Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg using Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33770a93e1be17f80afdaea7e54449be') in 0.018341 seconds 
-  Import took 0.026881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Martial Hero/Sprites/Death.png
-  artifactKey: Guid(1db9a306592ac9545975fcdd51459943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Death.png using Guid(1db9a306592ac9545975fcdd51459943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2394d3e82420c433d8c49c5756e10f') in 0.043834 seconds 
-  Import took 0.049379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
-  artifactKey: Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd using Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44545572835759d5767dd68289bc8cf6') in 0.020862 seconds 
-  Import took 0.029220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/New MC/jumping/jumping-14.png
-  artifactKey: Guid(3fb417d8193f5c34799e694b38b85a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-14.png using Guid(3fb417d8193f5c34799e694b38b85a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f502e9348f31df38f01c627be5a5478') in 0.011900 seconds 
-  Import took 0.020512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/New MC/idle/Idle-0003.png
-  artifactKey: Guid(ba8aa5d55b90f01498da91bae05b0b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/idle/Idle-0003.png using Guid(ba8aa5d55b90f01498da91bae05b0b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72937d0fd8708eeb6e8ce217393f340f') in 0.012664 seconds 
-  Import took 0.020675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a1c9ee80c83782b9dbbf2f31188f01') in 0.010944 seconds 
-  Import took 0.017679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
+  Time since last request: 0.000186 seconds.
   path: Assets/New MC/jumping/jumping-03.png
   artifactKey: Guid(34ca20f35f787ab46bcb7cf4230cc0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-03.png using Guid(34ca20f35f787ab46bcb7cf4230cc0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5527a4a5bda59a4cc7c7742174a59c0d') in 0.027976 seconds 
-  Import took 0.035287 seconds .
+Start importing Assets/New MC/jumping/jumping-03.png using Guid(34ca20f35f787ab46bcb7cf4230cc0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9625b7d9dee28557fff3a37c5cfb05') in 0.014635 seconds 
+  Import took 0.020180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/New MC/jumping/jumping-17.png
+  artifactKey: Guid(cf2e36189da08884d99e0b452b544bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-17.png using Guid(cf2e36189da08884d99e0b452b544bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0842c64e22894e17dd7b79b71c3cbaca') in 0.015439 seconds 
+  Import took 0.021375 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000237 seconds.
+  path: Assets/New MC/jumping/jumping-20.png
+  artifactKey: Guid(e902820568924b246804463971bf024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-20.png using Guid(e902820568924b246804463971bf024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18ad85fb06d18b7b66826d2b8fa4d4f') in 0.017780 seconds 
+  Import took 0.023497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
   path: Assets/New MC/jumping/jumping-29.png
   artifactKey: Guid(d82b18f4af5c35e47a8c5befa4db07b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-29.png using Guid(d82b18f4af5c35e47a8c5befa4db07b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32f69132e579fe15818c31eef034392') in 0.035539 seconds 
-  Import took 0.042530 seconds .
+Start importing Assets/New MC/jumping/jumping-29.png using Guid(d82b18f4af5c35e47a8c5befa4db07b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd5e9039beef78bdbcb9e4b41ac19da') in 0.015675 seconds 
+  Import took 0.021585 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/New MC/jumping/jumping-19.png
-  artifactKey: Guid(23433bf0aecb4cd44b8be3e9c348d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-19.png using Guid(23433bf0aecb4cd44b8be3e9c348d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3789ae76dfdc36a817bc284a015b53f8') in 0.011050 seconds 
-  Import took 0.017914 seconds .
+  Time since last request: 0.000228 seconds.
+  path: Assets/New MC/jumping/jumping-07.png
+  artifactKey: Guid(7717197af018b244b82376a231a87296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-07.png using Guid(7717197af018b244b82376a231a87296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1319abb04a482d1f9a4240d1b3acd325') in 0.015412 seconds 
+  Import took 0.021166 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Background Images/JapanesePixelArt.png
-  artifactKey: Guid(2a07fe44bddfae144a1ff7c68b79e728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background Images/JapanesePixelArt.png using Guid(2a07fe44bddfae144a1ff7c68b79e728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7ecdf898fc302804bde8f2a11798e8') in 0.051088 seconds 
-  Import took 0.058497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/New MC/climbing/ClimbRight-0002.png
-  artifactKey: Guid(18fcb2dee7e2ce142b084296a172da9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/climbing/ClimbRight-0002.png using Guid(18fcb2dee7e2ce142b084296a172da9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b015f2fc5c103ef12d01e9e46c2eeff') in 0.014575 seconds 
-  Import took 0.020779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
-  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0c19df96bbe0a318cdc01a35effa64') in 0.018129 seconds 
-  Import took 0.025445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/New MC/falling/falling-28.png
-  artifactKey: Guid(822593391d490394a8327591b533721c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-28.png using Guid(822593391d490394a8327591b533721c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085258e236cfc8facb8c9af5e039dca1') in 0.026323 seconds 
-  Import took 0.032919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Martial Hero/Sprites/Idle.png
-  artifactKey: Guid(0bd97e23f8b532a4f8969605a3b00a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Idle.png using Guid(0bd97e23f8b532a4f8969605a3b00a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0836f1dba9b6d0ba936100bb4e62004') in 0.091953 seconds 
-  Import took 0.098948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/New MC/jumping/jumping-05.png
-  artifactKey: Guid(3525469ed582d694bb777291ffd376fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-05.png using Guid(3525469ed582d694bb777291ffd376fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8779ae7d9218ea623265edd5c50fb998') in 0.024019 seconds 
-  Import took 0.030984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/New MC/jumping/jumping-22.png
-  artifactKey: Guid(5e2ac8c92fdfe1a4b84e3753cdb5797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-22.png using Guid(5e2ac8c92fdfe1a4b84e3753cdb5797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c16704a28bbf767b02b5ce1c0c4279') in 0.011929 seconds 
-  Import took 0.018510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/New MC/jumping/jumping-27.png
-  artifactKey: Guid(740f06c22a8fabd42bd6524abc41ef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-27.png using Guid(740f06c22a8fabd42bd6524abc41ef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306f2ccd05a2d46be295ae6f70588886') in 0.011566 seconds 
-  Import took 0.018219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Martial Hero/Sprites/Jump.png
-  artifactKey: Guid(efffe4e87e655434db7d78f603ef99bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Jump.png using Guid(efffe4e87e655434db7d78f603ef99bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9fb696905c3a550d4b43f004c0d200') in 0.023532 seconds 
-  Import took 0.030606 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/New MC/falling/falling-32.png
-  artifactKey: Guid(4ffad619fd77ce44abddbec17179b1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-32.png using Guid(4ffad619fd77ce44abddbec17179b1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeeb5fd940495d71591eb5a4ac3dc749') in 0.033308 seconds 
-  Import took 0.039416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Martial Hero/Sprites/Attack2.png
-  artifactKey: Guid(aec5070f5cb24b24e9fbdf06b0d1faf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Attack2.png using Guid(aec5070f5cb24b24e9fbdf06b0d1faf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cc47e9586fe185eb7a9055fc9f2252') in 0.062827 seconds 
-  Import took 0.068071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/New MC/falling/falling-24.png
-  artifactKey: Guid(a69e0ac9344b31c40a9666ea53d694ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-24.png using Guid(a69e0ac9344b31c40a9666ea53d694ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3c0b7c52baec1432a4640e8f4a2e6d') in 0.015267 seconds 
-  Import took 0.021872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/New MC/falling/falling-22.png
-  artifactKey: Guid(998ccd216d778b14d9ce511a99b4c5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-22.png using Guid(998ccd216d778b14d9ce511a99b4c5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358cb0cd74bedf9377db2f6f067c4ba7') in 0.022223 seconds 
-  Import took 0.028493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/New MC/falling/falling-27.png
-  artifactKey: Guid(5bc7deb560e23dd4d98993b429401c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-27.png using Guid(5bc7deb560e23dd4d98993b429401c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f12964ee35ba1fd0fa9b2ae55a6e2fd') in 0.022456 seconds 
-  Import took 0.029411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Background Images/city1.jpg
-  artifactKey: Guid(7435656657ed090429a00e9456c0efb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background Images/city1.jpg using Guid(7435656657ed090429a00e9456c0efb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8f85f47bd8c368758f258136dedeb2') in 0.025755 seconds 
-  Import took 0.031478 seconds .
+  Time since last request: 0.000203 seconds.
+  path: Assets/New MC/jumping/jumping-30.png
+  artifactKey: Guid(fed2094959ecd114e871a0b69c9d30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-30.png using Guid(fed2094959ecd114e871a0b69c9d30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c75c4aee882b8fa79f1336fef4502c') in 0.014644 seconds 
+  Import took 0.020264 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000220 seconds.
-  path: Assets/New MC/falling/falling-35.png
-  artifactKey: Guid(0f5de97fbe97119498bb035bbb35596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/falling/falling-35.png using Guid(0f5de97fbe97119498bb035bbb35596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be4c30c8db9ef7e4cf4dede4326df62') in 0.016094 seconds 
-  Import took 0.022752 seconds .
+  path: Assets/New MC/jumping/jumping-19.png
+  artifactKey: Guid(23433bf0aecb4cd44b8be3e9c348d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-19.png using Guid(23433bf0aecb4cd44b8be3e9c348d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051ae2a7e3f379cc6305e66bf723a3ff') in 0.014557 seconds 
+  Import took 0.020397 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/New MC/jumping/jumping-12.png
-  artifactKey: Guid(a43b842a16fe5404abf1cd337ce4d748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-12.png using Guid(a43b842a16fe5404abf1cd337ce4d748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e639b7423c12261e3819388fe3279665') in 0.011502 seconds 
-  Import took 0.018982 seconds .
+  Time since last request: 0.000233 seconds.
+  path: Assets/New MC/jumping/jumping-22.png
+  artifactKey: Guid(5e2ac8c92fdfe1a4b84e3753cdb5797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-22.png using Guid(5e2ac8c92fdfe1a4b84e3753cdb5797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc823d8a37818eb86f6dfe032d53a3de') in 0.016262 seconds 
+  Import took 0.022456 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
-  artifactKey: Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg using Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cedca25f0c5c5ba1eff6f1b93a47286') in 0.018715 seconds 
-  Import took 0.023956 seconds .
+  Time since last request: 0.000277 seconds.
+  path: Assets/New MC/jumping/jumping-24.png
+  artifactKey: Guid(9d38f6cf3fcd954488cd3b0d48e33c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-24.png using Guid(9d38f6cf3fcd954488cd3b0d48e33c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4173b02d21f6360e22eca40c92147e5d') in 0.015831 seconds 
+  Import took 0.021886 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/New MC/jumping/jumping-04.png
-  artifactKey: Guid(f22e1e82ea629fc40a74b3f01ac6b599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-04.png using Guid(f22e1e82ea629fc40a74b3f01ac6b599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2aafdde64aa12258fce77f1946ae48') in 0.015766 seconds 
-  Import took 0.020779 seconds .
+  Time since last request: 0.000204 seconds.
+  path: Assets/New MC/jumping/jumping-27.png
+  artifactKey: Guid(740f06c22a8fabd42bd6524abc41ef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-27.png using Guid(740f06c22a8fabd42bd6524abc41ef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d398bd889238269753e12188fd2cc9') in 0.015828 seconds 
+  Import took 0.021232 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/New MC/jumping/jumping-11.png
-  artifactKey: Guid(4df44e737459440459b6c77675e35863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-11.png using Guid(4df44e737459440459b6c77675e35863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a391a0f63dfdf4f3f8eae0f28713717e') in 0.011415 seconds 
-  Import took 0.018200 seconds .
+  Time since last request: 0.000215 seconds.
+  path: Assets/New MC/jumping/jumping-05.png
+  artifactKey: Guid(3525469ed582d694bb777291ffd376fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-05.png using Guid(3525469ed582d694bb777291ffd376fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5123c82c674d7db4f4c71dddbbd12602') in 0.015849 seconds 
+  Import took 0.021336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/New MC/jumping/jumping-36.png
+  artifactKey: Guid(42a0b8bb7332077468f246739e2e1d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-36.png using Guid(42a0b8bb7332077468f246739e2e1d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0b71966305690944f85bc73edd37e9') in 0.014813 seconds 
+  Import took 0.020461 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000213 seconds.
+  path: Assets/New MC/jumping/jumping-34.png
+  artifactKey: Guid(28706ca80191c0c469d440ab2d259240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-34.png using Guid(28706ca80191c0c469d440ab2d259240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757a1bc05ba4e3bf9c33a15de389630c') in 0.015435 seconds 
+  Import took 0.020850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/New MC/jumping/jumping-18.png
+  artifactKey: Guid(dc296fd99926be641b0fce6920592bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-18.png using Guid(dc296fd99926be641b0fce6920592bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba8c52f75ad39c4ce98f1d4cf488ee9') in 0.015358 seconds 
+  Import took 0.020916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/New MC/jumping/jumping-21.png
+  artifactKey: Guid(8dfa94e1bb31e124bbaa43e498d4a2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-21.png using Guid(8dfa94e1bb31e124bbaa43e498d4a2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cace92a7392a9d19c1301bd924e74407') in 0.013877 seconds 
+  Import took 0.019546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/New MC/jumping/jumping-04.png
+  artifactKey: Guid(f22e1e82ea629fc40a74b3f01ac6b599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-04.png using Guid(f22e1e82ea629fc40a74b3f01ac6b599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc2e54b20b44fd47a8e4c67732154a9') in 0.014715 seconds 
+  Import took 0.021725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/New MC/jumping/jumping-32.png
+  artifactKey: Guid(a3b20049e776f2e47af00289baf6ae13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-32.png using Guid(a3b20049e776f2e47af00289baf6ae13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402d535bfc1b225b683f4b4cd1cf387e') in 0.014296 seconds 
+  Import took 0.019964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/New MC/jumping/jumping-12.png
+  artifactKey: Guid(a43b842a16fe5404abf1cd337ce4d748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-12.png using Guid(a43b842a16fe5404abf1cd337ce4d748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12705a7b39c784ce0cd76a496dda401') in 0.014936 seconds 
+  Import took 0.020501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
   path: Assets/New MC/jumping/jumping-09.png
   artifactKey: Guid(26ede57ddf66ef246bbef4d00596c76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-09.png using Guid(26ede57ddf66ef246bbef4d00596c76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425d0a551c7bf1a06703846195335f9b') in 0.015014 seconds 
-  Import took 0.021389 seconds .
+Start importing Assets/New MC/jumping/jumping-09.png using Guid(26ede57ddf66ef246bbef4d00596c76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7140cd305075d250e6919f88a839c99b') in 0.015058 seconds 
+  Import took 0.020412 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000181 seconds.
+  path: Assets/New MC/jumping/jumping-11.png
+  artifactKey: Guid(4df44e737459440459b6c77675e35863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-11.png using Guid(4df44e737459440459b6c77675e35863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fdd0c87fbd14e4833e43ba6f868759') in 0.014941 seconds 
+  Import took 0.020993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/New MC/jumping/jumping-33.png
+  artifactKey: Guid(862968fc398009544965b81e7a2ae840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-33.png using Guid(862968fc398009544965b81e7a2ae840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e972ac9ce684f92862399e213513fccc') in 0.015421 seconds 
+  Import took 0.020965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/New MC/jumping/jumping-23.png
+  artifactKey: Guid(79cc62bfd9ab86e46af7c145cab1a980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-23.png using Guid(79cc62bfd9ab86e46af7c145cab1a980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326b7f59e90c66810d66fb3a5832066d') in 0.015451 seconds 
+  Import took 0.021013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
   path: Assets/New MC/jumping/jumping-25.png
   artifactKey: Guid(9d29eec54bc29204a9d3b8edea1bcaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New MC/jumping/jumping-25.png using Guid(9d29eec54bc29204a9d3b8edea1bcaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e640b19d84a4651ee8de775b2fbf009') in 0.010740 seconds 
-  Import took 0.015870 seconds .
+Start importing Assets/New MC/jumping/jumping-25.png using Guid(9d29eec54bc29204a9d3b8edea1bcaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadce428f811708a23c3fece336af041') in 0.015591 seconds 
+  Import took 0.021774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 634.701988 seconds.
+  path: Assets/New MC/jumping/jumping-01.png
+  artifactKey: Guid(c9697b55a2b560345b5b493c08db1c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-01.png using Guid(c9697b55a2b560345b5b493c08db1c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2760adfb9a3b3597d9284b6f70bbd191') in 0.019752 seconds 
+  Import took 0.025760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/New MC/jumping/jumping-02.png
+  artifactKey: Guid(6dc209c6f20c004449128fcf383845ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-02.png using Guid(6dc209c6f20c004449128fcf383845ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7ab0d4868b8a62ee9bc1442e550ee8') in 0.012902 seconds 
+  Import took 0.018061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/New MC/jumping/jumping-31.png
+  artifactKey: Guid(3ab3eaed792c0c44ea3ffb282c7314fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-31.png using Guid(3ab3eaed792c0c44ea3ffb282c7314fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd67aa36408cd0c2ec219a6dfb79cdc5') in 0.014914 seconds 
+  Import took 0.020393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/New MC/jumping/jumping-28.png
+  artifactKey: Guid(8d368a84933f4464094d02cb11ea738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-28.png using Guid(8d368a84933f4464094d02cb11ea738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa4abb8a34cd04edc04e1e63823f7bc') in 0.010424 seconds 
+  Import took 0.016100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/New MC/jumping/jumping-08.png
+  artifactKey: Guid(d3bc1ca9c1ec4e840b2c17a7b4376e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-08.png using Guid(d3bc1ca9c1ec4e840b2c17a7b4376e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b01989a16fc6765b503055fd6754d77') in 0.013427 seconds 
+  Import took 0.018596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/New MC/jumping/jumping-13.png
+  artifactKey: Guid(495781678172d7a48a39680a0838663d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-13.png using Guid(495781678172d7a48a39680a0838663d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f33c7f5cbd69694d849436437ec311') in 0.011584 seconds 
+  Import took 0.016696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/New MC/jumping/jumping-16.png
+  artifactKey: Guid(3a9c9950ebb9fdb478f7e7ca0539dcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-16.png using Guid(3a9c9950ebb9fdb478f7e7ca0539dcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53626a1aa2add44f976aa425c20835ee') in 0.012769 seconds 
+  Import took 0.017857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/New MC/jumping/jumping-06.png
+  artifactKey: Guid(7167e1158e37de9428bede5fd58c3d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-06.png using Guid(7167e1158e37de9428bede5fd58c3d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34f60cb983a151e89074b179533e7ee') in 0.013142 seconds 
+  Import took 0.018185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/New MC/jumping/jumping-26.png
+  artifactKey: Guid(dfe2d3715359d824c9c02646287e519b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-26.png using Guid(dfe2d3715359d824c9c02646287e519b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e15aaa55d9186f2dad112217135ba4a') in 0.013971 seconds 
+  Import took 0.019147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/New MC/jumping/jumping-10.png
+  artifactKey: Guid(dabe2d2457583a14987ce71fb620009b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-10.png using Guid(dabe2d2457583a14987ce71fb620009b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e751b74d54b027b68da5d5a144cbfb') in 0.013453 seconds 
+  Import took 0.019710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/New MC/jumping/jumping-14.png
+  artifactKey: Guid(3fb417d8193f5c34799e694b38b85a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-14.png using Guid(3fb417d8193f5c34799e694b38b85a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2513d95ed84b15e94a6cc4c3ba0664') in 0.016918 seconds 
+  Import took 0.022617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/New MC/jumping/jumping-15.png
+  artifactKey: Guid(1e7fd84a553a16541812a663de4625c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-15.png using Guid(1e7fd84a553a16541812a663de4625c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c0037f6925f0b8ce52f5ca68092908') in 0.013467 seconds 
+  Import took 0.019561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/New MC/jumping/jumping-03.png
+  artifactKey: Guid(34ca20f35f787ab46bcb7cf4230cc0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-03.png using Guid(34ca20f35f787ab46bcb7cf4230cc0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ddaa43e2a3ddc0752a331c270e1a7e') in 0.013721 seconds 
+  Import took 0.019207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/New MC/jumping/jumping-17.png
+  artifactKey: Guid(cf2e36189da08884d99e0b452b544bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-17.png using Guid(cf2e36189da08884d99e0b452b544bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163dbbb7dc8f4f1004bcf96b0a6bd0b6') in 0.014496 seconds 
+  Import took 0.019902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/New MC/jumping/jumping-20.png
+  artifactKey: Guid(e902820568924b246804463971bf024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-20.png using Guid(e902820568924b246804463971bf024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2ad5b78483530ced3f99eb0700c442') in 0.015515 seconds 
+  Import took 0.021041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/New MC/jumping/jumping-29.png
+  artifactKey: Guid(d82b18f4af5c35e47a8c5befa4db07b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-29.png using Guid(d82b18f4af5c35e47a8c5befa4db07b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e326d6cf5072fb49008000c6ca74948') in 0.012146 seconds 
+  Import took 0.017355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/New MC/jumping/jumping-07.png
+  artifactKey: Guid(7717197af018b244b82376a231a87296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-07.png using Guid(7717197af018b244b82376a231a87296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209737ceeb485c5dcb0f4b57be63907e') in 0.012152 seconds 
+  Import took 0.017495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/New MC/jumping/jumping-30.png
+  artifactKey: Guid(fed2094959ecd114e871a0b69c9d30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-30.png using Guid(fed2094959ecd114e871a0b69c9d30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed00b45527297c62589f64099f2a93fd') in 0.013541 seconds 
+  Import took 0.018918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/New MC/jumping/jumping-19.png
+  artifactKey: Guid(23433bf0aecb4cd44b8be3e9c348d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-19.png using Guid(23433bf0aecb4cd44b8be3e9c348d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567d219cc7ffdc8f3da7abf92fb4c126') in 0.013705 seconds 
+  Import took 0.019034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/New MC/jumping/jumping-22.png
+  artifactKey: Guid(5e2ac8c92fdfe1a4b84e3753cdb5797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-22.png using Guid(5e2ac8c92fdfe1a4b84e3753cdb5797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fca6bfc6717330883af51084f46f89e') in 0.009875 seconds 
+  Import took 0.015177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/New MC/jumping/jumping-24.png
+  artifactKey: Guid(9d38f6cf3fcd954488cd3b0d48e33c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-24.png using Guid(9d38f6cf3fcd954488cd3b0d48e33c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753af2eb547cf0d13d10f954978f9bde') in 0.013251 seconds 
+  Import took 0.018438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/New MC/jumping/jumping-27.png
+  artifactKey: Guid(740f06c22a8fabd42bd6524abc41ef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-27.png using Guid(740f06c22a8fabd42bd6524abc41ef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9e2ec2a3d3d75529b8f2f85dc7ad6d') in 0.012018 seconds 
+  Import took 0.017145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/New MC/jumping/jumping-05.png
+  artifactKey: Guid(3525469ed582d694bb777291ffd376fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-05.png using Guid(3525469ed582d694bb777291ffd376fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51a0546a57fb16d68cd129e7dfd06b3') in 0.013779 seconds 
+  Import took 0.019522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/New MC/jumping/jumping-18.png
+  artifactKey: Guid(dc296fd99926be641b0fce6920592bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-18.png using Guid(dc296fd99926be641b0fce6920592bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42a50c16860907d6711d43b0770c1f6') in 0.010534 seconds 
+  Import took 0.016470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/New MC/jumping/jumping-21.png
+  artifactKey: Guid(8dfa94e1bb31e124bbaa43e498d4a2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-21.png using Guid(8dfa94e1bb31e124bbaa43e498d4a2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694543daa9c35b6be24e1defefe74bd6') in 0.013602 seconds 
+  Import took 0.019425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/New MC/jumping/jumping-04.png
+  artifactKey: Guid(f22e1e82ea629fc40a74b3f01ac6b599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-04.png using Guid(f22e1e82ea629fc40a74b3f01ac6b599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c40d418f63408d659775e116ab6dc05') in 0.013993 seconds 
+  Import took 0.019261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/New MC/jumping/jumping-12.png
+  artifactKey: Guid(a43b842a16fe5404abf1cd337ce4d748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-12.png using Guid(a43b842a16fe5404abf1cd337ce4d748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad61c4b1ff6a6c71eb7f08b11161921') in 0.013770 seconds 
+  Import took 0.019292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/New MC/jumping/jumping-09.png
+  artifactKey: Guid(26ede57ddf66ef246bbef4d00596c76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-09.png using Guid(26ede57ddf66ef246bbef4d00596c76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea312cdf5f2807229a74fd9a7ef75ca6') in 0.013384 seconds 
+  Import took 0.018614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/New MC/jumping/jumping-11.png
+  artifactKey: Guid(4df44e737459440459b6c77675e35863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-11.png using Guid(4df44e737459440459b6c77675e35863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babdb76b4e2f6ecdd81133395404f54b') in 0.014616 seconds 
+  Import took 0.019975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/New MC/jumping/jumping-23.png
+  artifactKey: Guid(79cc62bfd9ab86e46af7c145cab1a980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-23.png using Guid(79cc62bfd9ab86e46af7c145cab1a980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480cef55c097c2ca519e756342472760') in 0.013082 seconds 
+  Import took 0.019272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/New MC/jumping/jumping-25.png
+  artifactKey: Guid(9d29eec54bc29204a9d3b8edea1bcaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New MC/jumping/jumping-25.png using Guid(9d29eec54bc29204a9d3b8edea1bcaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e489bd27aa1673478db2451194ea5ee') in 0.014303 seconds 
+  Import took 0.019781 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

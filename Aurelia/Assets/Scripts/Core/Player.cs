@@ -201,13 +201,10 @@ public class Player : MonoBehaviour
 
     public void movement(InputAction.CallbackContext context)
     {
-        flip();
-        if (!isDashing)
-        {
-            
-            xInput = context.ReadValue<Vector2>().x;
-            playerAnimator.SetFloat("Speed", Mathf.Abs(xInput));
-        }
+        flip();  
+        xInput = context.ReadValue<Vector2>().x;
+        playerAnimator.SetFloat("Speed", Mathf.Abs(xInput));
+   
     }
 
     public void jump(InputAction.CallbackContext context)

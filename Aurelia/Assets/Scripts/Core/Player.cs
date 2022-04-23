@@ -55,6 +55,8 @@ public class Player : MonoBehaviour
     [Header("Dash")]
     [SerializeField] public float dashDistnace = 30f;
     bool isDashing;
+    private float dashTimer = 2.0f;
+    private float lastDash;
 
     public ParticleSystem dust;
     public Transform dustScale;
@@ -131,6 +133,7 @@ public class Player : MonoBehaviour
 
         if (!isDashing) 
         {
+            
             float targetSpeed = xInput * maxMoveSpeed;
             float speedDif = targetSpeed - playerRB.velocity.x;
             float accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? Acceleration : Decceleration;
@@ -251,7 +254,9 @@ public class Player : MonoBehaviour
     }
     public void Dash(InputAction.CallbackContext context)
     {
-    
+        if (Time.time - lastDash < dashTimer)
+            return;
+        lastDash = Time.time;
         Debug.Log(yInput);
         Debug.Log(xInput);
         //Dashing left

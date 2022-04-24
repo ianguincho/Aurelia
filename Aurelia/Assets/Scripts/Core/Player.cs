@@ -303,7 +303,7 @@ public class Player : MonoBehaviour
         isDashing = true;
         dustDash.Play();
         ghost.makeGhost = true;
-        playerRB.velocity = new Vector2(playerRB.velocity.x, 0f);
+        playerRB.velocity = new Vector2(playerRB.velocity.x * 2.5f, 0f);
         playerRB.AddForce(new Vector2(dashDistnace * direction, 0f), ForceMode2D.Impulse);
         float gravity = playerRB.gravityScale;
         yield return new WaitForSeconds(1f);

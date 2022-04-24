@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu;
-    [SerializeField] private GameObject options;
+    
     public bool paused;
 
     [Header("Singleton Instantiation")]
@@ -23,7 +23,7 @@ public class PauseMenu : MonoBehaviour
     private void Start()
     {
         pauseMenu.SetActive(false);
-        options.SetActive(false);
+        
     }
 
     private void Update()
@@ -54,15 +54,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-    public void openOptions()
-    {
-        options.SetActive(true);
-    }
-
-    public void closeOptions()
-    {
-        options.SetActive(false);
-    }
+    
 
     public void quit()
     {

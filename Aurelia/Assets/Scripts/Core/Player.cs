@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 {
     public PlayerControls controls;
     InputAction climbAction;
+    InputAction jumpAction; 
     [Header("Components")]
     [SerializeField] private LayerMask platformsLayerMask;
     private Rigidbody2D playerRB;
@@ -29,8 +30,8 @@ public class Player : MonoBehaviour
     bool wallSlide;
     public float wallSlideSpeed;
     bool wallJump;
-    public float xWallForce;
-    public float yWallForce;
+    public float xWallForce = 10f;
+    public float yWallForce = 10f;
     public float wallJumpTime;
     public float Acceleration = 7f;
     public float Decceleration = 7f;
@@ -94,7 +95,7 @@ public class Player : MonoBehaviour
         controls = new PlayerControls();
         controls.Enable();
         climbAction = controls.PlayerController.Climb;
-        playerRB.gravityScale = 0f; 
+        jumpAction = controls.PlayerController.Jump;
         //Cursor.visible = false;
     }
 
@@ -118,7 +119,7 @@ public class Player : MonoBehaviour
             playerAnimator.SetBool("IsClimbing", true);
             playerRB.velocity = new Vector2(playerRB.velocity.x, Mathf.Clamp(playerRB.velocity.y, -wallSlideSpeed, float.MaxValue));
         }
-        if (climbAction.triggered && wallSlide == true)
+        if (jumpAction.triggered && wallSlide == true)
         {
             playerAnimator.SetBool("IsClimbing", true);
             wallJump = true;
@@ -126,7 +127,7 @@ public class Player : MonoBehaviour
         }
         if(wallJump == true)
         {
-            playerRB.velocity = new Vector2(xWallForce * -input, yWallForce);
+            playerRB.velocity = new Vector2(xWallForce * -xInput, yWallForce);
         }
         //end of new code
 
@@ -145,7 +146,7 @@ public class Player : MonoBehaviour
         RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.right, distance, whatIsLadder);
         if (hitInfo.collider != null)
         {
-            if (Input.GetKeyDown(KeyCode.UpArrow))
+            if (climbAction.triggered)
             {
                 isClimbing = true;
             }
@@ -214,10 +215,10 @@ public class Player : MonoBehaviour
         {
             playerRB.gravityScale = gravityScale;
         }
-       // if (playerRB.position.y < -1f)
-       // {
-         //   FindObjectOfType<GameManager>().EndGame();
-        //}
+        if (playerRB.position.y < -1f)
+        {
+            FindObjectOfType<GameManager>().EndGame();
+        }
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -273,12 +274,12 @@ public class Player : MonoBehaviour
         }
         else if (yInput == 1)
         {
-            dustDashScale.localScale = new Vector3(1, 1, 1);
+           
             StartCoroutine(yDash(1f));
         }
         else if (yInput == -1)
         {
-            dustDashScale.localScale = new Vector3(1, -1, 1); 
+            
             StartCoroutine(yDash(-1f));
         }
         else if (xInput == 1 && yInput == 1)
@@ -291,8 +292,11 @@ public class Player : MonoBehaviour
     }
     public void Climb(InputAction.CallbackContext context)
     {
-        Debug.Log("Action Pressed");
-        
+        playerAnimator.SetBool("IsClimbing", true);
+        inputVertical = Input.GetAxisRaw("Vertical");
+        playerRB.velocity = new Vector2(playerRB.velocity.x, inputVertical * climbSpeed);
+        playerRB.gravityScale = 0;
+
     }
     IEnumerator dash(float direction)
     {

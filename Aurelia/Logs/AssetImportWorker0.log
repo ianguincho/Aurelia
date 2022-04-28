@@ -15,11 +15,11 @@ C:/Users/Imp3r/Desktop/Github stuff/CEN4090L-project/Aurelia
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54164
+65275
 Successfully changed project path to: C:/Users/Imp3r/Desktop/Github stuff/CEN4090L-project/Aurelia
 C:/Users/Imp3r/Desktop/Github stuff/CEN4090L-project/Aurelia
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 85.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path D:/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'D:/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001117 seconds.
+Registered in 0.001126 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 85.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 90.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.617 seconds
+- Completed reload, in  0.612 seconds
 Domain Reload Profiling:
-	ReloadAssembly (618ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (612ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (495ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (499ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (158ms)
+			SetupTypeCache (149ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (216ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (227ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
+				RefreshPlugins (91ms)
 				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (83ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005527 seconds.
+Registered in 0.005704 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 86.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.312 seconds
+- Completed reload, in  1.323 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1313ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (1324ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1121ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1132ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (368ms)
+			SetupTypeCache (357ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (476ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (487ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3894 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 178.8 MB.
-System memory in use after: 179.0 MB.
+System memory in use after: 179.1 MB.
 
 Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4348.
-Total: 3.549300 ms (FindLiveObjects: 0.273100 ms CreateObjectMapping: 0.159900 ms MarkObjects: 3.092800 ms  DeleteObjects: 0.022600 ms)
+Total: 3.429600 ms (FindLiveObjects: 0.246900 ms CreateObjectMapping: 0.187300 ms MarkObjects: 2.973300 ms  DeleteObjects: 0.021200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,1737 +134,152 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Level0/Global Volume Profile 3.asset
-  artifactKey: Guid(23206bf998345b141957ddfffb808d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level0/Global Volume Profile 3.asset using Guid(23206bf998345b141957ddfffb808d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b30980a4a7f9b97c78f39594bae5151') in 0.054150 seconds 
-  Import took 0.060223 seconds .
+  path: Assets/Scenes/Level 5.unity
+  artifactKey: Guid(7bcb62ef39afbc748a5b86753259b035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 5.unity using Guid(7bcb62ef39afbc748a5b86753259b035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e100bb0959bcc86f4265c7387da50b3') in 0.019488 seconds 
+  Import took 0.024869 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Scenes/Level0/Global Volume Profile 5.asset
-  artifactKey: Guid(63b692eedc8f81a40b34f4b221ef75a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level0/Global Volume Profile 5.asset using Guid(63b692eedc8f81a40b34f4b221ef75a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa3e1a08a973771a87e38368e452793') in 0.014530 seconds 
-  Import took 0.020502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Scenes/Level0/Global Volume Profile.asset
-  artifactKey: Guid(7f0cbae339730e341a3e2015f29ded8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level0/Global Volume Profile.asset using Guid(7f0cbae339730e341a3e2015f29ded8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5111c01c8dcd9d73b50c1ffe6d4233df') in 0.008261 seconds 
-  Import took 0.013803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Scenes/Level0/Global Volume Profile 2.asset
-  artifactKey: Guid(497d280f57435364e98ec9cc66eec7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level0/Global Volume Profile 2.asset using Guid(497d280f57435364e98ec9cc66eec7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c82a09b06ac8a1a5d065a9261b9388') in 0.007518 seconds 
-  Import took 0.013496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Scenes/Level0/Global Volume Profile 1.asset
-  artifactKey: Guid(1b5d4da65714eb14b8a3714b16cef9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level0/Global Volume Profile 1.asset using Guid(1b5d4da65714eb14b8a3714b16cef9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca4c1ff020d89d6ffe8bde38e4ffab9') in 0.007788 seconds 
-  Import took 0.014154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Scenes/Level0/Global Volume Profile 6.asset
-  artifactKey: Guid(31396c7f96ec22c458d0e5d349c5505a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level0/Global Volume Profile 6.asset using Guid(31396c7f96ec22c458d0e5d349c5505a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89128a51afda6d7bcd4bfe692723e2f') in 0.008317 seconds 
-  Import took 0.014310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Scenes/Level0/Global Volume Profile 4.asset
-  artifactKey: Guid(26457def4d12e734bb9c5b79255e91bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level0/Global Volume Profile 4.asset using Guid(26457def4d12e734bb9c5b79255e91bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb5b5e42ad3a164c5e27c20000382f9') in 0.007022 seconds 
-  Import took 0.013345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 98.691479 seconds.
-  path: Assets/Scenes/Level 2.unity
-  artifactKey: Guid(4448b4b7533643c41a6a80890dbb6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 2.unity using Guid(4448b4b7533643c41a6a80890dbb6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f41ad7f3ce92f13c4c3e747fa1b312') in 0.006900 seconds 
-  Import took 0.014017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.705878 seconds.
-  path: Assets/Scenes/Level 1.unity
-  artifactKey: Guid(41b261453633f7149ae3381740136f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 1.unity using Guid(41b261453633f7149ae3381740136f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f20fa264b8e41445b7c9c1a73d90ec3') in 0.006496 seconds 
-  Import took 0.013530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.444125 seconds.
+  Time since last request: 28.146905 seconds.
   path: Assets/Scenes/Level 4.unity
   artifactKey: Guid(13b9087c1a43460429cb7d75aee73f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 4.unity using Guid(13b9087c1a43460429cb7d75aee73f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989fbb8a9367217e98a06cee5223eba3') in 0.006464 seconds 
-  Import took 0.013797 seconds .
+Start importing Assets/Scenes/Level 4.unity using Guid(13b9087c1a43460429cb7d75aee73f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3694c22edaf12e6cf4a12ed33537d4ca') in 0.006762 seconds 
+  Import took 0.012420 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.506287 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Arrow Trap/PNGs/Arrow.png
-  artifactKey: Guid(71e8178561e708c418bb5f9100115f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Arrow Trap/PNGs/Arrow.png using Guid(71e8178561e708c418bb5f9100115f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5063da11b5347ac42f18bb87cea01a7') in 0.102186 seconds 
-  Import took 0.109157 seconds .
+  Time since last request: 86.581042 seconds.
+  path: Assets/Scenes/Level 0.unity
+  artifactKey: Guid(ffb358d845c57614ab6432ef07bc94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 0.unity using Guid(ffb358d845c57614ab6432ef07bc94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d89c1eaad2f57798bcefc620f4a9246') in 0.006720 seconds 
+  Import took 0.013096 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_Rock_1.png
-  artifactKey: Guid(0f3202120543801409ecab04bc684920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_Rock_1.png using Guid(0f3202120543801409ecab04bc684920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a855901e3338732e412dee3e71de1a7a') in 0.019384 seconds 
-  Import took 0.025906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Background/Dungeon_BackgroundFire.png
-  artifactKey: Guid(11b5b3c98cc3b5043a7a555fb67022c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Background/Dungeon_BackgroundFire.png using Guid(11b5b3c98cc3b5043a7a555fb67022c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752ba126a24bc672ca79d4615ae6d7ba') in 0.020054 seconds 
-  Import took 0.025590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Arrow Trap/PNGs/Arrow Trap - Level 2.png
-  artifactKey: Guid(bd74c891a84817f4cb82d86cf598fa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Arrow Trap/PNGs/Arrow Trap - Level 2.png using Guid(bd74c891a84817f4cb82d86cf598fa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf528164bfef2b124cb1beba856ecaca') in 0.023816 seconds 
-  Import took 0.030791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Arrow Trap/PNGs/Arrow Trap - Level 3.png
-  artifactKey: Guid(3a293b0bc8f23124499a226c0966809a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Arrow Trap/PNGs/Arrow Trap - Level 3.png using Guid(3a293b0bc8f23124499a226c0966809a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99eb2a7acaa91a39510c48321027d7da') in 0.021404 seconds 
-  Import took 0.027302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_MiniJar2.png
-  artifactKey: Guid(44b5e16192235224da5fb872e7c30269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_MiniJar2.png using Guid(44b5e16192235224da5fb872e7c30269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02382d54113a6cf5843c14683719aa66') in 0.012625 seconds 
-  Import took 0.018856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Chain_High2.png
-  artifactKey: Guid(483b9775d97ddd74791bd797bc518bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Chain_High2.png using Guid(483b9775d97ddd74791bd797bc518bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa248f0697456baf50115517182cdff') in 0.014173 seconds 
-  Import took 0.020196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_SpiderWeb2.png
-  artifactKey: Guid(d8133a9b3a58f8946b9d0de28201dad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_SpiderWeb2.png using Guid(d8133a9b3a58f8946b9d0de28201dad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3d70e48d02765846455cc9444381be') in 0.012938 seconds 
-  Import took 0.019481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Background/Desert_Background_Guide.png
-  artifactKey: Guid(978c41e65bb29b14d98273ceffab3d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Background/Desert_Background_Guide.png using Guid(978c41e65bb29b14d98273ceffab3d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac406294ec1263cb22678aa6af06b19e') in 0.023528 seconds 
-  Import took 0.030079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Grid2.png
-  artifactKey: Guid(521e73541d5d0184a9219243de50ff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Grid2.png using Guid(521e73541d5d0184a9219243de50ff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8607ecf0557914fbfea47dbdd308da1') in 0.022008 seconds 
-  Import took 0.028231 seconds .
+  Time since last request: 120.241097 seconds.
+  path: Assets/Scenes/Level0/Global Volume Profile.asset
+  artifactKey: Guid(7f0cbae339730e341a3e2015f29ded8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level0/Global Volume Profile.asset using Guid(7f0cbae339730e341a3e2015f29ded8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9885b2da7e577e2035c81a9dccddb9') in 0.049843 seconds 
+  Import took 0.055690 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000197 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Ceiling Trap/Transitions/PNGs/Ceiling Trap - Level 3 - Transition.png
-  artifactKey: Guid(2a097a328ebfc8747a0afde9fe701d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Ceiling Trap/Transitions/PNGs/Ceiling Trap - Level 3 - Transition.png using Guid(2a097a328ebfc8747a0afde9fe701d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69855691e16205bd31cb2f183b1fd36a') in 0.023628 seconds 
-  Import took 0.029648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_Entry_2.png
-  artifactKey: Guid(922e692724f1ce143a88e6d142fe367e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_Entry_2.png using Guid(922e692724f1ce143a88e6d142fe367e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e99f53b6ef44d9a2de19a99f5c2c80') in 0.018901 seconds 
-  Import took 0.024098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Arrow Trap/Transitions/PNGs/Arrow Trap - Level 3 - Transition.png
-  artifactKey: Guid(50153941b9dac4045ab0da69a4b6a5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Arrow Trap/Transitions/PNGs/Arrow Trap - Level 3 - Transition.png using Guid(50153941b9dac4045ab0da69a4b6a5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3474650cd9e93b01757ee30949c3c837') in 0.022369 seconds 
-  Import took 0.028884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Coffin1.png
-  artifactKey: Guid(44b906be27c95364f83d507f28e1fe7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Coffin1.png using Guid(44b906be27c95364f83d507f28e1fe7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae32639fbe1c49c629a7ab927ab72744') in 0.021736 seconds 
-  Import took 0.028110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Animated/Dungeon_BigTorch.png
-  artifactKey: Guid(b7259c02b39faac49b0a84840c6253ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Animated/Dungeon_BigTorch.png using Guid(b7259c02b39faac49b0a84840c6253ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e858a1211624dd128ecd45aee61b6d') in 0.020679 seconds 
-  Import took 0.027013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_AnimalSkull.png
-  artifactKey: Guid(52cfac0e2a287d74ea554e31fb48fcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_AnimalSkull.png using Guid(52cfac0e2a287d74ea554e31fb48fcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feecd86b7647dfa7ecdf4bc75a993d0e') in 0.013896 seconds 
-  Import took 0.020481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Background/Desert_Background_3.png
-  artifactKey: Guid(4ba60d2f9763182479b5591d447dc994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Background/Desert_Background_3.png using Guid(4ba60d2f9763182479b5591d447dc994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c49d9c51ad3601f2d4bc6e2a38832e') in 0.025770 seconds 
-  Import took 0.032283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Arrow Trap Preview.gif
-  artifactKey: Guid(92c99c6f845815c4c8f4414122249b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Arrow Trap Preview.gif using Guid(92c99c6f845815c4c8f4414122249b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbc6e5b7d4e7553ccfd5d4d7e6a72ad') in 0.024215 seconds 
-  Import took 0.029837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Animated/Desert_LittleSnake_Run.png
-  artifactKey: Guid(661bbe10cf6ac69438c2969f764169bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Animated/Desert_LittleSnake_Run.png using Guid(661bbe10cf6ac69438c2969f764169bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9980ae414a0552d2b9ef3eadf3f45cc') in 0.021187 seconds 
-  Import took 0.027923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Door2.png
-  artifactKey: Guid(5bbae2937f81b784c8375f6b8c36497e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Door2.png using Guid(5bbae2937f81b784c8375f6b8c36497e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e293e8058ca99b4229d4359f81039c') in 0.020493 seconds 
-  Import took 0.027712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_Cactus_3.png
-  artifactKey: Guid(76815b72ef9225f449e29f50a54bf3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_Cactus_3.png using Guid(76815b72ef9225f449e29f50a54bf3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63f4b504e22a75e6347800e3832caf6') in 0.014133 seconds 
-  Import took 0.019780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Chain_High1.png
-  artifactKey: Guid(15ca80000b760f845b5ffd1aafb1698a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Chain_High1.png using Guid(15ca80000b760f845b5ffd1aafb1698a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf060696c968d333d954b3b75ec987c') in 0.014512 seconds 
-  Import took 0.021151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_Rock_4.png
-  artifactKey: Guid(b88c4952e933008408fc5f261761f091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_Rock_4.png using Guid(b88c4952e933008408fc5f261761f091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e1067f4831446db8beaa3773a5542e') in 0.018996 seconds 
-  Import took 0.026252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_Rock_2.png
-  artifactKey: Guid(fe60ac68c0e2fc741a9c1f778e8d20e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_Rock_2.png using Guid(fe60ac68c0e2fc741a9c1f778e8d20e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca893ad0b6a27e8f7b8c817c8016ba0') in 0.012982 seconds 
-  Import took 0.018296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_BrokenCoffin2.png
-  artifactKey: Guid(711d537c3179d7a43b0b84705f97a825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_BrokenCoffin2.png using Guid(711d537c3179d7a43b0b84705f97a825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7ee734b52e31970a10e8e03e232988') in 0.013827 seconds 
-  Import took 0.019737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Animated/Dungeon_Candle1.png
-  artifactKey: Guid(b33908f68a238d743bfd08adb8a7d803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Animated/Dungeon_Candle1.png using Guid(b33908f68a238d743bfd08adb8a7d803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39697eb7f652fbdb3d1858bac9e6e3ef') in 0.020533 seconds 
-  Import took 0.026753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Animated/Dungeon_Candle2.png
-  artifactKey: Guid(868d76175bc25eb43999f80e2b5fc9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Animated/Dungeon_Candle2.png using Guid(868d76175bc25eb43999f80e2b5fc9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d619bb0204029459b8e228232b9fab') in 0.019397 seconds 
-  Import took 0.025506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Animated/Dungeon_WallTorch.png
-  artifactKey: Guid(1ebe38a32a6be7f4498467f93e95bc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Animated/Dungeon_WallTorch.png using Guid(1ebe38a32a6be7f4498467f93e95bc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b72a24ed63070c1e7a9388696d8c0e4') in 0.019307 seconds 
-  Import took 0.024385 seconds .
+  path: Assets/Scenes/Level0/Global Volume Profile 1.asset
+  artifactKey: Guid(1b5d4da65714eb14b8a3714b16cef9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level0/Global Volume Profile 1.asset using Guid(1b5d4da65714eb14b8a3714b16cef9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c137a1215eff5dbf67569abfef492211') in 0.007249 seconds 
+  Import took 0.012742 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000184 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_StoneBase.png
-  artifactKey: Guid(6d8a701a316420241883b677bc7b0434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_StoneBase.png using Guid(6d8a701a316420241883b677bc7b0434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde1c8c10730fbac70c0c2dd2666b20e') in 0.013098 seconds 
-  Import took 0.018646 seconds .
+  path: Assets/Scenes/Level0/Global Volume Profile 4.asset
+  artifactKey: Guid(26457def4d12e734bb9c5b79255e91bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level0/Global Volume Profile 4.asset using Guid(26457def4d12e734bb9c5b79255e91bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb59fd814c2b1f5f39ad4446014b07e') in 0.007178 seconds 
+  Import took 0.012556 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Animated/Dungeon_SkullTorch.png
-  artifactKey: Guid(3629740abf343d94e9da0cdd9c235c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Animated/Dungeon_SkullTorch.png using Guid(3629740abf343d94e9da0cdd9c235c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0570975437f0aeef862e6adcb3e4dde') in 0.019816 seconds 
-  Import took 0.026260 seconds .
+  Time since last request: 10.130666 seconds.
+  path: Assets/Scenes/Level 5.unity
+  artifactKey: Guid(7bcb62ef39afbc748a5b86753259b035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 5.unity using Guid(7bcb62ef39afbc748a5b86753259b035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d46a3f10163caf24720e0c2a69e5fb') in 0.003219 seconds 
+  Import took 0.008775 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Background/Desert_Background_1.png
-  artifactKey: Guid(ad4ce23d9b2db34488d857d5382647a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Background/Desert_Background_1.png using Guid(ad4ce23d9b2db34488d857d5382647a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76150df20b6e790d16bf3bad3b9811b7') in 0.014006 seconds 
-  Import took 0.020207 seconds .
+  Time since last request: 893.876289 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(733cde8974826f544b810cf7dbe4a6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(733cde8974826f544b810cf7dbe4a6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aab2c2559f9bf7cc4adee818567c318') in 0.006488 seconds 
+  Import took 0.013122 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Bone.png
-  artifactKey: Guid(2d5b645a1ac0d964d84583d4398c86fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Bone.png using Guid(2d5b645a1ac0d964d84583d4398c86fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56fd0bb2aba8597303b220c5dafffcd') in 0.013089 seconds 
-  Import took 0.018731 seconds .
+  Time since last request: 9.536571 seconds.
+  path: Assets/Fonts/Roboto-Thin.ttf
+  artifactKey: Guid(3719365194cd35c41a6a714f5323f1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Roboto-Thin.ttf using Guid(3719365194cd35c41a6a714f5323f1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee068ea177a8a6c09931ec61e0a5ba2b') in 0.204030 seconds 
+  Import took 0.209697 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Chain_Mid.png
-  artifactKey: Guid(1f1a82ac9518834418e49355f681d8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Chain_Mid.png using Guid(1f1a82ac9518834418e49355f681d8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997a16293d2a84ac3009290cab23b523') in 0.012749 seconds 
-  Import took 0.018765 seconds .
+  Time since last request: 528.067514 seconds.
+  path: Assets/Scenes/Level 5.unity
+  artifactKey: Guid(7bcb62ef39afbc748a5b86753259b035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 5.unity using Guid(7bcb62ef39afbc748a5b86753259b035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71c4e85185947b331dd88fc43c644d3') in 0.003480 seconds 
+  Import took 0.010185 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Jar1.png
-  artifactKey: Guid(02d3c88bf45f55442b0dc786ae82a722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Jar1.png using Guid(02d3c88bf45f55442b0dc786ae82a722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8647898b9bc8bfdbddbe35f048de4bb6') in 0.013403 seconds 
-  Import took 0.020697 seconds .
+  Time since last request: 85.229287 seconds.
+  path: Assets/Animations/endgameanimation.anim
+  artifactKey: Guid(1544c425641323b409782b4dc3c6e3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/endgameanimation.anim using Guid(1544c425641323b409782b4dc3c6e3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801d111e79a04d6fe3c4481f311352a7') in 0.008862 seconds 
+  Import took 0.015485 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_OldSword2.png
-  artifactKey: Guid(14b8261666efd2a4998abf408b4932a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_OldSword2.png using Guid(14b8261666efd2a4998abf408b4932a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e3b1ec20cc1f4275cea8845c04ce1e') in 0.012562 seconds 
-  Import took 0.018770 seconds .
+  Time since last request: 1044.691476 seconds.
+  path: Assets/Animations/exitanimation.anim
+  artifactKey: Guid(7e813ae1a7d31ba4c862669e19ee6782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/exitanimation.anim using Guid(7e813ae1a7d31ba4c862669e19ee6782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f4cf8fca7a27a357670a93ab4729d4') in 0.009192 seconds 
+  Import took 0.015988 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Debris1.png
-  artifactKey: Guid(0bb42797bf1214a478c1ea7fee65c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Debris1.png using Guid(0bb42797bf1214a478c1ea7fee65c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ef23a2081ab361972d61a914c9986f') in 0.013611 seconds 
-  Import took 0.020002 seconds .
+  Time since last request: 25.886146 seconds.
+  path: Assets/Animations/EventSystem.controller
+  artifactKey: Guid(d3f364b4865d0774ab69d8579d094bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/EventSystem.controller using Guid(d3f364b4865d0774ab69d8579d094bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8e2e6da5867ce07a596c6f2096802d') in 0.010045 seconds 
+  Import took 0.015663 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_OldSword3.png
-  artifactKey: Guid(e09ebffd9b9e0764f8b1b24d61a0c3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_OldSword3.png using Guid(e09ebffd9b9e0764f8b1b24d61a0c3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3de06b48b544aab59b1d899422238c9') in 0.012853 seconds 
-  Import took 0.018364 seconds .
+  Time since last request: 31.013254 seconds.
+  path: Assets/Animations/FadeIn.anim
+  artifactKey: Guid(b5b32183cfffae84793d87316fab1c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/FadeIn.anim using Guid(b5b32183cfffae84793d87316fab1c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828aed7a39327b961b2650a3f080e495') in 0.007253 seconds 
+  Import took 0.014518 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Background/Desert_Background_2.png
-  artifactKey: Guid(c1fbf5c488aaf62448f5a1bad203aa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Background/Desert_Background_2.png using Guid(c1fbf5c488aaf62448f5a1bad203aa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddb8454ae26146b9eeb1f05a610af1f') in 0.022655 seconds 
-  Import took 0.028674 seconds .
+  Time since last request: 162.440927 seconds.
+  path: Assets/Animations/exitanimation.anim
+  artifactKey: Guid(7e813ae1a7d31ba4c862669e19ee6782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/exitanimation.anim using Guid(7e813ae1a7d31ba4c862669e19ee6782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b02a8a06028723a7d0d59012bac21b5') in 0.003480 seconds 
+  Import took 0.009451 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Ceiling Trap/Transitions/PNGs/Ceiling Trap - Level 2 - Transition.png
-  artifactKey: Guid(4a818b78c3f140047a3d48450b18ba0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Ceiling Trap/Transitions/PNGs/Ceiling Trap - Level 2 - Transition.png using Guid(4a818b78c3f140047a3d48450b18ba0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d734d3a03b571083fe6d5dda6c7707') in 0.021179 seconds 
-  Import took 0.026435 seconds .
+  Time since last request: 41.897081 seconds.
+  path: Assets/Animations/endcreditsanimation.anim
+  artifactKey: Guid(08a99d65592ab9b4aa899498b5fd5d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/endcreditsanimation.anim using Guid(08a99d65592ab9b4aa899498b5fd5d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddec42f6a62c3aa497dcc0159b91d885') in 0.007739 seconds 
+  Import took 0.014700 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_DryBush_4.png
-  artifactKey: Guid(b9d25a0b015c45a46a5a4a84e4f4990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_DryBush_4.png using Guid(b9d25a0b015c45a46a5a4a84e4f4990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596bbb8ba689f010a4272adc2d9cadbe') in 0.013092 seconds 
-  Import took 0.019730 seconds .
+  Time since last request: 17.311086 seconds.
+  path: Assets/Animations/endgameanimation.anim
+  artifactKey: Guid(1544c425641323b409782b4dc3c6e3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/endgameanimation.anim using Guid(1544c425641323b409782b4dc3c6e3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b10855e6f5f67e0cd13656f452ea83') in 0.003816 seconds 
+  Import took 0.009451 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Ceiling Trap/PNGs/Ceiling Trap - Level 3.png
-  artifactKey: Guid(e8d1c7af7d48ada40b2b98a1fa86d1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Ceiling Trap/PNGs/Ceiling Trap - Level 3.png using Guid(e8d1c7af7d48ada40b2b98a1fa86d1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b566d8e28684d24483f8d88a9fa7748') in 0.021083 seconds 
-  Import took 0.026473 seconds .
+  Time since last request: 281.703342 seconds.
+  path: Assets/Background Images/85281e34521c4dbe0a96a3f35ff798ca.gif
+  artifactKey: Guid(2ed8098ff7a1a06438acbd28759e36cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Images/85281e34521c4dbe0a96a3f35ff798ca.gif using Guid(2ed8098ff7a1a06438acbd28759e36cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d46539aea1a771e2095c5d4b8d55de') in 0.059374 seconds 
+  Import took 0.064966 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Ceiling Trap Preview.gif
-  artifactKey: Guid(2b822ff5b11e39341846b6a07426e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Ceiling Trap Preview.gif using Guid(2b822ff5b11e39341846b6a07426e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa78a2bb5f73463be48c47ca136e64ba') in 0.022014 seconds 
-  Import took 0.027280 seconds .
+  Time since last request: 351.634275 seconds.
+  path: Assets/Audio/Uplifting Orchestra _ Inspirational Background Music #nocopyrightmusic #ncp #nocopyrightplay (64 kbps).mp3
+  artifactKey: Guid(6821244c2b2d24e428113d67dab12c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Uplifting Orchestra _ Inspirational Background Music #nocopyrightmusic #ncp #nocopyrightplay (64 kbps).mp3 using Guid(6821244c2b2d24e428113d67dab12c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb00b3cc433fce22071125967584362') in 0.027637 seconds 
+  Import took 0.034636 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Chain_Low.png
-  artifactKey: Guid(492577e4601f95c4b8ce95875bde2e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Chain_Low.png using Guid(492577e4601f95c4b8ce95875bde2e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbd87b346e3442910a788672aabcd82') in 0.012902 seconds 
-  Import took 0.019220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_RibCage.png
-  artifactKey: Guid(7a7ef4afe1bd1084d84f6345f9efe05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_RibCage.png using Guid(7a7ef4afe1bd1084d84f6345f9efe05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe87567cc0d2d822ac11189505ae92c4') in 0.015003 seconds 
-  Import took 0.020986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Ceiling Trap/PNGs/Ceiling Trap - Level 2.png
-  artifactKey: Guid(411305cf5e6a0564081c538184d8cb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Ceiling Trap/PNGs/Ceiling Trap - Level 2.png using Guid(411305cf5e6a0564081c538184d8cb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25663bf7bc13834632d022d24b2ccf07') in 0.021623 seconds 
-  Import took 0.027208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_DryBush_1.png
-  artifactKey: Guid(b00c4ff28c45cf943b6bffda3bed1ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_DryBush_1.png using Guid(b00c4ff28c45cf943b6bffda3bed1ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85339f4ed512d10e2d0ae34bc000219') in 0.020271 seconds 
-  Import took 0.026047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_Tree.png
-  artifactKey: Guid(744ab8670986a374681a0f87759166d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_Tree.png using Guid(744ab8670986a374681a0f87759166d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f3ec3700bec02df7ca0cdc5e34efb0') in 0.016579 seconds 
-  Import took 0.024917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Grid4.png
-  artifactKey: Guid(46ec016afa91e754a8ca3e6430068e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Grid4.png using Guid(46ec016afa91e754a8ca3e6430068e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1d1626a7ead9a7ba9b956c0474c165') in 0.027394 seconds 
-  Import took 0.034386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Debris2.png
-  artifactKey: Guid(c0a808ec490da6a42820d528d6a11bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Debris2.png using Guid(c0a808ec490da6a42820d528d6a11bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d91e69e64c5fb92e399a18dd1af7a16') in 0.021001 seconds 
-  Import took 0.027378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Arrow Trap/Transitions/PNGs/Arrow Trap - Level 2 - Transition.png
-  artifactKey: Guid(3a362550a892b194ead29c7640d091a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Arrow Trap/Transitions/PNGs/Arrow Trap - Level 2 - Transition.png using Guid(3a362550a892b194ead29c7640d091a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3714ed230f57162da9483ea4f8a2ab98') in 0.022825 seconds 
-  Import took 0.028541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_Sand.png
-  artifactKey: Guid(756df674642aa5340aa2260c334dc583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_Sand.png using Guid(756df674642aa5340aa2260c334dc583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c924c1724f460c8155d8136ef74247b') in 0.014717 seconds 
-  Import took 0.020307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Arrow Trap Preview - No background.gif
-  artifactKey: Guid(f6052d2ab39837b49b4f9a188e76f1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Arrow Trap Preview - No background.gif using Guid(f6052d2ab39837b49b4f9a188e76f1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9d3e9eb07106c0530d6a8595398aba') in 0.022579 seconds 
-  Import took 0.029271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Door1.png
-  artifactKey: Guid(eff192a160eac1840951db37af879f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Door1.png using Guid(eff192a160eac1840951db37af879f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878271cb2c93b6e8fce47b3c64da8596') in 0.019404 seconds 
-  Import took 0.024892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Ceiling Trap/Transitions/PNGs/Ceiling Trap - Level 1 - Transition.png
-  artifactKey: Guid(1577f51cd6bea9a4895ba7654c8bcc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Ceiling Trap/Transitions/PNGs/Ceiling Trap - Level 1 - Transition.png using Guid(1577f51cd6bea9a4895ba7654c8bcc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31129f5336b850d6dca3c2ae0a097f7') in 0.021880 seconds 
-  Import took 0.028456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Animated/Desert_LittleLizard_Idle.png
-  artifactKey: Guid(479bcdad866a879498d589ffbde94b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Animated/Desert_LittleLizard_Idle.png using Guid(479bcdad866a879498d589ffbde94b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7766c2b33b90ca3e8285b11ad57533b8') in 0.021574 seconds 
-  Import took 0.028612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Jar2.png
-  artifactKey: Guid(323b8914afda7ba4bad8e4d9d0e48e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Jar2.png using Guid(323b8914afda7ba4bad8e4d9d0e48e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de939cb25eaa9dd16dd53a4a0e666d17') in 0.013341 seconds 
-  Import took 0.018795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_DryBush_2.png
-  artifactKey: Guid(c69ae922238d8474fa0526d0780d80e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_DryBush_2.png using Guid(c69ae922238d8474fa0526d0780d80e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cba68d73a4cb116518f29495a81887') in 0.019375 seconds 
-  Import took 0.026394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_Rock_6.png
-  artifactKey: Guid(fccffe6f50fdcce43920f2f9b581f197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_Rock_6.png using Guid(fccffe6f50fdcce43920f2f9b581f197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42697fc888698b74e3789f3123000337') in 0.013923 seconds 
-  Import took 0.020427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Animated/Desert_LittleLizard_Run.png
-  artifactKey: Guid(0d4e3764e4540ed4db7bfb24ae2ebd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Animated/Desert_LittleLizard_Run.png using Guid(0d4e3764e4540ed4db7bfb24ae2ebd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a50a0f6b3bd1e3024298cdbbb2efdc8') in 0.021863 seconds 
-  Import took 0.027695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_DryBush_3.png
-  artifactKey: Guid(d705e4f68153d17478d24d673abc0fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Desert_DryBush_3.png using Guid(d705e4f68153d17478d24d673abc0fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7d40a953a2cf5af9371f756022060a') in 0.013547 seconds 
-  Import took 0.020505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Grid3.png
-  artifactKey: Guid(d470bb23ebf208040b31d1047da6b8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Grid3.png using Guid(d470bb23ebf208040b31d1047da6b8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad0ce5b3e7b8f5a60b307b275b2ac2d') in 0.018711 seconds 
-  Import took 0.024396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_BrokenCoffin1.png
-  artifactKey: Guid(679a066f1f766a440bc7eff25a34d466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_BrokenCoffin1.png using Guid(679a066f1f766a440bc7eff25a34d466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dec129482a5e53730a298d8881c2a37') in 0.013136 seconds 
-  Import took 0.019055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Arrow Trap/PNGs/Arrow Trap - Level 1.png
-  artifactKey: Guid(f139e39bdd4afad4196734160d747b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Arrow Trap/PNGs/Arrow Trap - Level 1.png using Guid(f139e39bdd4afad4196734160d747b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff16a59ef6e0d66ef2f5c947b5c5c09') in 0.014175 seconds 
-  Import took 0.020426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Animated/Desert_LittleSnake_Idle.png
-  artifactKey: Guid(2bade39f754ba054896eb203f22d68bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Desert/Details/Animated/Desert_LittleSnake_Idle.png using Guid(2bade39f754ba054896eb203f22d68bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd47fdf0d6bbbb79b5eb6c4ab9e9aaba') in 0.020059 seconds 
-  Import took 0.026713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Skull.png
-  artifactKey: Guid(7b5b653283c4e9e48910c71764159eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Skull.png using Guid(7b5b653283c4e9e48910c71764159eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3b4486c350bb6bd2bcb90f90e1bb02') in 0.016918 seconds 
-  Import took 0.022576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Debris3.png
-  artifactKey: Guid(3893be76c40b16d42a2107a19c97ca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Debris3.png using Guid(3893be76c40b16d42a2107a19c97ca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f22fcd1dd65509f1c1c2fd4f31d5564') in 0.012646 seconds 
-  Import took 0.018048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Arrow Trap/Transitions/PNGs/Arrow Trap - Level 1 - Transition.png
-  artifactKey: Guid(2bafcb75da8ada14ea4e030fcd78ce6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Arrow Trap/Transitions/PNGs/Arrow Trap - Level 1 - Transition.png using Guid(2bafcb75da8ada14ea4e030fcd78ce6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd62db9b737e797e30e0ab9d1c7c552a') in 0.036450 seconds 
-  Import took 0.041886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Ceiling Trap Preview - No Background.gif
-  artifactKey: Guid(9a521c4f6857e4843acbeadf7d02c9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Ceiling Trap Preview - No Background.gif using Guid(9a521c4f6857e4843acbeadf7d02c9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c4ca44e0c9fb1aa47d9eccec295796') in 0.021843 seconds 
-  Import took 0.027484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_MiniJar1.png
-  artifactKey: Guid(2c0b62871a944da45a0e7b18f17598dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_MiniJar1.png using Guid(2c0b62871a944da45a0e7b18f17598dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef0b37517906efcd6b0cab782132903') in 0.014703 seconds 
-  Import took 0.020399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Grid1.png
-  artifactKey: Guid(56c2496a1198e2c42903b9badbde4993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Dungeon/Details/Dungeon_Grid1.png using Guid(56c2496a1198e2c42903b9badbde4993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d29f4f7ea5bcae79c3e801b1af67511') in 0.019454 seconds 
-  Import took 0.024934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.033820 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Fire Breather Trap/Transition/PNGs/Fire Breather Trap - Level 2 - Transition.png
-  artifactKey: Guid(607f63bf2d593db47a7462e20dd5ceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Fire Breather Trap/Transition/PNGs/Fire Breather Trap - Level 2 - Transition.png using Guid(607f63bf2d593db47a7462e20dd5ceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7138c39af71b5434f93622db480c0f1') in 0.023578 seconds 
-  Import took 0.031261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Fire Breather Trap/PNGs/Fire Thrower Trap - Level 3.png
-  artifactKey: Guid(21bd987d7a1771c41b64dc30d722c82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Fire Breather Trap/PNGs/Fire Thrower Trap - Level 3.png using Guid(21bd987d7a1771c41b64dc30d722c82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d025f5648758c9b05a8e3602c611ce') in 0.014395 seconds 
-  Import took 0.020028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Fire breather Trap Preview.gif
-  artifactKey: Guid(6d8a271313c9d29418e31a835737843b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Fire breather Trap Preview.gif using Guid(6d8a271313c9d29418e31a835737843b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf21db9a91cec4b11591adb641e30c7e') in 0.023969 seconds 
-  Import took 0.029496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Fire Breather Trap/Transition/PNGs/Fire Breather Trap - Level 3 - Transition.png
-  artifactKey: Guid(f8b1f2ab0610f1a4fa4fca02ac1ae887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Fire Breather Trap/Transition/PNGs/Fire Breather Trap - Level 3 - Transition.png using Guid(f8b1f2ab0610f1a4fa4fca02ac1ae887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24676b0d55246007cb48726b63e7297') in 0.023520 seconds 
-  Import took 0.028708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Fire Trap/Transition/PNGs/Fire Trap - Level 1 - Transition.png
-  artifactKey: Guid(321576d3cb6595f4d86658cd1b49373b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Fire Trap/Transition/PNGs/Fire Trap - Level 1 - Transition.png using Guid(321576d3cb6595f4d86658cd1b49373b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f409faded0b2c974018904300cb072') in 0.021894 seconds 
-  Import took 0.028733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Fire breather Trap Preview - No background.gif
-  artifactKey: Guid(73bfbda3e6c8f1646bd9e9e8e173d323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Fire breather Trap Preview - No background.gif using Guid(73bfbda3e6c8f1646bd9e9e8e173d323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa897c1197998b4fc82c54c90d04a2e8') in 0.024956 seconds 
-  Import took 0.030236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.063647 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Fire Trap/Transition/PNGs/Fire Trap - Level 2 - Transition.png
-  artifactKey: Guid(cb562313bb943884db938516f980d91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Fire Trap/Transition/PNGs/Fire Trap - Level 2 - Transition.png using Guid(cb562313bb943884db938516f980d91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0417bc3f60e3b1d0f39f59ec47a964bf') in 0.020105 seconds 
-  Import took 0.026227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Fire Trap Preview.gif
-  artifactKey: Guid(6c402b3feff8e284087c016f217056b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Fire Trap Preview.gif using Guid(6c402b3feff8e284087c016f217056b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747c06704768dcbcab8155fb77980915') in 0.021220 seconds 
-  Import took 0.027154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Fire Trap/Transition/PNGs/Fire Trap - Level 3 - Transition.png
-  artifactKey: Guid(ce4b99836a4a38d4781bba15570e1874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Fire Trap/Transition/PNGs/Fire Trap - Level 3 - Transition.png using Guid(ce4b99836a4a38d4781bba15570e1874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759b8c256451ad3eb01bea8e5e3e6373') in 0.021002 seconds 
-  Import took 0.026512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Entry_1.png
-  artifactKey: Guid(0d73da7854c061d458aa754bd37ea67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Entry_1.png using Guid(0d73da7854c061d458aa754bd37ea67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2354f3d576ea47dd49a2aa0291c4c8bd') in 0.017684 seconds 
-  Import took 0.024635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_GrassRight_1.png
-  artifactKey: Guid(fdc75c265fbd8014e9aa3e6e03c0c78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_GrassRight_1.png using Guid(fdc75c265fbd8014e9aa3e6e03c0c78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbe36464cbc99e9328008f8ca44f397') in 0.018756 seconds 
-  Import took 0.025411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/GrassLand_Example.png
-  artifactKey: Guid(469e6d5356dc2744cae7502e1c7d118d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/GrassLand_Example.png using Guid(469e6d5356dc2744cae7502e1c7d118d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c386ffe937531aba7b95bf1a11fb8423') in 0.021751 seconds 
-  Import took 0.027944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_GrassSwipeRight.png
-  artifactKey: Guid(f10acc0aa82c1934887db451d908a18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_GrassSwipeRight.png using Guid(f10acc0aa82c1934887db451d908a18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f67134603da08c71f075d3e1cd482f') in 0.018868 seconds 
-  Import took 0.024408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Flower_1.png
-  artifactKey: Guid(5cabec2b758ae5743b1713da236024c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Flower_1.png using Guid(5cabec2b758ae5743b1713da236024c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e8c43a121d0e21dd40747ac29bfaae') in 0.012347 seconds 
-  Import took 0.018389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_GrassLeft_2.png
-  artifactKey: Guid(943f32f0bc80c554aac9563ade185562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_GrassLeft_2.png using Guid(943f32f0bc80c554aac9563ade185562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca3a85e268f07a53fe048644b57ac3b') in 0.020802 seconds 
-  Import took 0.026393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Entry_2.png
-  artifactKey: Guid(7b877434e79c98c4cb52ef52cc14e0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Entry_2.png using Guid(7b877434e79c98c4cb52ef52cc14e0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4a0514f5cb2c55edb411d7600ec88d') in 0.018757 seconds 
-  Import took 0.025319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_GrassDown_1.png
-  artifactKey: Guid(9c77a733e17b751489ebf2855ddd6196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_GrassDown_1.png using Guid(9c77a733e17b751489ebf2855ddd6196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3685c1c1f39e9eff40f0a650b42d9240') in 0.013293 seconds 
-  Import took 0.020082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_GrassLeft_1.png
-  artifactKey: Guid(6ccfc0bb9c2295246b032ea2ee8139f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_GrassLeft_1.png using Guid(6ccfc0bb9c2295246b032ea2ee8139f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79748cb8f5e7c43608e0a793b6d6caca') in 0.013723 seconds 
-  Import took 0.020294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Bush.png
-  artifactKey: Guid(816a50509685d1a4a807331aef210e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Bush.png using Guid(816a50509685d1a4a807331aef210e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4c7bb1167eb493ee82942b5b9b4ea9') in 0.013102 seconds 
-  Import took 0.018615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_GrassRight_2.png
-  artifactKey: Guid(77e29ee7a599eb34fa723cac2b6fdf06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_GrassRight_2.png using Guid(77e29ee7a599eb34fa723cac2b6fdf06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393faa13ec03f483abd94b9f50209075') in 0.018544 seconds 
-  Import took 0.023972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Flower_2.png
-  artifactKey: Guid(14f359660966d5d4b94db19174d49cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Flower_2.png using Guid(14f359660966d5d4b94db19174d49cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7f5ad82d16e38e3203169c5667d3a2') in 0.014405 seconds 
-  Import took 0.020140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/GrassLand_TileGrass_Example.png
-  artifactKey: Guid(97a11e3cf96f35849a78e7164a6d5ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/GrassLand_TileGrass_Example.png using Guid(97a11e3cf96f35849a78e7164a6d5ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833e90c6bbaa9ff27771b34b72a087a3') in 0.026483 seconds 
-  Import took 0.033305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Lightning Trap Preview - No Background.gif
-  artifactKey: Guid(094d9198fceb45d49a2474b215fe8891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Lightning Trap Preview - No Background.gif using Guid(094d9198fceb45d49a2474b215fe8891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec0ed8368c28d322506682bbe7b4036') in 0.027149 seconds 
-  Import took 0.032967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/Animated/GrassLand_WaterSurfaceAnim.png
-  artifactKey: Guid(ff3e7bacaef2a84409a47a563481c72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/Animated/GrassLand_WaterSurfaceAnim.png using Guid(ff3e7bacaef2a84409a47a563481c72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445016c85df12bcb116e4866ed51123f') in 0.021118 seconds 
-  Import took 0.027168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Lightning Trap/Transition/PNGs/Lightning Trap - Level 3 - Transition.png
-  artifactKey: Guid(7b4e1c5ed284b2643a445f7eba4456af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Lightning Trap/Transition/PNGs/Lightning Trap - Level 3 - Transition.png using Guid(7b4e1c5ed284b2643a445f7eba4456af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eda0cdebb7fc8e0437d36a4c652b58e') in 0.024282 seconds 
-  Import took 0.029806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Tree.png
-  artifactKey: Guid(f121c83cc3996c8489894fef03ae8e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Tree.png using Guid(f121c83cc3996c8489894fef03ae8e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fba7ef92ee6d5c6bad16c1456cbb69') in 0.014864 seconds 
-  Import took 0.020496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/Animated/GrassLand_WaterBubbles.png
-  artifactKey: Guid(169198f746b617246814ce6ef4a32cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/Animated/GrassLand_WaterBubbles.png using Guid(169198f746b617246814ce6ef4a32cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b0915a8d47af9e9670cd399124f064') in 0.019337 seconds 
-  Import took 0.025265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Trunk_Right.png
-  artifactKey: Guid(284aeffd68e4fdb4a91963dd38135715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Trunk_Right.png using Guid(284aeffd68e4fdb4a91963dd38135715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6fa7ad509e9e77aaaefe77affb844c') in 0.020203 seconds 
-  Import took 0.026041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_LoneTrunk.png
-  artifactKey: Guid(c4b17b4aab9090b4f991d1875f48d53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_LoneTrunk.png using Guid(c4b17b4aab9090b4f991d1875f48d53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474c772c9987719d8af3acba5940c6f9') in 0.013144 seconds 
-  Import took 0.019298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Trunk_Center2.png
-  artifactKey: Guid(690c1c52c5ba4954b86f9f9314c73295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Trunk_Center2.png using Guid(690c1c52c5ba4954b86f9f9314c73295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b023324f1d6855bc2061a395b9340dfa') in 0.018662 seconds 
-  Import took 0.024028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_GrassDown_2.png
-  artifactKey: Guid(e297ce3f66960e44681ebf59f6e8c525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_GrassDown_2.png using Guid(e297ce3f66960e44681ebf59f6e8c525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d82bdb3a0f253c2ac970b3a2202901f') in 0.019381 seconds 
-  Import took 0.025204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Magic trap/PNGs/Magic trap - Level 2.png
-  artifactKey: Guid(4ab85b2f87e0ffe419e9eabfbe56b6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Magic trap/PNGs/Magic trap - Level 2.png using Guid(4ab85b2f87e0ffe419e9eabfbe56b6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724243e8232e26a509ad5e4354be3608') in 0.025177 seconds 
-  Import took 0.030588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Magic Trap Preview.gif
-  artifactKey: Guid(e7e1d8d6a86dd9b48bf023f3033293cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Magic Trap Preview.gif using Guid(e7e1d8d6a86dd9b48bf023f3033293cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c57dc1a82f4535162fbb3e27e8703ee') in 0.022381 seconds 
-  Import took 0.029554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Punch Trap/PNGs/Punch Trap - Level 1.png
-  artifactKey: Guid(0e389728ceb0c1b44acf9da21c0767c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Punch Trap/PNGs/Punch Trap - Level 1.png using Guid(0e389728ceb0c1b44acf9da21c0767c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32be04e7388c2197cc0be223544b535') in 0.021841 seconds 
-  Import took 0.027576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Traps/Item Traps/RandomBox.png
-  artifactKey: Guid(4474e17653cf72b4bbdf1314ed902df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Item Traps/RandomBox.png using Guid(4474e17653cf72b4bbdf1314ed902df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85f8d2a8696465e4ddc7aa5fa5b63bf') in 0.021692 seconds 
-  Import took 0.028213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Puch Trap Preview.gif
-  artifactKey: Guid(203b1c8d801fb2c4a8a6c2d4880ace97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Puch Trap Preview.gif using Guid(203b1c8d801fb2c4a8a6c2d4880ace97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a70cecb04fdda7a08f8e837aa7e6f5') in 0.020623 seconds 
-  Import took 0.026104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Magic Trap Preview - No Background.gif
-  artifactKey: Guid(fa85f8dba6cf75c43a862aa8eab38f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Magic Trap Preview - No Background.gif using Guid(fa85f8dba6cf75c43a862aa8eab38f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363baae3b8153e168fb5dc287f8b532c') in 0.022028 seconds 
-  Import took 0.027919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Punch Trap/PNGs/Punch Trap - Level 3.png
-  artifactKey: Guid(e667342c43f5a8241900e04c5efd7745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Punch Trap/PNGs/Punch Trap - Level 3.png using Guid(e667342c43f5a8241900e04c5efd7745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aeb89d7b94a8582dd35d48016bf2423') in 0.022195 seconds 
-  Import took 0.027547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Trunk_Left.png
-  artifactKey: Guid(4758d8c3f0b949649997c7e2406deec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Trunk_Left.png using Guid(4758d8c3f0b949649997c7e2406deec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91318c965b6e2b9ae39d26fcb1e585a3') in 0.013365 seconds 
-  Import took 0.019996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Traps/Item Traps/RockDestroy.png
-  artifactKey: Guid(38d0d7de8d5403a44b8b10a403b1ada6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Item Traps/RockDestroy.png using Guid(38d0d7de8d5403a44b8b10a403b1ada6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e91e2c9d671dc93551675cdd7df2c85') in 0.022204 seconds 
-  Import took 0.028485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Puch Trap Preview - No Background.gif
-  artifactKey: Guid(07b7746f65e9da84ca1e9a709f4a4d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Puch Trap Preview - No Background.gif using Guid(07b7746f65e9da84ca1e9a709f4a4d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e7ef1a85fa3a69d51637adbbfc8056') in 0.021350 seconds 
-  Import took 0.026919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Magic trap/Transition/PNGs/Magic trap - Level 2 - Transition.png
-  artifactKey: Guid(578cfa14ba8cf14418743567f0268cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Magic trap/Transition/PNGs/Magic trap - Level 2 - Transition.png using Guid(578cfa14ba8cf14418743567f0268cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feccaebb5ec3bc4f81a4c949558a425c') in 0.024057 seconds 
-  Import took 0.029851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Magic trap/Transition/PNGs/Magic trap - Level 3 - Transition.png
-  artifactKey: Guid(460d121ef18df4247b46a3763a90bb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Magic trap/Transition/PNGs/Magic trap - Level 3 - Transition.png using Guid(460d121ef18df4247b46a3763a90bb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8295e5ade2741f2a1101fab6d5faea34') in 0.025822 seconds 
-  Import took 0.033537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Sandworm Trap/PNGs/Sandworm trap - Level 2.png
-  artifactKey: Guid(2e900beae74866d459d49ddb09ea9e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Sandworm Trap/PNGs/Sandworm trap - Level 2.png using Guid(2e900beae74866d459d49ddb09ea9e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b5ec3b8b0d79e0eb4b1ce7f23f29e2') in 0.031902 seconds 
-  Import took 0.041176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Saw Trap/PNGs/Saw Trap - Level 1.png
-  artifactKey: Guid(f93b15ab67024f447b7caf93dc73f864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Saw Trap/PNGs/Saw Trap - Level 1.png using Guid(f93b15ab67024f447b7caf93dc73f864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9e06b74c3c3ba020d5100744bbab42') in 0.017060 seconds 
-  Import took 0.024423 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
-  artifactKey: Guid(8878a782f4334ecbbcf683b3ac780966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg using Guid(8878a782f4334ecbbcf683b3ac780966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39445f906a1b9f32588ed005197d7835') in 0.042459 seconds 
-  Import took 0.049968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
-  artifactKey: Guid(602cb87b6a29443b8636370ea0751574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg using Guid(602cb87b6a29443b8636370ea0751574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a5d0ab85ebafe37fe34dc0677d543b') in 0.025268 seconds 
-  Import took 0.032302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/Details/SnowLand_Bush_3.png
-  artifactKey: Guid(043b771254507b246af59cf81511ca80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/Details/SnowLand_Bush_3.png using Guid(043b771254507b246af59cf81511ca80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df13da8805b8461c0df78c5a93b2d824') in 0.016021 seconds 
-  Import took 0.022727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/Details/SnowLand_SnowPile_3.png
-  artifactKey: Guid(b2d1d3b285280d446891345e96475e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/Details/SnowLand_SnowPile_3.png using Guid(b2d1d3b285280d446891345e96475e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17975d69fba27fcca3a97384eb9986b1') in 0.028717 seconds 
-  Import took 0.036574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Saw Trap/Transitions/PNGs/Saw Trap - Level 2 - Transition.png
-  artifactKey: Guid(0b2a5b9f50dd5b24c8cc938b735d9d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Saw Trap/Transitions/PNGs/Saw Trap - Level 2 - Transition.png using Guid(0b2a5b9f50dd5b24c8cc938b735d9d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da90c0a617c01aa5da31a430b2421a6') in 0.021815 seconds 
-  Import took 0.027624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Saw Trap/PNGs/Saw Trap - Level 3.png
-  artifactKey: Guid(23a516e48a6fc224980d5a7f306ca53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Saw Trap/PNGs/Saw Trap - Level 3.png using Guid(23a516e48a6fc224980d5a7f306ca53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69e70669aea7a375b7a570d2f787722') in 0.022788 seconds 
-  Import took 0.028222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Sandworm Trap/Transitions/PNGs/Sandworm trap - Level 2 - Transition.png
-  artifactKey: Guid(2e30dcda96f0a41468add8ab419ef9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Sandworm Trap/Transitions/PNGs/Sandworm trap - Level 2 - Transition.png using Guid(2e30dcda96f0a41468add8ab419ef9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728f2adfc36babb7cd9dc874f0cd8cdf') in 0.021745 seconds 
-  Import took 0.026830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Barrel.png
-  artifactKey: Guid(6ac7d9404d4f4d145a77b0489060347f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Barrel.png using Guid(6ac7d9404d4f4d145a77b0489060347f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d5ff22799e3df935bbaa1f0b560e3f') in 0.012805 seconds 
-  Import took 0.018565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_TallGrass_1.png
-  artifactKey: Guid(3745400ab53b61d47907d4f6cdb82497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_TallGrass_1.png using Guid(3745400ab53b61d47907d4f6cdb82497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0d0c1680ade4ef1b6621a30104428e') in 0.013748 seconds 
-  Import took 0.019457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_FurniturePiece1.png
-  artifactKey: Guid(3a2652d89f375564e98badba01be83a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_FurniturePiece1.png using Guid(3a2652d89f375564e98badba01be83a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406bc3ffb92ecce555d225bfd1837141') in 0.015371 seconds 
-  Import took 0.021075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_FurniturePiece3.png
-  artifactKey: Guid(f74013b8d5ca8a34c92881c2cc96c1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_FurniturePiece3.png using Guid(f74013b8d5ca8a34c92881c2cc96c1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e01e03ad44d5457ef53d8c8e4856e3') in 0.014774 seconds 
-  Import took 0.021465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Tileset/maytch-16x16-tilesets/Maytch 16x16 Tilesets/animated/tile_water-still_16x16_4-frames.png
-  artifactKey: Guid(110f658ae37893e4f840ba1a0a9f9922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/maytch-16x16-tilesets/Maytch 16x16 Tilesets/animated/tile_water-still_16x16_4-frames.png using Guid(110f658ae37893e4f840ba1a0a9f9922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae77b8749133cf81c38ec8056cc5fbd2') in 0.020064 seconds 
-  Import took 0.025675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Table_Mid.png
-  artifactKey: Guid(365cc89a4263efb429574513bcf886d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Table_Mid.png using Guid(365cc89a4263efb429574513bcf886d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817151c6542d5419d6a38cc3a16f1927') in 0.013182 seconds 
-  Import took 0.018491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Animated/Stronghold_ChimneyFire.png
-  artifactKey: Guid(add74e6aca2884242abd7155b0520f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Animated/Stronghold_ChimneyFire.png using Guid(add74e6aca2884242abd7155b0520f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5050451b08f7289b70be302b79c84ee') in 0.020075 seconds 
-  Import took 0.025320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Shield1.png
-  artifactKey: Guid(fbf31528f3f32814e80b4528ebf783fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Shield1.png using Guid(fbf31528f3f32814e80b4528ebf783fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a66c303ac99b8e4f9cc5e2e85ff670') in 0.014229 seconds 
-  Import took 0.019536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Table_Right.png
-  artifactKey: Guid(c85432ba07b9f1249a998a956dae6f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Table_Right.png using Guid(c85432ba07b9f1249a998a956dae6f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a675c6e2d049d7634f2a07aafeda2f16') in 0.029646 seconds 
-  Import took 0.035003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Chair.png
-  artifactKey: Guid(de77784847565244293ab0fe0e73623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Chair.png using Guid(de77784847565244293ab0fe0e73623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02265f42cb81c81bbc3911ecc3bc6871') in 0.012972 seconds 
-  Import took 0.018276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Animated/Stronghold_WallTorch.png
-  artifactKey: Guid(7c28f004501b1b845a307330879c6cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Animated/Stronghold_WallTorch.png using Guid(7c28f004501b1b845a307330879c6cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64e43b8ea55c67461d3ee2269941ed9') in 0.022249 seconds 
-  Import took 0.027903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Animated/Stronghold_Chandelier2.png
-  artifactKey: Guid(bf250ac3d40c71040a22eefdc7f86f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Animated/Stronghold_Chandelier2.png using Guid(bf250ac3d40c71040a22eefdc7f86f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a49d53c1eee176f6521faed4a93db5') in 0.021951 seconds 
-  Import took 0.028132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Saw Trap Preview.gif
-  artifactKey: Guid(a8eda5d7475498c4a8806d04e0f19c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Saw Trap Preview.gif using Guid(a8eda5d7475498c4a8806d04e0f19c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bda289306bdc1da0fae5f3376701c5') in 0.022072 seconds 
-  Import took 0.027607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Traps/Item Traps/Suriken.png
-  artifactKey: Guid(9bb089d892ac1544e8c54684c3b76932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Item Traps/Suriken.png using Guid(9bb089d892ac1544e8c54684c3b76932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a032b0fd775d4b7194a21c1e94741a4c') in 0.013759 seconds 
-  Import took 0.020368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Stone_3.png
-  artifactKey: Guid(53fa7ab1539df524087e59ddd7361ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Stone_3.png using Guid(53fa7ab1539df524087e59ddd7361ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03dd7246637bfec3d030ae6613ed0eac') in 0.018568 seconds 
-  Import took 0.024797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Sandworm Trap/PNGs/Sandworm trap - Level 3.png
-  artifactKey: Guid(549f0451c219ff74f9ba8d8f51f88d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Sandworm Trap/PNGs/Sandworm trap - Level 3.png using Guid(549f0451c219ff74f9ba8d8f51f88d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda242ce679d509127544e35178fba86') in 0.021623 seconds 
-  Import took 0.026949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Tileset/maytch-16x16-tilesets/Maytch 16x16 Tilesets/animated/sprite_pagoda-doors-1_32x16_6-frames.png
-  artifactKey: Guid(8ebc0272c19fdbc44ac6fb21606f79fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/maytch-16x16-tilesets/Maytch 16x16 Tilesets/animated/sprite_pagoda-doors-1_32x16_6-frames.png using Guid(8ebc0272c19fdbc44ac6fb21606f79fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38924227816e77f9c905bd3496f11609') in 0.020498 seconds 
-  Import took 0.026069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Animated/Stronghold_FloorTorch.png
-  artifactKey: Guid(2289a9e3a5814294e9115b82c5e9cd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Animated/Stronghold_FloorTorch.png using Guid(2289a9e3a5814294e9115b82c5e9cd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253f741a855eaac6982e002227130db5') in 0.022881 seconds 
-  Import took 0.029161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Toxic Trap/Transitions/PNGs/Toxic Trap - Level 3 - Transition.png
-  artifactKey: Guid(f835aa55811fda34f8cc984b6809c4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Toxic Trap/Transitions/PNGs/Toxic Trap - Level 3 - Transition.png using Guid(f835aa55811fda34f8cc984b6809c4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b5ff7a24a358129fe5988384575f10') in 0.021514 seconds 
-  Import took 0.027573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Worm Trap Preview - No Background.gif
-  artifactKey: Guid(59af12c727a244e4497f99d71db8ff7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Worm Trap Preview - No Background.gif using Guid(59af12c727a244e4497f99d71db8ff7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380dc5b80bcab4f4791f306ebeb3abfc') in 0.022678 seconds 
-  Import took 0.028290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
-  artifactKey: Guid(ed5290d8df18488780e2996b9b882f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd using Guid(ed5290d8df18488780e2996b9b882f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39f1f2fd09551481f801011b6220250') in 0.083791 seconds 
-  Import took 0.089111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Traps/Item Traps/Treasure2.png
-  artifactKey: Guid(6b7e064f10683254487185ca8657bc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Item Traps/Treasure2.png using Guid(6b7e064f10683254487185ca8657bc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9528d6d75856e4bf5fa65835e10766bd') in 0.018583 seconds 
-  Import took 0.023806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
-  artifactKey: Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd using Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969ea62c8a1407ca96d96df7160946c0') in 0.018372 seconds 
-  Import took 0.023652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
-  artifactKey: Guid(10c49fcd9c64421db7c0133e61e55f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd using Guid(10c49fcd9c64421db7c0133e61e55f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0211907d0c3c74cfeaed1b67cd89670b') in 0.017218 seconds 
-  Import took 0.022332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Toxic Trap/Transitions/PNGs/Toxic Trap - Level 2 - Transition.png
-  artifactKey: Guid(0c938a6e32385ae4d8178b690ecce514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Toxic Trap/Transitions/PNGs/Toxic Trap - Level 2 - Transition.png using Guid(0c938a6e32385ae4d8178b690ecce514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1ff35d7bf3c838c45806052918a0f4') in 0.022521 seconds 
-  Import took 0.028187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Toxic Trap/PNGs/Toxic Trap - Level 2.png
-  artifactKey: Guid(d39894bd1261ac84092cfa1800a0e517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Toxic Trap/PNGs/Toxic Trap - Level 2.png using Guid(d39894bd1261ac84092cfa1800a0e517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf9674b2713ea621e2e2cf8cf3a840e') in 0.022340 seconds 
-  Import took 0.028560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Traps/Item Traps/Treasure1.png
-  artifactKey: Guid(1e142fe9d5d24e245b2890e891f6543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Item Traps/Treasure1.png using Guid(1e142fe9d5d24e245b2890e891f6543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5a7d5c1369b052a636186b7ba0f7c4') in 0.030173 seconds 
-  Import took 0.035738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Toxic Trap/PNGs/Toxic Trap - Level 1.png
-  artifactKey: Guid(fccd869a0c20ae645b6d6791680f8eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Toxic Trap/PNGs/Toxic Trap - Level 1.png using Guid(fccd869a0c20ae645b6d6791680f8eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b6a0f4dbb08d7b4af32e89db7b3a5b') in 0.024215 seconds 
-  Import took 0.029894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Toxic Trap Preview - No Background.gif
-  artifactKey: Guid(74766cb60c73c714d8c167f55f152300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Toxic Trap Preview - No Background.gif using Guid(74766cb60c73c714d8c167f55f152300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a078edfd480085793881d15f559acb') in 0.021604 seconds 
-  Import took 0.026743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Worm Trap Preview.gif
-  artifactKey: Guid(dbd5763c784b8ff4c9641eaacf60aada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Worm Trap Preview.gif using Guid(dbd5763c784b8ff4c9641eaacf60aada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6370e0d6f6fa0f43aeec0d189a97ebb') in 0.022579 seconds 
-  Import took 0.027941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/Details/SnowLand_Snowman_2.png
-  artifactKey: Guid(d1d3af7c412789944ac611bb2f9ec3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/Details/SnowLand_Snowman_2.png using Guid(d1d3af7c412789944ac611bb2f9ec3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9749ad186c0dc57a40519bc0e41c26f7') in 0.013012 seconds 
-  Import took 0.019402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_BigDoor.png
-  artifactKey: Guid(bbe3ab05b95f1aa419ad20f2831827d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_BigDoor.png using Guid(bbe3ab05b95f1aa419ad20f2831827d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050d6a038ac24a886b21dbb0367b973b') in 0.013939 seconds 
-  Import took 0.020054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Trunk_Center1.png
-  artifactKey: Guid(9a6648454465f2041a9661705b4b5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Trunk_Center1.png using Guid(9a6648454465f2041a9661705b4b5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326d77d640142e224e2ba344bef46c91') in 0.014244 seconds 
-  Import took 0.019557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Tileset/Ottomania_00/Ottomania_00/level04.gif
-  artifactKey: Guid(a19a2678f07e1d0418c5ed4b3e11e73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Ottomania_00/Ottomania_00/level04.gif using Guid(a19a2678f07e1d0418c5ed4b3e11e73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5c16f8b693aaaef9248466aec51d1f') in 0.028140 seconds 
-  Import took 0.033428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Traps/Item Traps/PushBox.png
-  artifactKey: Guid(f296d73bb88d194498b11bba65230904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Item Traps/PushBox.png using Guid(f296d73bb88d194498b11bba65230904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f63355e91c8f442e96a8cb2c213fea9') in 0.019938 seconds 
-  Import took 0.025170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Punch Trap/Transition/PNGs/Punch Trap - Level 1 - Transition.png
-  artifactKey: Guid(50d10052f4873644c9f11cbea3c53c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Punch Trap/Transition/PNGs/Punch Trap - Level 1 - Transition.png using Guid(50d10052f4873644c9f11cbea3c53c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d62255cbb99c65b0a74220ac8178ee') in 0.024614 seconds 
-  Import took 0.030034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Saw Trap/Transitions/PNGs/Saw Trap - Level 1 - Transition.png
-  artifactKey: Guid(612f308020ec73e42a5a268668c56f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Saw Trap/Transitions/PNGs/Saw Trap - Level 1 - Transition.png using Guid(612f308020ec73e42a5a268668c56f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee3245712d07dd6ada91bbd581471f2') in 0.021490 seconds 
-  Import took 0.026759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Tileset/maytch-16x16-tilesets/Maytch 16x16 Tilesets/animated/tile_lava1_16x16_16-frames.png
-  artifactKey: Guid(79ab152ea110c82499871eea2cf19a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/maytch-16x16-tilesets/Maytch 16x16 Tilesets/animated/tile_lava1_16x16_16-frames.png using Guid(79ab152ea110c82499871eea2cf19a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5c5068341e9e469a1bf41a215f96f8') in 0.022466 seconds 
-  Import took 0.028376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Sword1.png
-  artifactKey: Guid(3771b36e1c142954fb964048a8d13b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Sword1.png using Guid(3771b36e1c142954fb964048a8d13b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4af12d85bdf596c69c5acf3cc74641') in 0.013786 seconds 
-  Import took 0.019165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Traps/Item Traps/Treasure3.png
-  artifactKey: Guid(e8dd48d566928e2459c6d880dd4bef6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Item Traps/Treasure3.png using Guid(e8dd48d566928e2459c6d880dd4bef6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7686e1656a28a1eb6d285c44d4af94e') in 0.022341 seconds 
-  Import took 0.027935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Toxic Trap/PNGs/Toxic Trap - Level 3.png
-  artifactKey: Guid(7ae7b2f821d12244382a9c5989f97125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Toxic Trap/PNGs/Toxic Trap - Level 3.png using Guid(7ae7b2f821d12244382a9c5989f97125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b58b8014aad6536d7eeb449fe6c319') in 0.021061 seconds 
-  Import took 0.028055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Toxic Trap/Transitions/PNGs/Toxic Trap - Level 1 - Transition.png
-  artifactKey: Guid(badc1dfbce0559944aac0cb454bd0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Toxic Trap/Transitions/PNGs/Toxic Trap - Level 1 - Transition.png using Guid(badc1dfbce0559944aac0cb454bd0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2a0676bd02f6ec24839176cc59459e') in 0.024393 seconds 
-  Import took 0.031030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/Details/SnowLand_IcePick_4.png
-  artifactKey: Guid(b1235330947a2fb4294f419c9a63952e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/Details/SnowLand_IcePick_4.png using Guid(b1235330947a2fb4294f419c9a63952e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f70f9378d0c966f5a4cae7392f0138') in 0.014984 seconds 
-  Import took 0.020475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png
-  artifactKey: Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png using Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a7c0bfdac40f1b56ce5fa1e0ee2a01') in 0.023546 seconds 
-  Import took 0.030280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Sandworm Trap/Transitions/PNGs/Sandworm trap - Level 1 - Transition.png
-  artifactKey: Guid(4661ca6dcedc7314ab8527708e42a866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Sandworm Trap/Transitions/PNGs/Sandworm trap - Level 1 - Transition.png using Guid(4661ca6dcedc7314ab8527708e42a866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2615efc7e4ffe6445495da8a50e2257') in 0.019817 seconds 
-  Import took 0.026194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
-  artifactKey: Guid(17c350171f7a3ca479f830547c66d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg using Guid(17c350171f7a3ca479f830547c66d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90628d7a286cee9de67d55dc5b6c3649') in 0.018458 seconds 
-  Import took 0.024714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Saw Trap Preview - No Background.gif
-  artifactKey: Guid(1b96c3e9ed5fc4944be74cc28f6f2925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Saw Trap Preview - No Background.gif using Guid(1b96c3e9ed5fc4944be74cc28f6f2925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55968146fd854ecc5475b0a93389201a') in 0.022493 seconds 
-  Import took 0.027649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Door.png
-  artifactKey: Guid(bc55628d697832944a8d0939c0dbac77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Door.png using Guid(bc55628d697832944a8d0939c0dbac77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5701ec2ed042ad6d0ef0344bf40a8f62') in 0.014174 seconds 
-  Import took 0.020530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_ChandelierCable_High.png
-  artifactKey: Guid(4bd55bb1e0e266b4c896ca079a33da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_ChandelierCable_High.png using Guid(4bd55bb1e0e266b4c896ca079a33da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e304b2c8165a45f11b456c89676f55') in 0.015676 seconds 
-  Import took 0.021094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/Details/SnowLand_Bush_2.png
-  artifactKey: Guid(3ca7e8e5a00b9704589f2d607065e87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/Details/SnowLand_Bush_2.png using Guid(3ca7e8e5a00b9704589f2d607065e87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d883c8d8278fc7d516cd6859b774b9') in 0.014708 seconds 
-  Import took 0.020087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Animated/Stronghold_Chandelier1.png
-  artifactKey: Guid(87b8672b21d36b549a5885871cf2555c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Animated/Stronghold_Chandelier1.png using Guid(87b8672b21d36b549a5885871cf2555c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855e363210464221e212fd16f6ffe9be') in 0.021473 seconds 
-  Import took 0.026676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Lightning Trap/Transition/PNGs/Lightning Trap - Level 1 - Transition.png
-  artifactKey: Guid(3914c55526f5a4445aa8ea1cc4be134e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Lightning Trap/Transition/PNGs/Lightning Trap - Level 1 - Transition.png using Guid(3914c55526f5a4445aa8ea1cc4be134e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06637ac32bcdcc49b9058f394fe78dec') in 0.020859 seconds 
-  Import took 0.026762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Entry_3.png
-  artifactKey: Guid(3548cfa1d6f64f54880ff3c2cee0faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Entry_3.png using Guid(3548cfa1d6f64f54880ff3c2cee0faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828727a5138e34470ac4fe8892f41873') in 0.018718 seconds 
-  Import took 0.023869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Punch Trap/PNGs/Punch Trap - Level 2.png
-  artifactKey: Guid(5814354b761f829419fe5b5fc05f55d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Punch Trap/PNGs/Punch Trap - Level 2.png using Guid(5814354b761f829419fe5b5fc05f55d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14de6acae1521d623b97e0ed6e8eced7') in 0.022463 seconds 
-  Import took 0.028295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Lightning Trap Preview.gif
-  artifactKey: Guid(5b68a85181e99024a854d465ceb069cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Lightning Trap Preview.gif using Guid(5b68a85181e99024a854d465ceb069cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b8f9148c9295555b5ff61694734a86') in 0.022818 seconds 
-  Import took 0.029375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Saw Trap/Transitions/PNGs/Saw Trap - Level 3 - Transition.png
-  artifactKey: Guid(0605ac0bb8655a24da01a1a2c7d40ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Saw Trap/Transitions/PNGs/Saw Trap - Level 3 - Transition.png using Guid(0605ac0bb8655a24da01a1a2c7d40ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53d2f5bcbac1b97e44a15a5f7103b8d') in 0.021198 seconds 
-  Import took 0.026336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Lightning Trap/Transition/PNGs/Lightning Trap - Level 2 - Transition.png
-  artifactKey: Guid(3d8d05bf3abb2294e95276cc426378b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Lightning Trap/Transition/PNGs/Lightning Trap - Level 2 - Transition.png using Guid(3d8d05bf3abb2294e95276cc426378b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524aa6e4f370cb4ab129b8ec4a0ad049') in 0.021836 seconds 
-  Import took 0.027199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/Details/SnowLand_SnowPile_1.png
-  artifactKey: Guid(aa90a0917490d5043b11a1fdd0077651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/Details/SnowLand_SnowPile_1.png using Guid(aa90a0917490d5043b11a1fdd0077651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbff1973f8ea44746432453020dd2421') in 0.016260 seconds 
-  Import took 0.021485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/Details/SnowLand_Stone_2.png
-  artifactKey: Guid(116c6c94aabff6949a80f8feeba0f611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/Details/SnowLand_Stone_2.png using Guid(116c6c94aabff6949a80f8feeba0f611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c116518ccd10aca562cd342e0ea8a35') in 0.014733 seconds 
-  Import took 0.020250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Tileset/maytch-16x16-tilesets/Maytch 16x16 Tilesets/animated/sprite_elevator-body_48x48_16-frames.png
-  artifactKey: Guid(a70a480264d83ae4aa0e35699bb34d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/maytch-16x16-tilesets/Maytch 16x16 Tilesets/animated/sprite_elevator-body_48x48_16-frames.png using Guid(a70a480264d83ae4aa0e35699bb34d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5177db2b8872ff65b3dbb9d7f5c4dc') in 0.021485 seconds 
-  Import took 0.026771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Shield2.png
-  artifactKey: Guid(55f607bc057af7b40888cbaf662af1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Shield2.png using Guid(55f607bc057af7b40888cbaf662af1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b042fcf53c0b3d09b7b65bf047356e82') in 0.013209 seconds 
-  Import took 0.018372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Stronghold_Example.png
-  artifactKey: Guid(0bb8561151dde1c49a6930d3e122ca39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Stronghold_Example.png using Guid(0bb8561151dde1c49a6930d3e122ca39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f52ce465a8063f2ebec78318970ee51') in 0.023340 seconds 
-  Import took 0.028523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Flower_3.png
-  artifactKey: Guid(f22a4dd722ada0e4c993d61c7344175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Flower_3.png using Guid(f22a4dd722ada0e4c993d61c7344175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87a01df2191b02e14c978b245f9297c') in 0.019645 seconds 
-  Import took 0.024706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Punch Trap/Transition/PNGs/Punch Trap - Level 2 - Transition.png
-  artifactKey: Guid(a86f6ea5c1988f849aa137e831a9109c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Punch Trap/Transition/PNGs/Punch Trap - Level 2 - Transition.png using Guid(a86f6ea5c1988f849aa137e831a9109c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470235c9e2948652783a7fd00927d4c4') in 0.024803 seconds 
-  Import took 0.030479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/Animated/GrassLand_Butterfly.png
-  artifactKey: Guid(225acb5cc7e29df4d980ba4437b7239e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/Animated/GrassLand_Butterfly.png using Guid(225acb5cc7e29df4d980ba4437b7239e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b1aefb071c14b2f5670d5dd3bf1fe4') in 0.020519 seconds 
-  Import took 0.026441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Stone_2.png
-  artifactKey: Guid(f736dc5311ce1b3489482ca6ef24e249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Stone_2.png using Guid(f736dc5311ce1b3489482ca6ef24e249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3cadca1a78b9cd263e8d30eb0780f5') in 0.019860 seconds 
-  Import took 0.026296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
-  artifactKey: Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png using Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79810c685c56bea2135187cb9026b0c') in 0.023393 seconds 
-  Import took 0.028617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_GrassSwipeLeft.png
-  artifactKey: Guid(4acb933293f4e5e47b104867595993b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_GrassSwipeLeft.png using Guid(4acb933293f4e5e47b104867595993b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8dbf3c441612d495a6ba8d45284996') in 0.019964 seconds 
-  Import took 0.026061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Fire Trap Preview - No Background.gif
-  artifactKey: Guid(1b2ebc6f2dfe1674b8936b14df0e00c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/No Background/Fire Trap Preview - No Background.gif using Guid(1b2ebc6f2dfe1674b8936b14df0e00c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edacd509ac943da0c95de3a25fb9f28') in 0.022259 seconds 
-  Import took 0.027526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/SnowLand_Example.png
-  artifactKey: Guid(fff05e4b985717c40ad271fc52c54d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/SnowLand_Example.png using Guid(fff05e4b985717c40ad271fc52c54d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22938e85352262dc543758e86db5f3f3') in 0.021918 seconds 
-  Import took 0.027619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Stone_1.png
-  artifactKey: Guid(25f9ce3c527fbb74e9175af7f67090da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/GrassLand_Stone_1.png using Guid(25f9ce3c527fbb74e9175af7f67090da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0006768d9b8f5eee6bdeda1c74716b') in 0.019598 seconds 
-  Import took 0.024781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/Animated/GrassLand_WaterBubblesGone.png
-  artifactKey: Guid(8f8fb23cb8149494f816646159072836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/GrassLand/Details/Animated/GrassLand_WaterBubblesGone.png using Guid(8f8fb23cb8149494f816646159072836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ffd52b7104f0cc82b6ab231db87181') in 0.022322 seconds 
-  Import took 0.027490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Cross.png
-  artifactKey: Guid(ffb23ab14244a234bbe8437bd9670a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_Cross.png using Guid(ffb23ab14244a234bbe8437bd9670a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c973481a1e72d986e161486e8eb83f1') in 0.012835 seconds 
-  Import took 0.018079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Magic trap/Transition/PNGs/Magic trap - Level 1 - Transition.png
-  artifactKey: Guid(53a7c8e852001ca4fa4040cedb2adf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Magic trap/Transition/PNGs/Magic trap - Level 1 - Transition.png using Guid(53a7c8e852001ca4fa4040cedb2adf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c7df4e07f18c35ed1049398ea4ccef') in 0.020144 seconds 
-  Import took 0.025349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Magic trap/PNGs/Magic trap - Level 3.png
-  artifactKey: Guid(4ce49d269cf4e4b49aea64b046afcb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Magic trap/PNGs/Magic trap - Level 3.png using Guid(4ce49d269cf4e4b49aea64b046afcb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a15efcc0dbb1eadd2eec46441fe2a4f') in 0.021507 seconds 
-  Import took 0.026875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Punch Trap/Transition/PNGs/Punch Trap - Level 3 - Transition.png
-  artifactKey: Guid(0200ebc99d5e5e6488df6b7dde697b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Punch Trap/Transition/PNGs/Punch Trap - Level 3 - Transition.png using Guid(0200ebc99d5e5e6488df6b7dde697b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aea1f96d40cad4061be0855a0ccb56b') in 0.020555 seconds 
-  Import took 0.025890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_BigSignFlag_High.png
-  artifactKey: Guid(24903c4f6d9106b45bcb484269b2e405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_BigSignFlag_High.png using Guid(24903c4f6d9106b45bcb484269b2e405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec090a863eebe9b1e13c7480226e7175') in 0.017367 seconds 
-  Import took 0.024561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Saw Trap/PNGs/Saw Trap - Level 2.png
-  artifactKey: Guid(a18ae1017bfeb2c44adef483e2cbd827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/Saw Trap/PNGs/Saw Trap - Level 2.png using Guid(a18ae1017bfeb2c44adef483e2cbd827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3e6c0fc51d0ff8432ae8649d029059') in 0.023733 seconds 
-  Import took 0.029232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Traps/Item Traps/miniSuriken.png
-  artifactKey: Guid(a97b9d79434ea584c987887dc2eb78ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Item Traps/miniSuriken.png using Guid(a97b9d79434ea584c987887dc2eb78ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a48f4685512c88fa822978e70370a78') in 0.018779 seconds 
-  Import took 0.024086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_WaterJar.png
-  artifactKey: Guid(81ec75e0eccb1f543a913ed4b62d701a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Stronghold_WaterJar.png using Guid(81ec75e0eccb1f543a913ed4b62d701a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4980d699cedbb70d1958f2ceee9ae341') in 0.012834 seconds 
-  Import took 0.018802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/Details/SnowLand_Flower.png
-  artifactKey: Guid(19bb6e963f2d8a44db3b89e7c6e59ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/SnowLand/Details/SnowLand_Flower.png using Guid(19bb6e963f2d8a44db3b89e7c6e59ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bc2db8b92f3f24a7fe89ae2af9cf39') in 0.014731 seconds 
-  Import took 0.020343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Toxic Trap Preview.gif
-  artifactKey: Guid(7dff090cf94b7bf4d9a22076d953fb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Traps/Foozle_2DTR0001_Trap_Pack/Foozle_2DTR0001_Trap_Pack/_Previews/GIFs/Colour background/Toxic Trap Preview.gif using Guid(7dff090cf94b7bf4d9a22076d953fb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478c0fceebddfeb19bb7d8aff3f07a0e') in 0.021580 seconds 
-  Import took 0.027448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
-  artifactKey: Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd using Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8b7082203ef7a6dd4841ac2ae6df56') in 0.016816 seconds 
-  Import took 0.023051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.433982 seconds.
-  path: Assets/Audio/Dark Music - The Shadows Hymn (64 kbps).mp3
-  artifactKey: Guid(5052ffd34f2c20e45991cb85154765c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Dark Music - The Shadows Hymn (64 kbps).mp3 using Guid(5052ffd34f2c20e45991cb85154765c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5572f4ccd3a6987d8c4dad8e1c59277') in 0.033161 seconds 
-  Import took 0.040642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.324642 seconds.
-  path: Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Materials/Stronghold_BigSignFlag_High.mat
-  artifactKey: Guid(b7ecf026dc020ef4283537cf1033e603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Multi_Platformer_Tileset/Multi_Platformer_Tileset_v2/Stronghold/Details/Materials/Stronghold_BigSignFlag_High.mat using Guid(b7ecf026dc020ef4283537cf1033e603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e9782fdbb65d37ea365748a3de663d') in 0.145122 seconds 
-  Import took 0.152116 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -129,7 +129,7 @@ MonoBehaviour:
     min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 2.12
+    m_Value: 6.73
     min: 0
   scatter:
     m_OverrideState: 1
@@ -142,7 +142,7 @@ MonoBehaviour:
     min: 0
   tint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0, b: 0.33107138, a: 1}
+    m_Value: {r: 1, g: 0.21226418, b: 0.3826879, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 1

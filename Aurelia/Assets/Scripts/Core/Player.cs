@@ -50,8 +50,7 @@ public class Player : MonoBehaviour
 
     [Header("Jump Variables")]
     [SerializeField] private float jumpForce = 30f;
-    [SerializeField] private float hangTime = 0.1f;
-    private float hangTimeCounter;
+    
 
     [Header("Dash")]
     [SerializeField] public float dashDistnace = 30f;

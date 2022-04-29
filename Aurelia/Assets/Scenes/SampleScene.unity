@@ -912,6 +912,18 @@ PrefabInstance:
       value: PlayButton
       objectReference: {fileID: 0}
     - target: {fileID: 3527551355448089838, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.b
+      value: 0.21960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 3527551355448089838, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.g
+      value: 0.21960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 3527551355448089838, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.r
+      value: 0.21960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 3527551355448089838, guid: e6587ef56489c51408b38fddc4ebb61a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
